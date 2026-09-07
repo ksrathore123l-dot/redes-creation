@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redes Creation | Our Work</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="work.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <?php include '../header.php'; ?>
+
+    <main>
+      <section class="work-hero">
+        <div class="hero-copy">
+          <div class="eyebrow">OUR WORK <i></i></div>
+          <h1>Ideas into <span>impactful</span> solutions.</h1>
+          <p>
+            Explore our recent projects and see how we turn ideas into powerful
+            digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#portfolio"
+              >Start Your Project <span>→</span></a
+            >
+            <a class="watch" href="#process"
+              ><b>▶</b><span>Watch Our<br />Work Process</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <img src="../assets/work hero.png" alt="work-hero.png" />
+          <div class="stat-card s1">
+            <b><span class="auto-count" data-target="100">0+</span>+</b
+            ><span>Projects Delivered</span>
+          </div>
+          <div class="stat-card s2">
+            <b><span class="auto-count" data-target="50">0+</span>+</b
+            ><span>Happy Clients</span>
+          </div>
+          <div class="stat-card s3">
+            <b><span class="auto-count" data-target="1">0+</span>+</b
+            ><span>Years of Experience</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="section-heading">
+          <div class="eyebrow">OUR PORTFOLIO</div>
+          <h2>Our Latest <span>Work</span></h2>
+          <p>A glimpse of the solutions we've built for our amazing clients.</p>
+        </div>
+
+        <div class="filters">
+          <button class="selected" data-filter="all">All</button>
+          <button data-filter="website">Websites</button>
+          <button data-filter="app">Mobile Apps</button>
+          <button data-filter="software">Software</button>
+          <button data-filter="ecommerce">E-commerce</button>
+          <button data-filter="uiux">UI/UX Design</button>
+          <button data-filter="ai">AI Solutions</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/st.paul's.png"
+                alt="St. Paul's College Website"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>St. Paul's College – Educational Institution Website</h3>
+              <p>
+                A modern and professional educational website developed for St.
+                Paul's College...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Shri Raghunath Temple Website.png"
+                alt="Shri Raghunath Temple Website"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Shri Raghunath Temple – Spiritual & Tourism Website</h3>
+              <p>
+                A visually engaging and informative website developed for Shri
+                Raghunath...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Granite Hub – Premium Marble & Granite Website.png"
+                alt="Granite Hub Website"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Granite Hub – Premium Marble & Granite Website</h3>
+              <p>
+                A premium and visually refined website developed for Granite
+                Hub, a leading...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Shri Ambaji Marbles & Tiles – Marble & Building Materials Website.jpg"
+                alt="Shri Ambaji Marbles & Tiles Website"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>
+                Shri Ambaji Marbles & Tiles – Marble & Building Materials
+                Website
+              </h3>
+              <p>
+                A professional business website developed for Shri Ambaji
+                Marbles & Tiles, a trusted supplier of...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/MJ Stones Pvt. Ltd. – Mining & Minerals Corporate Website.png"
+                alt="MJ Stones Pvt. Ltd. Website"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>MJ Stones Pvt. Ltd. – Mining & Minerals Corporate Website</h3>
+              <p>
+                A premium corporate website developed for MJ Stones Private
+                Limited, a leading mining and mineral pr...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Lakshmibai National Institute of Physical Education (LNIPE) Website.png"
+                alt="LNIPE Website"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>
+                Lakshmibai National Institute of Physical Education (LNIPE)
+                Website
+              </h3>
+              <p>
+                A professional and structured institutional website developed
+                for Lakshmibai National Institute of P...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/ISGBRD – International Journal Website.png"
+                alt="GCERT Journal"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>ISGBRD – International Journal Website</h3>
+              <p>
+                A comprehensive academic journal platform developed for
+                scholarly research...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Aburaj Hospital.jpg"
+                alt="Albany Hospital"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Aburaj Hospital Website</h3>
+              <p>
+                A fully-featured hospital management and patient information
+                website...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="ecommerce">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Ruhati - Organic Powder.jpg"
+                alt="Naturals Organic Powder"
+              />
+              <label>E-commerce</label>
+            </div>
+            <div class="project-content">
+              <h3>Ruhati - Organic Powder</h3>
+              <p>
+                An elegant and seamless e-commerce platform for organic
+                products...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Sports College.jpg"
+                alt="Sports College"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Sports College</h3>
+              <p>
+                A dynamic and engaging institutional website for aspiring
+                athletes...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/The Student Career.jpg"
+                alt="The Student Corner"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>The Student Career</h3>
+              <p>
+                A highly interactive learning and resource portal for
+                students...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/POVIndian-2.jpg"
+                alt="HOM India"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>POVIndian</h3>
+              <p>
+                A professional property listing and modern real estate
+                platform...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="ecommerce">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Monika Bags.jpg"
+                alt="Monitor Bags"
+              />
+              <label>E-commerce</label>
+            </div>
+            <div class="project-content">
+              <h3>Monitor Bags – Retail Store</h3>
+              <p>
+                A trendy online retail store for premium backpacks and bags...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Dr Batul Physiotherapist.jpg"
+                alt="Dr Batra Physiotherapist"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Dr Batul Physiotherapist</h3>
+              <p>
+                A dedicated healthcare website developed for Dr. Usha
+                Physiotherapist clinic, enabling easy appointment sc...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Smilee Baker.jpg"
+                alt="Smiles Baker"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Smiles Bakery Website</h3>
+              <p>
+                A delightful local bakery website featuring online cake
+                ordering...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Sample University Website.jpg"
+                alt="Sample University"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Sample University Website</h3>
+              <p>
+                A massive, fully integrated digital campus for a reputed
+                university...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/Ankush Purohit Foundation.jpg"
+                alt="Ankush Gandhi Foundation"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Ankush Purohit Foundation</h3>
+              <p>
+                A professional NGO website developed for Ankush Purohit
+                Foundation, dedicated to driving social impact an...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/sample-school.jpg"
+                alt="Sample School"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Sample School Website</h3>
+              <p>
+                A neat and interactive web presence for parents, teachers, and
+                students...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/madhav-university.jpg"
+                alt="Regional College"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>Madhav University, Pindwara</h3>
+              <p>
+                Madhav University is recognized to be the best private
+                university in Sirohi, Rajasthan...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/abunet-connect.jpg"
+                alt="Global Logistics LLC"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>AbuNetConnect Pvt. Ltd.</h3>
+              <p>
+                Aarohhi Connect Pvt. Ltd. is an online service based company
+                incorporated in India...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/st-pauls.png"
+                alt="International School"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>St. Paul's Sr. Sec. School</h3>
+              <p>
+                St. Paul's Senior Secondary School is a co-educational, CBSE
+                affiliated, school situated in...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="ecommerce">
+            <div class="project-image">
+              <img src="../assets/project image/bhav.jpg" alt="Dhan Life" />
+              <label>E-commerce</label>
+            </div>
+            <div class="project-content">
+              <h3>BhavLife - Digital Products Selling Platform</h3>
+              <p>
+                A digital goods marketplace built for instant delivery and clean
+                UX...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/brahmos-logistics.jpg"
+                alt="Grahmin Logistics LLC"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>
+                Brahmos Logistics LLC – Global Logistics Solutions Website
+              </h3>
+              <p>
+                A robust corporate website developed for Brahman Logistics LLC,
+                providing real-time global tracking and in...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-type="website">
+            <div class="project-image">
+              <img
+                src="../assets/project image/project6.jpg"
+                alt="SmartEdu E-Learning"
+              />
+              <label>Website</label>
+            </div>
+            <div class="project-content">
+              <h3>SmartEdu E-Learning Platform</h3>
+              <p>
+                A next-gen online learning platform featuring video courses and
+                modules...
+              </p>
+              <a href="#">View Live Project <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div>
+          <b>
+            <strong
+              ><span class="auto-count" data-target="100">0</span>+</strong
+            ></b
+          ><span>Projects Delivered</span>
+        </div>
+        <div>
+          <b>
+            <strong
+              ><span class="auto-count" data-target="50">0</span>+</strong
+            ></b
+          ><span>Happy Clients</span>
+        </div>
+        <div>
+          <b>
+            <strong
+              ><span class="auto-count" data-target="1">0</span>+</strong
+            ></b
+          ><span>Years of Experience</span>
+        </div>
+        <div>
+          <b>∞ <strong>Endless</strong></b
+          ><span>Possibilities</span>
+        </div>
+      </section>
+
+      <section class="cta" id="process">
+        <div>
+          <small>LET'S BUILD TOGETHER</small>
+          <h2>Have a project in mind?</h2>
+          <p>Let's discuss how we can turn your ideas into reality.</p>
+        </div>
+        <a class="primary-btn" href="#">Get in Touch <span>→</span></a>
+      </section>
+    </main>
+
+<?php include '../footer.php'; ?>
+    <script src="work.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
