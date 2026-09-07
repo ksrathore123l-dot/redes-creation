@@ -1,0 +1,45 @@
+{
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.9.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "^/test/css/(.*)$",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "^/test/js/(.*)$",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "^/test/assets/(.*)$",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "^/test/pages/(.*\\.(css|js|png|jpg|jpeg|svg|webp|gif|ico|woff|woff2|ttf))$",
+      "dest": "/pages/$1"
+    },
+    {
+      "src": "^/css/(.*)$",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "^/js/(.*)$",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "^/assets/(.*)$",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "^/pages/(.*\\.(css|js|png|jpg|jpeg|svg|webp|gif|ico|woff|woff2|ttf))$",
+      "dest": "/pages/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}
