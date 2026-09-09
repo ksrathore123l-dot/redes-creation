@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef7ff"/><stop offset="1" stop-color="#cfe3ff"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="25" stdDeviation="28" flood-opacity=".16"/></filter></defs>
+<rect width="1200" height="760" rx="50" fill="url(#g)"/>
+<circle cx="1000" cy="120" r="120" fill="#fff" opacity=".6"/><circle cx="170" cy="610" r="150" fill="#fff" opacity=".45"/>
+<g filter="url(#s)" transform="translate(190 115)">
+<rect width="820" height="500" rx="30" fill="#fff" stroke="#0a1d3b" stroke-width="14"/>
+<rect x="28" y="28" width="764" height="48" rx="10" fill="#f2f6fb"/>
+<circle cx="55" cy="52" r="7" fill="#b8c7da"/><circle cx="78" cy="52" r="7" fill="#b8c7da"/><circle cx="101" cy="52" r="7" fill="#b8c7da"/>
+<text x="410" y="59" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#3b4d67">REDES STORE</text>
+<rect x="60" y="112" width="330" height="300" rx="22" fill="#eef6ff"/>
+<text x="90" y="160" font-family="Arial" font-size="14" font-weight="700" fill="#1468ed">NEW COLLECTION</text>
+<text x="90" y="215" font-family="Arial" font-size="42" font-weight="800" fill="#0a2148">Discover</text><text x="90" y="258" font-family="Arial" font-size="42" font-weight="800" fill="#0a2148">what's next.</text>
+<rect x="90" y="320" width="130" height="42" rx="21" fill="#1468ed"/><text x="155" y="347" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#fff">Shop Now →</text>
+<path d="M520 170 Q590 100 660 170 L690 350 Q600 410 510 350Z" fill="#1468ed"/><path d="M555 165 Q600 110 645 165" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+<text x="600" y="275" text-anchor="middle" font-family="Arial" font-size="44" font-weight="800" fill="#fff">R</text>
+<circle cx="700" cy="145" r="55" fill="#fff"/><text x="700" y="138" text-anchor="middle" font-family="Arial" font-size="18" font-weight="800" fill="#1468ed">20%</text><text x="700" y="158" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#1468ed">OFF</text>
+</g></svg>

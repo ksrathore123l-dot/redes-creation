@@ -18,7 +18,7 @@
 </head>
 
 <body>
-     <?php include '../footer.php'; ?>
+    <?php include '../header.php'; ?>
     <main id="top">
         <section class="rc-hero">
             <div class="rc-shell rc-hero-grid">

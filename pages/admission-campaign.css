@@ -31,30 +31,30 @@ h1,
 h2 {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
-.container {
+.ac-container {
   width: min(1180px, calc(100% - 48px));
   margin: auto;
 }
-.section-pad {
+.ac-section-pad {
   padding: 82px 0;
 }
-.section-pad-sm {
+.ac-section-pad-sm {
   padding: 48px 0;
 }
-.hero {
+.ac-hero {
   position: relative;
   min-height: 620px;
   background: linear-gradient(135deg, #f5fbff 0%, #eef7ff 55%, #f8fcff 100%);
   overflow: hidden;
 }
-.hero-grid {
+.ac-hero-grid {
   display: grid;
   grid-template-columns: 1.02fr 0.98fr;
   align-items: center;
   gap: 30px;
   min-height: 530px;
 }
-.eyebrow {
+.ac-eyebrow {
   display: inline-block;
   font-size: 13px;
   letter-spacing: 1.35px;
@@ -62,36 +62,36 @@ h2 {
   color: var(--blue);
   margin-bottom: 14px;
 }
-.hero h1 {
+.ac-hero h1 {
   font-size: clamp(42px, 5vw, 68px);
   line-height: 1.08;
   letter-spacing: -2.3px;
   color: #1554aa;
   margin-bottom: 22px;
 }
-.hero h1 span,
+.ac-hero h1 span,
 h2 span {
   color: #0868df;
 }
-.lead {
+.ac-lead {
   max-width: 640px;
   font-size: 17px;
   line-height: 1.7;
   color: #52657f;
 }
-.check-grid {
+.ac-check-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px 30px;
   margin: 24px 0;
 }
-.check-grid div {
+.ac-check-grid div {
   font-size: 15px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.check-grid i {
+.ac-check-grid i {
   width: 19px;
   height: 19px;
   border-radius: 50%;
@@ -103,12 +103,12 @@ h2 span {
   font-size: 12px;
   font-weight: 700;
 }
-.hero-actions {
+.ac-hero-actions {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
 }
-.btn {
+.ac-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -120,27 +120,27 @@ h2 span {
   font-size: 14px;
   transition: 0.25s ease;
 }
-.btn-primary {
+.ac-btn-primary {
   background: linear-gradient(135deg, #0868df, #167eea);
   color: #fff;
   box-shadow: 0 10px 25px rgba(8, 104, 223, 0.22);
 }
-.btn-light {
+.ac-btn-light {
   background: #fff;
   color: #0955ad;
   box-shadow: var(--shadow);
 }
-.btn:hover {
+.ac-btn:hover {
   transform: translateY(-3px);
 }
-.hero-art {
+.ac-hero-art {
   position: relative;
   height: 510px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
-.hero-art img {
+.ac-hero-art img {
   position: relative;
   z-index: 2;
   width: min(470px, 100%);
@@ -148,7 +148,7 @@ h2 span {
   object-fit: contain;
   filter: drop-shadow(0 24px 28px rgba(17, 83, 145, 0.12));
 }
-.art-ring {
+.ac-art-ring {
   position: absolute;
   width: 430px;
   height: 430px;
@@ -158,7 +158,7 @@ h2 span {
   top: 8%;
   opacity: 0.75;
 }
-.floating-card {
+.ac-floating-card {
   position: absolute;
   z-index: 4;
   background: rgba(255, 255, 255, 0.92);
@@ -172,54 +172,54 @@ h2 span {
   font-size: 13px;
   line-height: 1.25;
 }
-.floating-card strong {
+.ac-floating-card strong {
   font-size: 24px;
   color: var(--blue);
 }
-.card-top {
+.ac-card-top {
   left: 4%;
   top: 8%;
 }
-.card-left {
+.ac-card-left {
   left: 0;
   bottom: 28%;
 }
-.card-right {
+.ac-card-right {
   right: 0;
   bottom: 40%;
 }
-.orb {
+.ac-orb {
   position: absolute;
   border-radius: 50%;
   background: #d9efff;
   filter: blur(1px);
   opacity: 0.65;
 }
-.orb-a {
+.ac-orb-a {
   width: 160px;
   height: 160px;
   left: -75px;
   top: 20%;
 }
-.orb-b {
+.ac-orb-b {
   width: 100px;
   height: 100px;
   right: -40px;
   bottom: 6%;
 }
-.services {
+.ac-services {
   background: #fff;
 }
-.service-grid {
+.ac-service-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 18px;
 }
-.service-card {
+.ac-service-card {
   text-align: center;
   padding: 20px 13px;
 }
-.icon {
+.ac-icon {
   width: 70px;
   height: 70px;
   margin: 0 auto 20px;
@@ -231,35 +231,35 @@ h2 span {
   font-size: 20px;
   font-weight: 700;
 }
-.service-card h3 {
+.ac-service-card h3 {
   font-size: 16px;
   margin-bottom: 10px;
   color: #1a365d;
   font-weight: 700;
 }
-.service-card p {
+.ac-service-card p {
   font-size: 13px;
   line-height: 1.6;
   color: #64748b;
   margin: 0;
 }
-.partner {
+.ac-partner {
   background: linear-gradient(180deg, #f5fbff, #fff);
 }
-.partner-grid {
+.ac-partner-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 65px;
   align-items: center;
 }
-.students-art {
+.ac-students-art {
   position: relative;
   min-height: 370px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
-.students-art .blue-blob {
+.ac-students-art .ac-blue-blob {
   position: absolute;
   width: 400px;
   height: 310px;
@@ -268,42 +268,42 @@ h2 span {
   left: 5%;
   bottom: 5%;
 }
-.students-art img {
+.ac-students-art img {
     border-radius: 30px;
   position: relative;
   z-index: 1;
   width: min(480px, 100%);
   filter: drop-shadow(0 18px 25px rgba(19, 85, 150, 0.12));
 }
-.partner-copy h2,
-.section-heading h2 {
+.ac-partner-copy h2,
+.ac-section-heading h2 {
   font-size: clamp(34px, 4vw, 49px);
   line-height: 1.13;
   color: #1655ad;
   margin: 0 0 18px;
   letter-spacing: -1.5px;
 }
-.partner-copy p {
+.ac-partner-copy p {
   font-size: 16px;
   line-height: 1.7;
   color: var(--muted);
   max-width: 600px;
 }
-.partner-copy ul {
+.ac-partner-copy ul {
   list-style: none;
   padding: 0;
   margin: 22px 0 0;
   display: grid;
   gap: 13px;
 }
-.partner-copy li {
+.ac-partner-copy li {
   font-size: 15px;
   display: flex;
   align-items: center;
   gap: 11px;
 }
-.partner-copy li:before {
-  content: "✓";
+.ac-partner-copy li:before {
+  content: "âœ“";
   width: 20px;
   height: 20px;
   display: grid;
@@ -314,56 +314,56 @@ h2 span {
   font-size: 12px;
   font-weight: 700;
 }
-.stats {
+.ac-stats {
   background: #e4f5ff;
   padding: 34px 0;
 }
-.stats-grid {
+.ac-stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
-.stat {
+.ac-stat {
   text-align: center;
   position: relative;
 }
-.stat b {
+.ac-stat b {
   font-family: "Plus Jakarta Sans";
   font-size: 39px;
   color: #1262bd;
 }
-.stat span {
+.ac-stat span {
   font-family: "Plus Jakarta Sans";
   font-size: 30px;
   color: #1262bd;
 }
-.stat small {
+.ac-stat small {
   display: block;
   margin-top: 3px;
   font-size: 13px;
   color: #4c6380;
 }
-.process {
+.ac-process {
   background: #fff;
 }
-.section-heading {
+.ac-section-heading {
   text-align: center;
   margin-bottom: 48px;
 }
-.section-heading p {
+.ac-section-heading p {
   color: var(--muted);
   margin: 10px 0 0;
 }
-.process-grid {
+.ac-process-grid {
   display: grid;
   grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr 50px 1fr;
   align-items: start;
   padding-top: 10px;
 }
-.step {
+.ac-step {
   text-align: center;
 }
-.step-icon {
+.ac-step-icon {
   width: 72px;
   height: 72px;
   border-radius: 50%;
@@ -377,23 +377,23 @@ h2 span {
   font-weight: 700;
   box-shadow: 0 15px 35px rgba(18, 108, 240, 0.25);
 }
-.step h3 {
+.ac-step h3 {
   font-size: 15px;
   color: #1a365d;
   font-weight: 700;
   margin: 0;
 }
-.arrow {
+.ac-arrow {
   text-align: center;
   font-size: 20px;
   color: #126cf0;
   font-weight: 300;
   margin-top: 22px;
 }
-.cta {
+.ac-cta {
   padding-bottom: 70px;
 }
-.cta-box {
+.ac-cta-box {
   position: relative;
   overflow: hidden;
   min-height: 250px;
@@ -405,7 +405,7 @@ h2 span {
   justify-content: space-between;
   align-items: center;
 }
-.cta-box:after {
+.ac-cta-box:after {
   content: "";
   position: absolute;
   width: 420px;
@@ -415,68 +415,68 @@ h2 span {
   right: 25%;
   top: -260px;
 }
-.cta-box .eyebrow {
+.ac-cta-box .ac-eyebrow {
   color: #cbe7ff;
 }
-.cta-box h2 {
+.ac-cta-box h2 {
   font-size: clamp(30px, 3.4vw, 43px);
   margin: 0 0 12px;
   letter-spacing: -1px;
 }
-.cta-box p {
+.ac-cta-box p {
   font-size: 15px;
   line-height: 1.6;
   max-width: 620px;
   color: #e3f1ff;
 }
-.btn-white {
+.ac-btn-white {
   background: #fff;
   color: #0958bd;
   margin-top: 8px;
 }
-.cta-art {
+.ac-cta-art {
   position: relative;
   z-index: 2;
   width: 250px;
 }
-.cta-art img {
+.ac-cta-art img {
   width: 100%;
   display: block;
   mix-blend-mode: multiply;
   border-radius: 20px;
 }
-.reveal {
+.ac-reveal {
   opacity: 0;
   transform: translateY(22px);
   transition:
     opacity 0.65s ease,
     transform 0.65s ease;
 }
-.reveal.visible {
+.ac-reveal.ac-visible {
   opacity: 1;
   transform: none;
 }
-.delay-1 {
+.ac-delay-1 {
   transition-delay: 0.1s;
 }
-.delay-2 {
+.ac-delay-2 {
   transition-delay: 0.18s;
 }
-.delay-3 {
+.ac-delay-3 {
   transition-delay: 0.26s;
 }
 
 /* Process Animations */
-.step-icon {
+.ac-step-icon {
   transition:
     transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     box-shadow 0.4s ease;
 }
-.step:hover .step-icon {
+.ac-step:hover .ac-step-icon {
   transform: translateY(-8px) scale(1.08);
   box-shadow: 0 18px 35px rgba(18, 108, 240, 0.35);
 }
-.arrow {
+.ac-arrow {
   animation: moveArrow 1.5s infinite alternate ease-in-out;
 }
 @keyframes moveArrow {
@@ -489,7 +489,7 @@ h2 span {
 }
 @media (max-width: 1000px) {
   .hero-grid,
-  .partner-grid {
+  .ac-partner-grid {
     grid-template-columns: 1fr;
   }
   .hero {
@@ -521,39 +521,39 @@ h2 span {
     width: 390px;
     height: 390px;
   }
-  .service-grid {
+  .ac-service-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  .partner-copy {
+  .ac-partner-copy {
     order: -1;
     text-align: center;
   }
-  .partner-copy p {
+  .ac-partner-copy p {
     margin-left: auto;
     margin-right: auto;
   }
-  .partner-copy ul {
+  .ac-partner-copy ul {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
   }
-  .process-grid {
+  .ac-process-grid {
     grid-template-columns: repeat(5, 1fr);
     gap: 22px;
   }
-  .arrow {
+  .ac-arrow {
     display: none;
   }
-  .cta-box {
+  .ac-cta-box {
     padding: 40px;
   }
 }
 @media (max-width: 680px) {
-  .container {
+  .ac-container {
     width: min(100% - 28px, 560px);
   }
-  .section-pad {
+  .ac-section-pad {
     padding: 60px 0;
   }
   .hero {
@@ -599,71 +599,71 @@ h2 span {
     right: -4px;
     bottom: 34%;
   }
-  .service-grid {
+  .ac-service-grid {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
-  .service-card {
+  .ac-service-card {
     padding: 18px 8px;
   }
-  .service-card h3 {
+  .ac-service-card h3 {
     font-size: 14px;
   }
-  .service-card p {
+  .ac-service-card p {
     font-size: 12px;
   }
-  .students-art {
+  .ac-students-art {
     min-height: 290px;
   }
-  .students-art .blue-blob {
+  .ac-students-art .ac-blue-blob {
     width: 310px;
     height: 245px;
   }
-  .students-art img {
+  .ac-students-art img {
     width: 350px;
   }
-  .partner-copy h2,
-  .section-heading h2 {
+  .ac-partner-copy h2,
+  .ac-section-heading h2 {
     font-size: 32px;
   }
-  .stats-grid {
+  .ac-stats-grid {
     grid-template-columns: 1fr 1fr;
     gap: 25px 8px;
   }
-  .stat b {
+  .ac-stat b {
     font-size: 31px;
   }
-  .stat span {
+  .ac-stat span {
     font-size: 24px;
   }
-  .stat small {
+  .ac-stat small {
     font-size: 12px;
   }
-  .process-grid {
+  .ac-process-grid {
     grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
-  .step-icon {
+  .ac-step-icon {
     width: 58px;
     height: 58px;
   }
-  .cta-box {
+  .ac-cta-box {
     border-radius: 25px;
     padding: 34px 25px;
     display: block;
     text-align: center;
   }
-  .cta-box p {
+  .ac-cta-box p {
     font-size: 14px;
   }
-  .cta-art {
+  .ac-cta-art {
     width: 180px;
     margin: 25px auto -15px;
   }
-  .btn {
+  .ac-btn {
     width: auto;
   }
-  .hero-actions .btn {
+  .hero-actions .ac-btn {
     flex: 1;
     min-width: 135px;
   }
@@ -688,27 +688,27 @@ h2 span {
   .floating-card {
     display: none;
   }
-  .service-grid {
+  .ac-service-grid {
     grid-template-columns: 1fr;
   }
-  .service-card {
+  .ac-service-card {
     padding: 17px 15px;
   }
-  .section-heading {
+  .ac-section-heading {
     margin-bottom: 35px;
   }
 }
 
 /* Hero section improvements */
-.btn:hover {
+.ac-btn:hover {
   transform: translateY(-4px);
   box-shadow: 0 18px 35px rgba(8, 104, 223, 0.3);
 }
-.btn span {
+.ac-btn span {
   display: inline-block;
   transition: transform 0.3s ease;
 }
-.btn:hover span {
+.ac-btn:hover span {
   transform: translateX(6px);
 }
 .check-grid div {
@@ -732,7 +732,7 @@ h2 span {
 .check-grid div:hover i {
   transform: scale(1.2) rotate(10deg);
 }
-.eyebrow {
+.ac-eyebrow {
   animation: pulseGlow 2.5s infinite alternate;
 }
 @keyframes pulseGlow {
@@ -800,5 +800,6 @@ h2 span {
   border-left: 3px solid #0868df;
   padding-left: 15px;
 }
+
 
 

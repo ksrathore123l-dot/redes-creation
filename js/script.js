@@ -392,3 +392,36 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Mobile Menu Toggle
+document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.querySelector(".mobile-toggle");
+  const mainNav = document.querySelector(".main-nav");
+
+  if (menuToggle && mainNav) {
+    menuToggle.addEventListener("click", () => {
+      mainNav.classList.toggle("open");
+    });
+  }
+
+  // Mobile Dropdown Toggle
+  const dropdownToggles = document.querySelectorAll(".dropdown-toggle, .has-submenu");
+  dropdownToggles.forEach(toggle => {
+    toggle.addEventListener("click", (e) => {
+      if (window.innerWidth <= 820) {
+        e.preventDefault();
+        const parent = toggle.parentElement;
+        
+        // Close siblings
+        const siblings = parent.parentElement.children;
+        Array.from(siblings).forEach(sibling => {
+          if (sibling !== parent) {
+            sibling.classList.remove("active");
+          }
+        });
+
+        parent.classList.toggle("active");
+      }
+    });
+  });
+});

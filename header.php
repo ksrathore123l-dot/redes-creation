@@ -19,8 +19,17 @@
           <a href="/redes creation/pages/erp.php">ERP & Software Development</a>
           <a href="/redes creation/pages/mobile-app.php">Web Applications / Custom Software</a>
           <a href="/redes creation/pages/mobile-app.php">Mobile App Development</a>
-          <a href="/redes creation/pages/digital.php" class="has-submenu">Digital Marketing <i
-              class="fa-solid fa-angle-right"></i></a>
+          <div class="dropdown-submenu">
+            <a href="/redes creation/pages/digital.php" class="has-submenu">Digital Marketing <i
+                class="fa-solid fa-angle-right"></i></a>
+            <div class="dropdown-menu">
+              <a href="#">SEO Services</a>
+              <a href="#">PPC / Paid Ads</a>
+              <a href="#">Social Media Marketing</a>
+              <a href="#">Email Marketing</a>
+              <a href="#">Content Writing</a>
+            </div>
+          </div>
           <a href="#">UI/UX Design</a>
           <a href="#">Cloud & DevOps</a>
           <a href="#">AI / Data Analytics</a>
@@ -30,15 +39,58 @@
       <div class="dropdown">
         <a href="#" class="dropdown-toggle">Industries <i class="fa-solid fa-chevron-down"></i></a>
         <div class="dropdown-menu">
-          <a href="#">Healthcare/Hospital</a>
-          <a href="#">Hospitality / Hotels / Restaurants</a>
-          <a href="#">Real Estate</a>
-          <a href="#">Education / E-learning</a>
-          <a href="#">Retail & Ecommerce</a>
-          <a href="#">Manufacturing / Industrial</a>
-          <a href="#">Travel & Tourism</a>
-          <a href="#">Finance / Insurance</a>
-          <a href="#">Startups / SMBs</a>
+          <div class="dropdown-submenu">
+            <a href="/redes creation/pages/hospital_management.php" class="has-submenu">Healthcare / Hospitals <i
+                class="fa-solid fa-angle-right"></i></a>
+            <div class="dropdown-menu">
+              <a href="/redes creation/pages/hospital_management.php">Hospital Management System</a>
+              <a href="/redes creation/pages/NABH_Compliance.php">NABH Compliance-Ready Website</a>
+              <a href="/redes creation/pages/ipd&opd.php">IPD/OPD Management System</a>
+              <a href="/redes creation/pages/compliance-accreditation.php">Compliance & Accreditation Support</a>
+              <a href="/redes creation/pages/digital_marketing_hospital.php">Digital Marketing</a>
+            </div>
+          </div>
+          <div class="dropdown-submenu">
+            <a href="#" class="has-submenu">Hospitality / Hotels / Restaurants <i
+                class="fa-solid fa-angle-right"></i></a>
+            <div class="dropdown-menu">
+              <a href="#">Custom Booking Website</a>
+              <a href="#">Property Management System (PMS)</a>
+              <a href="#">OTA & Channel Manager Integration</a>
+              <a href="#">Guest Experience Tools</a>
+              <a href="#">Online Ordering & Table Booking System</a>
+              <a href="#">POS & Kitchen Display System (KDS)</a>
+              <a href="#">QR Code Menus & Contactless Dining</a>
+              <a href="#">Digital Promotions & Local SEO</a>
+            </div>
+          </div>
+          <div class="dropdown-submenu">
+            <a href="#" class="has-submenu">Real Estate <i class="fa-solid fa-angle-right"></i></a>
+            <div class="dropdown-menu">
+              <a href="#">Property Listing Website & App</a>
+              <a href="#">Lead Management System (CRM)</a>
+              <a href="#">3D Virtual Tours & Interactive Floor Plans</a>
+              <a href="#">Digital Marketing for Real Estate</a>
+              <a href="#">Project Microsites & Brochure Automation</a>
+            </div>
+          </div>
+          <div class="dropdown-submenu">
+            <a href="/redes creation/pages/education_elearning.php" class="has-submenu">Education / E-learning <i
+                class="fa-solid fa-angle-right"></i></a>
+            <div class="dropdown-menu">
+              <a href="/redes creation/pages/institutional_student_portal.php">Institutional Website & Student
+                Portal</a>
+              <a href="/redes creation/pages/LMS.php">Learning Management System (LMS)</a>
+              <a href="/redes creation/pages/erp.php">ERP Solutions for Schools/Colleges</a>
+              <a href="/redes creation/pages/admission-campaign.php">Digital Marketing & Admission Campaigns</a>
+              <a href="/redes creation/pages/compliance-accreditation.php">Compliance & Accreditation Tools</a>
+            </div>
+          </div>
+          <a href="/redes creation/pages/retail_ecom.php">Retail & Ecommerce</a>
+          <a href="/redes creation/pages/manufacturing_industrial.php">Manufacturing / Industrial</a>
+          <a href="/redes creation/pages/travel.php">Travel & Tourism</a>
+          <a href="/redes creation/pages/finance.php">Finance / Insurance</a>
+          <a href="/redes creation/pages/startup.php">Startups / SMBs</a>
         </div>
       </div>
       <a href="/redes creation/pages/work.php">Work</a>
