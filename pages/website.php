@@ -11,7 +11,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="/test/pages/website.css" />
+    <link rel="stylesheet" href="website.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
@@ -41,7 +41,7 @@
             <div class="rc-hero-art">
                 <div class="rc-orb"></div>
                 <div class="rc-dev">
-                    <img src="images/hero charecter -2.png" alt="" />
+                    <img src="../assets/hero charecter -2.png" alt="" />
                 </div>
                 <div class="rc-step step1">
                     <i data-lucide="lightbulb"></i><b>Ideas</b>

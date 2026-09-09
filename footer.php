@@ -1,4 +1,3 @@
-l
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
@@ -85,7 +84,7 @@ l
             <div class="character-social-wrapper">
               <div class="charecter-user">
                 <img
-                  src="/test/assets/social media-2.png"
+                  src="/redes creation/assets/social media-2.png"
                   alt="character use social media"
                 />
               </div>
@@ -159,3 +158,4 @@ l
     </div>
 
     <script src="js/script.js"></script>
+    <script src="/redes creation/js/header-footer.js"></script>
