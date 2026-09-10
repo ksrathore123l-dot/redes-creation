@@ -24,21 +24,23 @@
             <a href="/redes creation/pages/digital.php" class="has-submenu">Digital Marketing <i
                 class="fa-solid fa-angle-right"></i></a>
             <div class="dropdown-menu">
-              <a href="#">SEO Services</a>
-              <a href="#">PPC / Paid Ads</a>
-              <a href="#">Social Media Marketing</a>
-              <a href="#">Email Marketing</a>
-              <a href="#">Content Writing</a>
+              <a href="/redes creation/pages/seo.php">SEO Services</a>
+              <a href="/redes creation/pages/PPC.php">PPC / Paid Ads</a>
+              <a href="/redes creation/pages/social.php">Social Media Marketing</a>
+              <a href="/redes creation/pages/emailmark.php">Email Marketing</a>
+              <a href="/redes creation/pages/content.php">Content Writing</a>
             </div>
           </div>
-          <a href="#">UI/UX Design</a>
-          <a href="#">Cloud & DevOps</a>
-          <a href="#">AI / Data Analytics</a>
-          <a href="#">Ecommerce Development</a>
+          <a href="/redes creation/pages/hospital_management.php">Hospital Management System</a>
+          <a href="/redes creation/pages/uiux.php">UI/UX Design</a>
+          <a href="/redes creation/pages/cloud.php">Cloud & DevOps</a>
+          <a href="/redes creation/pages/aidata.php">AI / Data Analytics</a>
+          <a href="/redes creation/pages/ecommerce_.php">Ecommerce Development</a>
         </div>
       </div>
       <div class="dropdown">
-        <a href="#" class="dropdown-toggle">Industries <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="/redes creation/pages/Industries.php" class="dropdown-toggle">Industries <i
+            class="fa-solid fa-chevron-down"></i></a>
         <div class="dropdown-menu">
           <div class="dropdown-submenu">
             <a href="/redes creation/pages/hospital_management.php" class="has-submenu">Healthcare / Hospitals <i
@@ -70,10 +72,10 @@
                 class="fa-solid fa-angle-right"></i></a>
             <div class="dropdown-menu">
               <a href="/redes creation/pages/property.php">Property Listing Website & App</a>
-              <a href="#">Lead Management System (CRM)</a>
-              <a href="#">3D Virtual Tours & Interactive Floor Plans</a>
-              <a href="#">Digital Marketing for Real Estate</a>
-              <a href="#">Project Microsites & Brochure Automation</a>
+              <a href="/redes creation/pages/management.php">Lead Management System (CRM)</a>
+              <a href="/redes creation/pages/virtual.php">3D Virtual Tours & Interactive Floor Plans</a>
+              <a href="/redes creation/pages/digital_real.php">Digital Marketing for Real Estate</a>
+              <a href="/redes creation/pages/project.php">Project Microsites & Brochure Automation</a>
             </div>
           </div>
           <div class="dropdown-submenu">

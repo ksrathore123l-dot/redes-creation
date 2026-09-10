@@ -116,7 +116,7 @@ button {
 }
 
 .hero {
-  padding: 64px 0 34px;
+  /* padding: 64px 0 34px; */
   min-height: 585px;
   background: linear-gradient(180deg, #fbfdff 0%, #fff 100%);
 }
