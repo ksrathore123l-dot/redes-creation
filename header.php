@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/redes creation/css/header-footer.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 <header class="site-header" id="home">
   <div class="container nav-wrap">
     <a href="/redes creation/index.php" class="brand" aria-label="Redes Creation home">
@@ -51,23 +52,24 @@
             </div>
           </div>
           <div class="dropdown-submenu">
-            <a href="#" class="has-submenu">Hospitality / Hotels / Restaurants <i
+            <a href="/redes creation/pages/hospitality.php" class="has-submenu">Hospitality / Hotels / Restaurants <i
                 class="fa-solid fa-angle-right"></i></a>
             <div class="dropdown-menu">
-              <a href="#">Custom Booking Website</a>
-              <a href="#">Property Management System (PMS)</a>
-              <a href="#">OTA & Channel Manager Integration</a>
-              <a href="#">Guest Experience Tools</a>
-              <a href="#">Online Ordering & Table Booking System</a>
-              <a href="#">POS & Kitchen Display System (KDS)</a>
-              <a href="#">QR Code Menus & Contactless Dining</a>
-              <a href="#">Digital Promotions & Local SEO</a>
+              <a href="/redes creation/pages/customweb.php">Custom Booking Website</a>
+              <a href="/redes creation/pages/pms.php">Property Management System (PMS)</a>
+              <a href="/redes creation/pages/otachannel.php">OTA & Channel Manager Integration</a>
+              <a href="/redes creation/pages/guest.php">Guest Experience Tools</a>
+              <a href="/redes creation/pages/online.php">Online Ordering & Table Booking System</a>
+              <a href="/redes creation/pages/POS.php">POS & Kitchen Display System (KDS)</a>
+              <a href="/redes creation/pages/QR.php">QR Code Menus & Contactless Dining</a>
+              <a href="/redes creation/pages/promotion.php">Digital Promotions & Local SEO</a>
             </div>
           </div>
           <div class="dropdown-submenu">
-            <a href="#" class="has-submenu">Real Estate <i class="fa-solid fa-angle-right"></i></a>
+            <a href="/redes creation/pages/realestate.php" class="has-submenu">Real Estate <i
+                class="fa-solid fa-angle-right"></i></a>
             <div class="dropdown-menu">
-              <a href="#">Property Listing Website & App</a>
+              <a href="/redes creation/pages/property.php">Property Listing Website & App</a>
               <a href="#">Lead Management System (CRM)</a>
               <a href="#">3D Virtual Tours & Interactive Floor Plans</a>
               <a href="#">Digital Marketing for Real Estate</a>

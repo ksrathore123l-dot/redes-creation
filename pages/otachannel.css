@@ -1,0 +1,613 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Inter, sans-serif;
+    color: #102e58;
+    line-height: 1.5
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.rc-ota-wrapper {
+    width: min(1170px, 92%);
+    margin: auto
+}
+
+
+.rc-ota-hero-section {
+    background: linear-gradient(110deg, #f5faff, #fff 52%, #edf6ff);
+    overflow: hidden
+}
+
+.rc-ota-hero-grid {
+    display: grid;
+    grid-template-columns: 46% 54%;
+    min-height: 520px
+}
+
+.rc-ota-text-content {
+    padding: 54px 15px 45px 0;
+    align-self: center;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.rc-ota-eyebrow {
+    color: #1471ed;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px
+}
+
+.rc-ota-hero-section h1 {
+    font-size: 39px;
+    line-height: 1.05;
+    margin: 13px 0 18px;
+    letter-spacing: -1.4px
+}
+
+.rc-ota-hero-section h1 i {
+    display: block;
+    color: #1674ef;
+    font-style: normal
+}
+
+.rc-ota-hero-section p,
+.rc-ota-general-section p {
+    font-size: 13px;
+    color: #5c7597
+}
+
+.rc-ota-button-group {
+    display: flex;
+    gap: 12px;
+    margin: 22px 0
+}
+
+.rc-ota-primary-btn {
+    display: inline-block;
+    background: #1675f5;
+    color: #fff;
+    padding: 13px 22px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: 0 10px 24px #1675f530;
+    transition: all 0.3s ease;
+}
+
+.rc-ota-primary-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 15px 30px #1675f550;
+}
+
+.rc-ota-ghost-btn,
+.rc-ota-outline-link {
+    background: #fff;
+    color: #1671e8;
+    border: 1px solid #73adf7;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.rc-ota-ghost-btn:hover,
+.rc-ota-outline-link:hover {
+    background: #1671e8;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px #1675f540;
+}
+
+.rc-ota-hero-stats {
+    display: flex;
+    gap: 22px
+}
+
+.rc-ota-hero-stats span {
+    font-size: 20px;
+    color: #1675f5
+}
+
+.rc-ota-hero-stats b,
+.rc-ota-hero-stats small {
+    display: block;
+    margin-left: 26px;
+    margin-top: -22px;
+    font-size: 10px;
+    color: #294d77
+}
+
+.rc-ota-hero-stats small {
+    margin-top: 2px;
+    color: #7890ad
+}
+
+.rc-ota-hero-picture {
+    position: relative;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+    opacity: 0;
+}
+
+.rc-ota-hero-picture>img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+
+.rc-ota-general-section {
+    padding: 100px 0
+}
+
+.rc-ota-two-column {
+    display: grid;
+    grid-template-columns: 36% 64%;
+    gap: 36px;
+    align-items: center
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1.15;
+    margin: 12px 0;
+    color: #102e58
+}
+
+h2 strong {
+    color: #1674ef
+}
+
+.rc-ota-outline-link {
+    display: inline-block;
+    padding: 9px 18px;
+    border-radius: 22px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 18px
+}
+
+.rc-ota-partner-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px
+}
+
+.rc-ota-partner-logos>div {
+    height: 70px;
+    border: 1px solid #e5ebf2;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    font-size: 13px;
+    box-shadow: 0 6px 15px #153a5d0a;
+    transition: .25s;
+    background: #fff;
+}
+
+.rc-ota-brand-logo-img {
+    max-width: 75%;
+    max-height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.rc-ota-partner-logos>div:hover .rc-ota-brand-logo-img {
+    transform: scale(1.1);
+}
+
+.rc-ota-more-partners {
+    color: #102e58;
+    text-align: center;
+}
+
+.rc-ota-more-partners small {
+    display: block;
+    font-size: 8px;
+    color: #5d7693;
+    margin-top: 2px;
+}
+
+.rc-ota-partner-logos>div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px #1674ef18
+}
+
+.rc-ota-partner-logos span {
+    color: #1674ef
+}
+
+.rc-ota-partner-logos small {
+    display: block;
+    font-size: 8px
+}
+
+.rc-ota-dark-theme {
+    background: linear-gradient(115deg, #0b2c4e, #102f51);
+    color: #fff
+}
+
+.rc-ota-dark-theme h2 {
+    color: #fff
+}
+
+.rc-ota-dark-theme p {
+    color: #c5d8e9
+}
+
+.rc-ota-light-text {
+    color: #65b0ff
+}
+
+.rc-ota-white-theme {
+    background: transparent;
+    color: #fff;
+    border-color: #5aa8fa
+}
+
+.rc-ota-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.rc-ota-features-grid article {
+    min-height: 110px;
+    padding: 15px;
+    display: flex;
+    gap: 12px;
+    border-right: 1px solid #315472;
+    border-bottom: 1px solid #315472;
+    color: #6db9ff;
+    transition: all 0.3s ease;
+}
+
+.rc-ota-features-grid article i {
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+.rc-ota-features-grid article:hover {
+    background: #18446d55;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.rc-ota-features-grid article>div {
+    color: #fff
+}
+
+.rc-ota-features-grid article b {
+    font-size: 11px
+}
+
+.rc-ota-features-grid article p {
+    font-size: 9px;
+    margin: 5px 0
+}
+
+.rc-ota-how-section {
+    background: #f6faff
+}
+
+.rc-ota-dashboard-img {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    min-height: 250px
+}
+
+.rc-ota-dashboard-img img {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    object-fit: cover
+}
+
+.rc-ota-dashboard-panel {
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    width: 210px;
+    font-size: 9px;
+    box-shadow: 0 10px 25px #12375f22
+}
+
+.rc-ota-dashboard-panel small {
+    float: right;
+    color: #19a67b
+}
+
+.rc-ota-dashboard-panel hr {
+    border: 0;
+    border-top: 1px solid #edf2f6
+}
+
+.rc-ota-dashboard-panel span {
+    float: right;
+    color: #19a67b
+}
+
+.rc-ota-working-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
+    margin-top: 22px
+}
+
+.rc-ota-working-steps b {
+    display: grid;
+    place-items: center;
+    background: #1674ef;
+    color: #fff;
+    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+    font-size: 9px
+}
+
+.rc-ota-working-steps h3 {
+    font-size: 11px;
+    margin: 8px 0 2px
+}
+
+.rc-ota-working-steps p {
+    font-size: 9px;
+    margin: 0
+}
+
+.rc-ota-trust-banner {
+    position: relative;
+    min-height: 225px;
+    color: #fff;
+    overflow: hidden
+}
+
+.rc-ota-trust-banner>img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.rc-ota-trust-banner>div {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    background: #082d4bcc;
+    min-height: 225px
+}
+
+.rc-ota-trust-banner h2 {
+    color: #fff;
+    margin: 6px 0;
+    font-size: 22px
+}
+
+.rc-ota-trust-banner p {
+    font-size: 10px;
+    color: #d3e3f0;
+    max-width: 600px;
+    margin: 0 auto 20px
+}
+
+.rc-ota-trust-statistics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+    margin: auto
+}
+
+.rc-ota-trust-statistics b {
+    font-size: 15px;
+    border-right: 1px solid #ffffff38;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.rc-ota-trust-statistics > div:hover b {
+    transform: scale(1.1);
+    color: #65b0ff;
+}
+
+.rc-ota-trust-statistics b:last-child {
+    border: 0
+}
+
+.rc-ota-trust-statistics small {
+    display: block;
+    font-size: 8px;
+    color: #c3d7e8;
+    font-weight: 400
+}
+
+.rc-ota-cta-container {
+    background: #f5faff;
+    padding: 48px 0
+}
+
+.rc-ota-cta-inner-box {
+    display: grid;
+    grid-template-columns: 65px 1fr 170px;
+    align-items: center;
+    gap: 18px
+}
+
+.rc-ota-cta-inner-box>b {
+    width: 62px;
+    height: 62px;
+    border-radius: 15px;
+    background: #e3efff;
+    display: grid;
+    place-items: center;
+    color: #1674ef;
+    font-size: 24px
+}
+
+.rc-ota-cta-inner-box h2 {
+    font-size: 17px;
+    margin: 3px 0
+}
+
+.rc-ota-cta-inner-box p {
+    font-size: 9px;
+    color: #6983a2;
+    margin: 0
+}
+
+.rc-ota-cta-inner-box small {
+    color: #1471ed;
+    font-size: 8px;
+    font-weight: 800
+}
+
+
+@media(max-width:900px) {
+    nav {
+        gap: 12px
+    }
+
+    .rc-ota-hero-grid {
+        grid-template-columns: 1fr
+    }
+
+    .rc-ota-hero-picture {
+        height: 330px
+    }
+
+    .rc-ota-two-column {
+        grid-template-columns: 1fr
+    }
+
+    .rc-ota-features-grid {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .foot {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .rc-ota-cta-inner-box {
+        grid-template-columns: 60px 1fr 150px
+    }
+}
+
+@media(max-width:680px) {
+    .menu {
+        display: block
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 4%;
+        right: 4%;
+        background: #fff;
+        box-shadow: 0 15px 30px #17375f18;
+        border-radius: 0 0 14px 14px;
+        padding: 15px;
+        flex-direction: column
+    }
+
+    .nav.open nav {
+        display: flex
+    }
+
+    .rc-ota-hero-section h1 {
+        font-size: 32px
+    }
+
+    .rc-ota-text-content {
+        padding: 42px 0 30px
+    }
+
+    .rc-ota-button-group {
+        flex-direction: column
+    }
+
+    .rc-ota-primary-btn {
+        width: 100%;
+        text-align: center
+    }
+
+    .rc-ota-hero-stats {
+        flex-wrap: wrap;
+        gap: 12px
+    }
+
+    .rc-ota-partner-logos {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .rc-ota-features-grid {
+        grid-template-columns: 1fr
+    }
+
+    .rc-ota-working-steps {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .rc-ota-trust-statistics {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px
+    }
+
+    .rc-ota-trust-statistics b {
+        border: 0
+    }
+
+    .rc-ota-cta-inner-box {
+        grid-template-columns: 1fr;
+        text-align: center
+    }
+
+    .rc-ota-cta-inner-box>b {
+        margin: auto
+    }
+
+    .rc-ota-cta-inner-box .rc-ota-primary-btn {
+        max-width: 200px;
+        margin: auto
+    }
+
+    .foot {
+        grid-template-columns: 1fr
+    }
+
+    .rc-ota-hero-picture {
+        height: 300px
+    }
+
+
+}
