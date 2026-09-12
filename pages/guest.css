@@ -64,7 +64,7 @@ a {
 
 .get-hero {
     min-height: 590px;
-    padding: 65px 5.5% 40px;
+    padding: 65px 9% 40px;
     display: grid;
     grid-template-columns: 45% 55%;
     background: linear-gradient(105deg, #f5faff, #fff 50%, #edf6ff)
@@ -230,7 +230,7 @@ label {
 }
 
 .get-solutions {
-    padding: 85px 5.5%;
+    padding: 85px 9%;
     display: grid;
     grid-template-columns: 36% 64%;
     gap: 30px;
@@ -508,7 +508,7 @@ label {
 }
 
 .get-stories {
-    padding: 75px 5.5%;
+    padding: 75px 9%;
     display: grid;
     grid-template-columns: 43% 57%;
     gap: 45px;

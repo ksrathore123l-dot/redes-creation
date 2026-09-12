@@ -26,7 +26,7 @@ a {
   color: inherit;
 }
 .wrap {
-  padding: 78px max(5vw, 24px);
+  padding: 78px max(9vw, 24px);
 }
 h1,
 h2,
@@ -312,7 +312,7 @@ small {
   font-size: 13px;
 }
 .metrics {
-  padding: 40px 7vw;
+  padding: 40px 9vw;
   background: var(--deep);
   color: #fff;
   display: grid;
@@ -472,7 +472,7 @@ small {
   font-weight: 800;
 }
 .cta {
-  margin: 0 5vw 70px;
+  margin: 0 9vw 70px;
   border-radius: 34px;
   background: linear-gradient(115deg, #082b60, #0e4fae);
   color: #fff;

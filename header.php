@@ -3,13 +3,13 @@
 <header class="site-header" id="home">
   <div class="container nav-wrap">
     <a href="/redes creation/index.php" class="brand" aria-label="Redes Creation home">
-      <img src="https://redescreation.in/images/ram.png" alt="Redes Creation Pvt. Ltd." />
+      <img src="/redes creation/assets/Redes.png" alt="Redes Creation Pvt. Ltd." />
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <nav class="main-nav">
-      <a class="active" href="/redes creation/index.php">Home</a>
+      <a href="/redes creation/index.php">Home</a>
 
       <div class="dropdown">
         <a href="/redes creation/pages/service.php" class="dropdown-toggle">Services <i
@@ -18,7 +18,7 @@
           <a href="/redes creation/pages/accreditation.php">UGC Compliance-Ready Website</a>
           <a href="/redes creation/pages/website.php">Website Design & Development</a>
           <a href="/redes creation/pages/erp.php">ERP & Software Development</a>
-          <a href="/redes creation/pages/website.php">Web Applications / Custom Software</a>
+          <a href="/redes creation/pages/customweb.php">Web Applications / Custom Software</a>
           <a href="/redes creation/pages/mobile-app.php">Mobile App Development</a>
           <div class="dropdown-submenu">
             <a href="/redes creation/pages/digital.php" class="has-submenu">Digital Marketing <i
@@ -106,3 +106,40 @@
     <a class="btn btn-primary nav-cta" href="/redes creation/pages/contact.php">Let's Talk <span>→</span></a>
   </div>
 </header>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let currentUrl = window.location.href.split(/[?#]/)[0];
+
+    // Normalize root path for index.php
+    if (currentUrl.endsWith('/redes%20creation/') || currentUrl.endsWith('/redes creation/')) {
+      currentUrl += 'index.php';
+    }
+
+    const navLinks = document.querySelectorAll('.main-nav a');
+
+    navLinks.forEach(link => {
+      if (!link.href) return;
+
+      let linkUrl = link.href.split(/[?#]/)[0];
+
+      if (currentUrl === linkUrl && !link.getAttribute('href').startsWith('#')) {
+        link.classList.add('active');
+
+        // Highlight top level dropdown
+        let parentDropdown = link.closest('.dropdown');
+        if (parentDropdown) {
+          let toggle = parentDropdown.querySelector('.dropdown-toggle');
+          if (toggle) toggle.classList.add('active');
+        }
+
+        // Highlight submenu toggle if inside a submenu
+        let parentSubmenu = link.closest('.dropdown-submenu');
+        if (parentSubmenu) {
+          let subToggle = parentSubmenu.querySelector('.has-submenu');
+          if (subToggle) subToggle.classList.add('active');
+        }
+      }
+    });
+  });
+</script>

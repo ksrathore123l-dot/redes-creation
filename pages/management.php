@@ -14,7 +14,7 @@
 </head>
 
 <body>
-     <?php include '../header.php'; ?>
+    <?php include '../header.php'; ?>
     <main>
         <!-- HERO SECTION -->
         <section class="hero" id="home">
@@ -64,8 +64,7 @@
                     </div>
 
 
-                    <img src="../assets/PAAY-RC-HELLO__1_-removebg-preview.png" alt="PAAY Character"
-                        class="hero-character">
+                    <img src="../assets/PAAY-CHARECTER.png" alt="PAAY Character" class="hero-character">
                 </div>
             </div>
         </section>
@@ -151,7 +150,7 @@
                 </div>
 
                 <div class="partner-visual reveal fade-right">
-                    <img src="../assets/man_laptop.jpg" alt="Professional working on laptop" class="man-img">
+                    <img src="../assets/hero png.png" alt="Professional working on laptop" class="man-img">
 
                     <!-- Floating Tags -->
                     <div class="ptag ptag-1">

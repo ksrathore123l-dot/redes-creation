@@ -86,7 +86,8 @@ a {
 }
 .dm-hero {
   min-height: 500px;
-  padding: 38px 6%;
+    padding: 113px 9%;
+
   display: grid;
   grid-template-columns: 1fr 1.08fr;
   align-items: center;

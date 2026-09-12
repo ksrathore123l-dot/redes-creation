@@ -25,7 +25,7 @@ a {
   color: inherit;
 }
 .rc-shell {
-  width: min(1160px, calc(100% - 40px));
+  width: min(1250px, calc(100% - 40px));
   margin: auto;
 }
 .rc-header {
@@ -175,11 +175,12 @@ a {
   background: #1463ee0c;
 }
 .rc-hero-grid {
+
   display: grid;
   grid-template-columns: 1fr 1.05fr;
   gap: 25px;
   align-items: center;
-  min-height: 610px;
+      min-height: 687px;
 }
 .rc-kicker {
   display: inline-flex;

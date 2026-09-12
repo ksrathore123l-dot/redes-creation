@@ -42,8 +42,10 @@
   --border-subtle: #edf2f7;
 
   /* Typography */
-  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-handwritten: 'Caveat', 'Kalam', cursive;
+  --font-main:
+    "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  --font-handwritten: "Caveat", "Kalam", cursive;
 
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -147,13 +149,13 @@ ul {
 }
 
 /* --- Button Component Styles --- */
-.btn {
+.seo-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 13px 28px;
-  font-size: 0.95rem;
+  padding: 14px 26px;
+  font-size: 15px;
   font-weight: 700;
   border-radius: 9999px;
   transition: all var(--transition-smooth);
@@ -161,69 +163,69 @@ ul {
   white-space: nowrap;
 }
 
-.btn-pill {
+.seo-btn-pill {
   border-radius: 9999px;
 }
 
-.btn-primary {
+.seo-btn-primary {
   background-color: var(--primary-blue);
   color: #ffffff;
   box-shadow: 0 4px 14px rgba(18, 92, 216, 0.35);
 }
 
-.btn-primary:hover {
+.seo-btn-primary:hover {
   background-color: var(--primary-blue-hover);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(18, 92, 216, 0.45);
 }
 
-.btn-arrow {
+.seo-btn-arrow {
   font-size: 1.15rem;
   transition: transform var(--transition-fast);
 }
 
-.btn:hover .btn-arrow {
+.seo-btn:hover .seo-btn-arrow {
   transform: translateX(4px);
 }
 
-.btn-outline-pill {
+.seo-btn-outline-pill {
   background-color: #ffffff;
   color: var(--primary-blue);
   border: 1.8px solid #c7ddfc;
   box-shadow: var(--shadow-sm);
 }
 
-.btn-outline-pill:hover {
+.seo-btn-outline-pill:hover {
   background-color: var(--primary-blue-light);
   border-color: var(--primary-blue);
   transform: translateY(-2px);
 }
 
-.btn-outline-white {
+.seo-btn-outline-white {
   background: transparent;
   color: #ffffff;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 
-.btn-outline-white:hover {
+.seo-btn-outline-white:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: #ffffff;
   transform: translateY(-2px);
 }
 
-.btn-white {
+.seo-btn-white {
   background: #ffffff;
   color: var(--navy-dark);
   font-weight: 700;
 }
 
-.btn-white:hover {
+.seo-btn-white:hover {
   background: #f1f5f9;
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-.btn-block {
+.seo-btn-block {
   width: 100%;
 }
 
@@ -231,7 +233,7 @@ ul {
    2. HERO SECTION
    ========================================================================== */
 .hero-section {
-  padding: 48px 0 64px 0;
+  /* padding: 48px 0 64px 0; */
   position: relative;
   background: radial-gradient(circle at 85% 20%, #f0f7ff 0%, #ffffff 60%);
   overflow: visible;
@@ -376,6 +378,7 @@ ul {
   width: 52%;
   height: 100%;
   object-fit: contain;
+  margin-bottom: 290px;
 }
 
 .hero-scene-wrapper {
@@ -406,7 +409,9 @@ ul {
 .sticky-note {
   position: absolute;
   background: #fff8a6;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.12),
+    0 2px 5px rgba(0, 0, 0, 0.06);
   padding: 16px 18px;
   border-radius: 2px;
   font-family: var(--font-handwritten);
@@ -535,7 +540,9 @@ ul {
   background: #1e293b;
   border-radius: 16px 16px 4px 4px;
   padding: 12px 12px 0 12px;
-  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+  box-shadow:
+    0 25px 50px -12px rgba(15, 23, 42, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset;
   z-index: 5;
 }
 
@@ -761,7 +768,6 @@ ul {
 }
 
 @keyframes floatBadge {
-
   0%,
   100% {
     transform: translateY(0);
@@ -1384,18 +1390,20 @@ ul {
 }
 
 .dot {
-  width: 8px;
-  height: 8px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
-  background: #cbd5e1;
+  background: #5b6d88;
   cursor: pointer;
   transition: all var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .dot.active {
-  width: 24px;
-  border-radius: 12px;
-  background: var(--primary-blue);
+  width: 20px;
+  border-radius: 10px;
+  background: #2d7cff;
+  transform: none;
 }
 
 /* Center Handwritten Transition Annotation */

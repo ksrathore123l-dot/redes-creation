@@ -42,9 +42,9 @@ body {
 }
 
 .pm-container {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 16px 9px;
 }
 
 h1, h2, h3, h4, h5 {

@@ -19,6 +19,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 body {
   font-family: "DM Sans", sans-serif;
@@ -34,7 +35,7 @@ button {
   font: inherit;
 }
 .container {
-  width: min(1180px, calc(100% - 48px));
+  width: min(1250px, calc(100% - 48px));
   margin: auto;
 }
 .top-glow {
@@ -119,7 +120,7 @@ button {
   margin: auto;
   min-height: 700px;
   background: linear-gradient(180deg, #fbfdff 0%, #fff 100%);
-  max-width: 1300px;
+  max-width: 30014px;
 }
 .hero-grid {
   display: grid;
@@ -200,6 +201,8 @@ button {
 }
 
 .hero-visual {
+  margin-top: 143px;
+
   height: 530px;
   position: relative;
 }
@@ -534,7 +537,7 @@ button {
 .service-grid {
   margin: auto;
   max-width: 1170px;
-  padding: 115px;
+  /* padding: 115px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 14px;
@@ -2863,6 +2866,7 @@ video {
 
 @media (max-width: 992px) {
   .container {
+    padding: 64px;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;

@@ -16,7 +16,7 @@ body {
 }
 
 .mfg-wrap {
-    width: min(1180px, calc(100% - 48px));
+    width: min(1250px, calc(100% - 48px));
     margin: auto
 }
 
@@ -336,6 +336,7 @@ body {
 }
 
 .mfg-split {
+    margin: 138px;
     display: grid;
     grid-template-columns: 48% 52%;
     background: #f5f9fd
@@ -463,7 +464,8 @@ body {
     color: #66768c
 }
 
-.mfg-cta {
+.mfg-cta {border-radius: 10px;
+    margin: 138px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #edf5ff;

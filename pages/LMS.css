@@ -38,7 +38,7 @@ img {
   overflow: hidden;
 }
 .lms-shell {
-  width: min(1180px, calc(100% - 48px));
+  width: min(1250px, calc(100% - 48px));
   margin: auto;
 }
 .lms-hero {
@@ -50,6 +50,7 @@ img {
   position: relative;
 }
 .lms-hero-grid {
+  padding-top: 29px;
   display: grid;
   grid-template-columns: 1fr 1.03fr;
   align-items: center;

@@ -444,7 +444,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
-  margin: 13px 0 18px;
+  margin:auto;
 }
 
 .service-card {

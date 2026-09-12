@@ -222,7 +222,7 @@
                         <span class="cwa-kicker">DESIGN REFERENCE</span>
                         <h3>Built around your workflow, not a generic template.</h3>
                         <p>The provided visual reference is included locally and can be replaced with any project
-                            screenshot inside <code>assets/reference-design.png</code>.</p>
+                            screenshot inside.</p>
                     </div>
 
                 </div>

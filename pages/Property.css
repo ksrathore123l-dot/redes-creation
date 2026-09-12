@@ -32,7 +32,7 @@ a {
 }
 
 .re-container {
-    width: min(1280px, calc(100% - 72px));
+    width: min(1250px, calc(100% - 72px));
     margin: auto
 }
 

@@ -44,43 +44,62 @@
                     </div>
                 </div>
             </div>
-            <div class="erp-dashboard">
-                <a href="#"><img src="../assets/modern_dashboard.jpg" alt="Modern ERP Dashboard" /></a>
+            <div class="erp-dashboard globe-container">
+                <img src="../assets/erp-world-hero.png" alt="Spinning Globe" class="globe-spin" />
+                <div class="floating-image-card fc-top">
+                    <img src="../assets/e.png" alt="Card Top">
+                </div>
+                <div class="floating-image-card fc-bottom">
+                    <img src="../assets/h.png" alt="Card Bottom">
+                </div>
+                <div class="floating-image-card fc-left">
+                    <img src="../assets/s.png" alt="Card Left">
+                </div>
+                <div class="floating-image-card fc-right">
+                    <img src="../assets/f.png" alt="Card Right">
+                </div>
             </div>
         </section>
 
-        <section class="erp-challenge erp-section">
-            <span class="erp-label">THE CHALLENGE</span>
-            <h2>Manual Processes Costing You Time & Accuracy?</h2>
-            <p class="erp-sub">
-                Many businesses still rely on outdated systems, leading to
-                inefficiencies and lost opportunities.
-            </p>
-            <div class="erp-grid3">
-                <article class="erp-problem red">
-                    <b>▤</b>
-                    <h3>No Real-Time Data</h3>
-                    <p>
-                        Departments work in silos, and reports are outdated, inconsistent,
-                        or unavailable when needed.
-                    </p>
-                </article>
-                <article class="erp-problem yellow">
-                    <b>▣</b>
-                    <h3>Too Much Paperwork</h3>
-                    <p>
-                        From admission to inventory to finance, operations are clogged
-                        with forms and excel sheets.
-                    </p>
-                </article>
-                <article class="erp-problem blue">
-                    <b>☷</b>
-                    <h3>Lack of Customization</h3>
-                    <p>
-                        Generic software doesn't match your workflows, modules, or
-                        compliance needs.
-                    </p>
-                </article>
+        <section class="erp-before-after">
+            <div class="erp-ba-container">
+                <div class="erp-before">
+                    <div class="erp-ba-content">
+                        <h2>Before</h2>
+                        <p class="erp-ba-sub">A Disorganized and Time-Consuming Process</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-xmark"></i> Unstructured SSR documentation</li>
+                            <li><i class="fa-solid fa-circle-xmark"></i> No department-wise segregation</li>
+                            <li><i class="fa-solid fa-circle-xmark"></i> Manual uploads with errors</li>
+                            <li><i class="fa-solid fa-circle-xmark"></i> Website fails audit visibility</li>
+                        </ul>
+                    </div>
+                    <div class="erp-ba-image">
+
+                        <!-- Provide a placeholder for the frustrated user image -->
+                        <img src="../assets/before.png" alt="Frustrated User" style="opacity: 0.8;">
+                    </div>
+                </div>
+                <div class="erp-ba-divider">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="erp-after">
+                    <div class="erp-ba-content">
+                        <h2>After</h2>
+                        <p class="erp-ba-sub">A Structured, Transparent and Future-Ready Website</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Structured accreditation sections</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Live dashboards with CMS access</li>
+                            <li><i class="fa-solid fa-circle-check"></i> SSR/IQA/NIRF upload ready</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Google indexed, SEO ready, mobile friendly</li>
+                        </ul>
+                    </div>
+                    <div class="erp-ba-image">
+
+                        <!-- Provide a placeholder for the happy user image -->
+                        <img src="../assets/after.png" alt="Happy User">
+                    </div>
+                </div>
             </div>
         </section>
 

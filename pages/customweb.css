@@ -40,7 +40,7 @@ button {
 }
 
 .cwa-shell {
-    width: min(1160px, calc(100% - 40px));
+    width: min(1250px, calc(100% - 40px));
     margin: auto
 }
 
@@ -132,6 +132,7 @@ button {
 }
 
 .cwa-hero-grid {
+        padding: 120px 0px;
     display: grid;
     grid-template-columns: 1fr 1.03fr;
     gap: 35px;
@@ -939,7 +940,36 @@ button {
 }
 
 .cwa-work {
-    padding-top: 100px
+    padding-top: 100px;
+    background: #2d7cff;
+    color: #fff;
+}
+.cwa-work h2,
+.cwa-work p {
+    color: #fff;
+}
+.cwa-work .cwa-kicker {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+.cwa-work .cwa-work-card {
+    background: #fff;
+}
+.cwa-work .cwa-work-copy h3 {
+    color: #0b1120;
+}
+.cwa-work .cwa-work-copy p {
+    color: #68778e;
+}
+.cwa-work .cwa-reference h3 {
+    color: #0b1120;
+}
+.cwa-work .cwa-reference p {
+    color: #68778e;
+}
+.cwa-work .cwa-reference .cwa-kicker {
+    background: #eff4fc;
+    color: #1757ca;
 }
 
 .cwa-work-grid {

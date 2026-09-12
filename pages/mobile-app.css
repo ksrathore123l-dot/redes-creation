@@ -24,7 +24,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 125px clamp(24px, 8vw, 120px) 80px;
+  padding: 125px clamp(24px, 9vw, 237px) 101px;
   color: #fff;
   background: radial-gradient(
     circle at 77% 45%,

@@ -19,7 +19,7 @@ a {
 }
 
 .hosp-container {
-    width: min(1160px, calc(100% - 40px));
+    width: min(1250px, calc(100% - 40px));
     margin: auto
 }
 

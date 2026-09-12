@@ -1,80 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redes Creation | Our Work</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="work.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body>
-    <?php include '../header.php'; ?>
 
-    <main>
-      <section class="work-hero">
-        <div class="hero-copy">
-          <div class="eyebrow">OUR WORK <i></i></div>
-          <h1>Ideas into <span>impactful</span> solutions.</h1>
-          <p>
-            Explore our recent projects and see how we turn ideas into powerful
-            digital experiences.
-          </p>
-          <div class="hero-actions">
-            <a class="primary-btn" href="#portfolio"
-              >Start Your Project <span>→</span></a
-            >
-            <a class="watch" href="#process"
-              ><b>▶</b><span>Watch Our<br />Work Process</span></a
-            >
-          </div>
-        </div>
-        <div class="hero-art">
-          <div class="orb orb-a"></div>
-          <div class="orb orb-b"></div>
-          <img src="../assets/work hero.png" alt="work-hero.png" />
-          <div class="stat-card s1">
-            <b><span class="auto-count" data-target="100">0+</span>+</b
-            ><span>Projects Delivered</span>
-          </div>
-          <div class="stat-card s2">
-            <b><span class="auto-count" data-target="50">0+</span>+</b
-            ><span>Happy Clients</span>
-          </div>
-          <div class="stat-card s3">
-            <b><span class="auto-count" data-target="1">0+</span>+</b
-            ><span>Years of Experience</span>
-          </div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redes Creation | Our Work</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="work.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-      <section class="portfolio" id="portfolio">
-        <div class="section-heading">
-          <div class="eyebrow">OUR PORTFOLIO</div>
-          <h2>Our Latest <span>Work</span></h2>
-          <p>A glimpse of the solutions we've built for our amazing clients.</p>
+<body>
+  <?php include '../header.php'; ?>
+  <main>
+    <section class="work-hero">
+      <div class="hero-copy">
+        <div class="eyebrow">OUR WORK <i></i></div>
+        <h1>Ideas into <span>impactful</span> solutions.</h1>
+        <p>
+          Explore our recent projects and see how we turn ideas into powerful
+          digital experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="/redes creation/pages/contact.php">Start Your Project <span>→</span></a>
+          <a class="watch" href="#process"><b>▶</b><span>Watch Our<br />Work Process</span></a>
         </div>
-
-        <div class="filters">
-          <button class="selected" data-filter="all">All</button>
-          <button data-filter="website">Websites</button>
-          <button data-filter="app">Mobile Apps</button>
-          <button data-filter="software">Software</button>
-          <button data-filter="ecommerce">E-commerce</button>
-          <button data-filter="uiux">UI/UX Design</button>
-          <button data-filter="ai">AI Solutions</button>
+      </div>
+      <div class="hero-art">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <img src="../assets/work hero.png" alt="work-hero.png" />
+        <div class="stat-card s1">
+          <b><span class="auto-count" data-target="100">0+</span>+</b><span>Projects Delivered</span>
         </div>
+        <div class="stat-card s2">
+          <b><span class="auto-count" data-target="50">0+</span>+</b><span>Happy Clients</span>
+        </div>
+        <div class="stat-card s3">
+          <b><span class="auto-count" data-target="1">0+</span>+</b><span>Years of Experience</span>
+        </div>
+      </div>
+    </section>
 
-        <div class="project-grid">
+    <section class="portfolio" id="portfolio">
+      <div class="section-heading">
+        <div class="eyebrow">OUR PORTFOLIO</div>
+        <h2>Our Latest <span>Work</span></h2>
+        <p>A glimpse of the solutions we've built for our amazing clients.</p>
+      </div>
+
+      <div class="filters">
+        <button class="selected" data-filter="all">All</button>
+        <button data-filter="website">Websites</button>
+        <button data-filter="app">Mobile Apps</button>
+        <button data-filter="software">Software</button>
+        <button data-filter="ecommerce">E-commerce</button>
+        <button data-filter="uiux">UI/UX Design</button>
+        <button data-filter="ai">AI Solutions</button>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/st.paul's.png"
-                alt="St. Paul's College Website"
-              />
+              <img src="../assets/project image/st.paul's.png" alt="St. Paul's College Website" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -86,13 +76,14 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Shri Raghunath Temple Website.png"
-                alt="Shri Raghunath Temple Website"
-              />
+              <img src="../assets/project image/Shri Raghunath Temple Website.png"
+                alt="Shri Raghunath Temple Website" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -104,13 +95,14 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Granite Hub – Premium Marble & Granite Website.png"
-                alt="Granite Hub Website"
-              />
+              <img src="../assets/project image/Granite Hub – Premium Marble & Granite Website.png"
+                alt="Granite Hub Website" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -122,13 +114,14 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Shri Ambaji Marbles & Tiles – Marble & Building Materials Website.jpg"
-                alt="Shri Ambaji Marbles & Tiles Website"
-              />
+              <img src="../assets/project image/Shri Ambaji Marbles & Tiles – Marble & Building Materials Website.jpg"
+                alt="Shri Ambaji Marbles & Tiles Website" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -143,13 +136,14 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/MJ Stones Pvt. Ltd. – Mining & Minerals Corporate Website.png"
-                alt="MJ Stones Pvt. Ltd. Website"
-              />
+              <img src="../assets/project image/MJ Stones Pvt. Ltd. – Mining & Minerals Corporate Website.png"
+                alt="MJ Stones Pvt. Ltd. Website" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -161,13 +155,14 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Lakshmibai National Institute of Physical Education (LNIPE) Website.png"
-                alt="LNIPE Website"
-              />
+              <img src="../assets/project image/Lakshmibai National Institute of Physical Education (LNIPE) Website.png"
+                alt="LNIPE Website" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -182,13 +177,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/ISGBRD – International Journal Website.png"
-                alt="GCERT Journal"
-              />
+              <img src="../assets/project image/ISGBRD – International Journal Website.png" alt="GCERT Journal" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -200,13 +195,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Aburaj Hospital.jpg"
-                alt="Albany Hospital"
-              />
+              <img src="../assets/project image/Aburaj Hospital.jpg" alt="Albany Hospital" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -218,13 +213,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="ecommerce">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="ecommerce">
             <div class="project-image">
-              <img
-                src="../assets/project image/Ruhati - Organic Powder.jpg"
-                alt="Naturals Organic Powder"
-              />
+              <img src="../assets/project image/Ruhati - Organic Powder.jpg" alt="Naturals Organic Powder" />
               <label>E-commerce</label>
             </div>
             <div class="project-content">
@@ -236,13 +231,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Sports College.jpg"
-                alt="Sports College"
-              />
+              <img src="../assets/project image/Sports College.jpg" alt="Sports College" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -254,13 +249,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/The Student Career.jpg"
-                alt="The Student Corner"
-              />
+              <img src="../assets/project image/The Student Career.jpg" alt="The Student Corner" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -272,13 +267,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/POVIndian-2.jpg"
-                alt="HOM India"
-              />
+              <img src="../assets/project image/POVIndian-2.jpg" alt="HOM India" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -290,13 +285,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="ecommerce">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="ecommerce">
             <div class="project-image">
-              <img
-                src="../assets/project image/Monika Bags.jpg"
-                alt="Monitor Bags"
-              />
+              <img src="../assets/project image/Monika Bags.jpg" alt="Monitor Bags" />
               <label>E-commerce</label>
             </div>
             <div class="project-content">
@@ -307,13 +302,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Dr Batul Physiotherapist.jpg"
-                alt="Dr Batra Physiotherapist"
-              />
+              <img src="../assets/project image/Dr Batul Physiotherapist.jpg" alt="Dr Batra Physiotherapist" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -325,13 +320,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Smilee Baker.jpg"
-                alt="Smiles Baker"
-              />
+              <img src="../assets/project image/Smilee Baker.jpg" alt="Smiles Baker" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -343,13 +338,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Sample University Website.jpg"
-                alt="Sample University"
-              />
+              <img src="../assets/project image/Sample University Website.jpg" alt="Sample University" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -361,13 +356,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/Ankush Purohit Foundation.jpg"
-                alt="Ankush Gandhi Foundation"
-              />
+              <img src="../assets/project image/Ankush Purohit Foundation.jpg" alt="Ankush Gandhi Foundation" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -379,13 +374,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/sample-school.jpg"
-                alt="Sample School"
-              />
+              <img src="../assets/project image/sample-school.jpg" alt="Sample School" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -397,13 +392,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/madhav-university.jpg"
-                alt="Regional College"
-              />
+              <img src="../assets/project image/madhav-university.jpg" alt="Regional College" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -415,13 +410,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/abunet-connect.jpg"
-                alt="Global Logistics LLC"
-              />
+              <img src="../assets/project image/abunet-connect.jpg" alt="Global Logistics LLC" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -433,13 +428,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/st-pauls.png"
-                alt="International School"
-              />
+              <img src="../assets/project image/st-pauls.png" alt="International School" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -451,7 +446,10 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="ecommerce">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="ecommerce">
             <div class="project-image">
               <img src="../assets/project image/bhav.jpg" alt="Dhan Life" />
@@ -466,13 +464,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/brahmos-logistics.jpg"
-                alt="Grahmin Logistics LLC"
-              />
+              <img src="../assets/project image/brahmos-logistics.jpg" alt="Grahmin Logistics LLC" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -486,13 +484,13 @@
               <a href="#">View Live Project <span>→</span></a>
             </div>
           </article>
+        </div>
 
+        <div class="project-card-wrapper" data-type="website">
+          <img class="card-character" src="../assets/card%20cheracter.png" alt="" />
           <article class="project-card" data-type="website">
             <div class="project-image">
-              <img
-                src="../assets/project image/project6.jpg"
-                alt="SmartEdu E-Learning"
-              />
+              <img src="../assets/project image/project6.jpg" alt="SmartEdu E-Learning" />
               <label>Website</label>
             </div>
             <div class="project-content">
@@ -505,48 +503,38 @@
             </div>
           </article>
         </div>
-      </section>
+    </section>
 
-      <section class="stats">
-        <div>
-          <b>
-            <strong
-              ><span class="auto-count" data-target="100">0</span>+</strong
-            ></b
-          ><span>Projects Delivered</span>
-        </div>
-        <div>
-          <b>
-            <strong
-              ><span class="auto-count" data-target="50">0</span>+</strong
-            ></b
-          ><span>Happy Clients</span>
-        </div>
-        <div>
-          <b>
-            <strong
-              ><span class="auto-count" data-target="1">0</span>+</strong
-            ></b
-          ><span>Years of Experience</span>
-        </div>
-        <div>
-          <b>∞ <strong>Endless</strong></b
-          ><span>Possibilities</span>
-        </div>
-      </section>
+    <section class="stats">
+      <div>
+        <b>
+          <strong><span class="auto-count" data-target="100">0</span>+</strong></b><span>Projects Delivered</span>
+      </div>
+      <div>
+        <b>
+          <strong><span class="auto-count" data-target="50">0</span>+</strong></b><span>Happy Clients</span>
+      </div>
+      <div>
+        <b>
+          <strong><span class="auto-count" data-target="1">0</span>+</strong></b><span>Years of Experience</span>
+      </div>
+      <div>
+        <b>∞ <strong>Endless</strong></b><span>Possibilities</span>
+      </div>
+    </section>
 
-      <section class="cta" id="process">
-        <div>
-          <small>LET'S BUILD TOGETHER</small>
-          <h2>Have a project in mind?</h2>
-          <p>Let's discuss how we can turn your ideas into reality.</p>
-        </div>
-        <a class="primary-btn" href="#">Get in Touch <span>→</span></a>
-      </section>
-    </main>
+    <section class="cta" id="process">
+      <div>
+        <small>LET'S BUILD TOGETHER</small>
+        <h2>Have a project in mind?</h2>
+        <p>Let's discuss how we can turn your ideas into reality.</p>
+      </div>
+      <a class="primary-btn" href="/redes creation/pages/contact.php">Get in Touch <span>→</span></a>
+    </section>
+  </main>
+  <?php include '../footer.php'; ?>
+  <script src="work.js"></script>
+  <script src="../js/script.js"></script>
+</body>
 
-<?php include '../footer.php'; ?>
-    <script src="work.js"></script>
-    <script src="../js/script.js"></script>
-  </body>
 </html>

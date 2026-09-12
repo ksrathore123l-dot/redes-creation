@@ -42,7 +42,7 @@ svg {
 }
 
 .aidata-section-shell {
-    width: min(1180px, calc(100% - 56px));
+    width: min(1250px, calc(100% - 56px));
     margin: auto
 }
 

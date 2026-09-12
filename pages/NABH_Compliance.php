@@ -169,18 +169,18 @@
             NABH compliance is not just about accreditation, it's about building
             a safer, higher-quality healthcare environment for every patient.
           </p>
-          <div class="why-grid">
-            <div class="why-card">
+          <div class="nabh-why-grid">
+            <div class="nabh-why-card">
               <i class="fa-solid fa-people-group"></i>
               <h3>Safer Patients</h3>
               <p>Improved safety and care standards</p>
             </div>
-            <div class="why-card">
+            <div class="nabh-why-card">
               <i class="fa-solid fa-shield-heart"></i>
               <h3>Stronger Trust</h3>
               <p>More confidence from patients and stakeholders</p>
             </div>
-            <div class="why-card">
+            <div class="nabh-why-card">
               <i class="fa-solid fa-chart-line"></i>
               <h3>Higher Growth</h3>
               <p>Build a reputation for excellence</p>

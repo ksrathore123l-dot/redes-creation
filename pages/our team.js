@@ -1,85 +1,75 @@
-const menu = document.querySelector(".hamb");
-const nav = document.querySelector("#nav");
-if (menu && nav) {
-  menu.onclick = () => nav.classList.toggle("open");
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.querySelector("[data-ot-modal]");
+  const open = document.querySelector("[data-ot-open-video]");
+  const close = document.querySelector("[data-ot-close]");
 
-const modal = document.querySelector("#modal");
-const storyBtn = document.querySelector("#story");
-const closeBtn = document.querySelector("#close");
+  open?.addEventListener("click", () => {
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+  });
 
-if (modal && storyBtn) {
-  storyBtn.onclick = () => modal.classList.add("show");
-}
-if (modal && closeBtn) {
-  closeBtn.onclick = () => modal.classList.remove("show");
-}
-if (modal) {
-  modal.onclick = (e) => {
-    if (e.target === modal) modal.classList.remove("show");
+  const hide = () => {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
   };
-}
 
-document.querySelectorAll(".filters button").forEach(
-  (btn) =>
-    (btn.onclick = () => {
-      document
-        .querySelectorAll(".filters button")
-        .forEach((x) => x.classList.remove("on"));
-      btn.classList.add("on");
-      const f = btn.dataset.filter;
+  close?.addEventListener("click", hide);
+  modal?.addEventListener("click", (e) => {
+    if (e.target === modal) hide();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") hide();
+  });
 
-      document
-        .querySelectorAll(".member")
-        .forEach(
-          (card) =>
-            (card.style.display =
-              f === "all" || card.classList.contains(f) ? "" : "none"),
-        );
+  const grid = document.querySelector(".ot-member-grid");
+  const viewport = document.querySelector(".ot-member-viewport");
+  const cards = [
+    ...document.querySelectorAll(".ot-member-grid .ot-member-card"),
+  ];
+  const previous = document.querySelector(".ot-slider-prev");
+  const next = document.querySelector(".ot-slider-next");
+  const dots = [...document.querySelectorAll(".ot-slider-dots button")];
+  let currentPage = 0;
 
-      document.querySelectorAll(".group").forEach((group) => {
-        const hasVisible = Array.from(group.querySelectorAll(".member")).some(
-          (card) => card.style.display !== "none",
-        );
-        group.style.display = hasVisible ? "" : "none";
-      });
+  const getVisibleCards = () =>
+    window.innerWidth <= 450
+      ? 1
+      : window.innerWidth <= 760
+        ? 2
+        : window.innerWidth <= 1100
+          ? 3
+          : 5;
 
-      document.querySelectorAll(".columns").forEach((col) => {
-        const hasVisible = Array.from(col.querySelectorAll(".group")).some(
-          (group) => group.style.display !== "none",
-        );
-        col.style.display = hasVisible ? "" : "none";
-      });
-    }),
-);
-
-// Auto counting animation for stats
-const counters = document.querySelectorAll(".counter");
-const observer = new IntersectionObserver(
-  (entries, obs) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const counter = entry.target;
-        const target = +counter.getAttribute("data-target");
-        let current = 0;
-        const increment = target / 60;
-
-        const updateCounter = () => {
-          current += increment;
-          if (current < target) {
-            counter.innerText = Math.ceil(current);
-            requestAnimationFrame(updateCounter);
-          } else {
-            counter.innerText = target;
-          }
-        };
-
-        updateCounter();
-        obs.unobserve(counter);
-      }
+  const updateSlider = () => {
+    if (!grid || !cards.length) return;
+    const visibleCards = getVisibleCards();
+    const lastPage = Math.max(0, cards.length - visibleCards);
+    currentPage = Math.min(currentPage, lastPage);
+    const cardWidth = cards[0]?.getBoundingClientRect().width || 0;
+    const gap = Number.parseFloat(getComputedStyle(grid).gap) || 0;
+    grid.style.transform = `translateX(-${currentPage * (cardWidth + gap)}px)`;
+    previous.disabled = currentPage === 0;
+    next.disabled = currentPage === lastPage;
+    dots.forEach((dot, index) => {
+      dot.hidden = index > lastPage;
+      dot.classList.toggle("is-active", index === currentPage);
     });
-  },
-  { threshold: 0.1 },
-);
+  };
 
-counters.forEach((counter) => observer.observe(counter));
+  previous?.addEventListener("click", () => {
+    currentPage -= 1;
+    updateSlider();
+  });
+  next?.addEventListener("click", () => {
+    currentPage += 1;
+    updateSlider();
+  });
+  dots.forEach((dot, index) =>
+    dot.addEventListener("click", () => {
+      currentPage = index;
+      updateSlider();
+    }),
+  );
+  window.addEventListener("resize", updateSlider);
+  updateSlider();
+});

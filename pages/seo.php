@@ -38,12 +38,12 @@
                     </p>
 
                     <div class="hero-cta-group">
-                        <button class="btn btn-primary btn-pill hero-btn-main" id="hero-audit-cta"
+                        <button class="seo-btn seo-btn-primary seo-btn-pill hero-btn-main" id="hero-audit-cta"
                             onclick="openAuditModal()">
                             <span>Get a Free SEO Audit</span>
-                            <span class="btn-arrow">→</span>
+                            <span class="seo-btn-arrow">→</span>
                         </button>
-                        <button class="btn btn-outline-pill hero-btn-secondary" id="hero-video-cta"
+                        <button class="seo-btn seo-btn-outline-pill hero-btn-secondary" id="hero-video-cta"
                             onclick="openVideoModal()">
                             <span class="play-icon-circle">
                                 <svg viewBox="0 0 24 24" fill="currentColor" class="play-svg">
@@ -122,9 +122,9 @@
                         business shows
                         up at the right time, in front of the right people.
                     </p>
-                    <a href="#cta-section" class="btn btn-primary btn-pill" id="why-btn">
+                    <a href="#cta-section" class="seo-btn seo-btn-primary seo-btn-pill" id="why-btn">
                         <span>Let's Grow Your Business</span>
-                        <span class="btn-arrow">→</span>
+                        <span class="seo-btn-arrow">→</span>
                     </a>
                 </div>
 
@@ -199,10 +199,10 @@
                             From strategy to execution, we offer end-to-end SEO services tailored to your business
                             goals.
                         </p>
-                        <a href="#services-grid" class="btn btn-outline-white btn-pill services-cta"
+                        <a href="#services-grid" class="seo-btn seo-btn-outline-white seo-btn-pill services-cta"
                             id="explore-services-btn">
                             <span>Explore All Services</span>
-                            <span class="btn-arrow">→</span>
+                            <span class="seo-btn-arrow">→</span>
                         </a>
                     </div>
 
@@ -562,7 +562,6 @@
                             <span class="dot active" data-slide="0"></span>
                             <span class="dot" data-slide="1"></span>
                             <span class="dot" data-slide="2"></span>
-                            <span class="dot" data-slide="3"></span>
                         </div>
                         <button class="slider-arrow next-arrow" id="next-slide-btn" aria-label="Next testimonial">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
@@ -595,10 +594,10 @@
                         Get a free SEO audit and discover new opportunities to grow your online presence.
                     </p>
 
-                    <button class="btn btn-white btn-pill cta-card-btn" id="cta-card-audit-btn"
+                    <button class="seo-btn seo-btn-white seo-btn-pill cta-card-btn" id="cta-card-audit-btn"
                         onclick="openAuditModal()">
                         <span>Get a Free SEO Audit</span>
-                        <span class="btn-arrow">→</span>
+                        <span class="seo-btn-arrow">→</span>
                     </button>
 
                     <ul class="cta-checklist">
@@ -806,9 +805,9 @@
                     <label for="audit-url">Website URL</label>
                     <input type="url" id="audit-url" required placeholder="https://yourwebsite.com">
                 </div>
-                <button type="submit" class="btn btn-primary btn-pill btn-block">
+                <button type="submit" class="seo-btn seo-btn-primary seo-btn-pill seo-btn-block">
                     <span>Request Free Audit Now</span>
-                    <span class="btn-arrow">→</span>
+                    <span class="seo-btn-arrow">→</span>
                 </button>
             </form>
         </div>
