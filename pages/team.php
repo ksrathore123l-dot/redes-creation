@@ -119,8 +119,36 @@
                         <h4>Dr. Bharat Chaudhari</h4>
                         <span>Physical Education</span>
                     </article>
+                    
+                    <article class="member expert">
+                        <img src="../assets/team/vishal-singh.jpeg" alt="Prof. Kamalesh V.N." class="avatar" />
+                        <h4>Vishal Singh Parihar</h4>
+                        <span>Network & Security</span>
+                    </article>
+                    <article class="member expert">
+                        <img src="../assets/team/hemanth.jpeg" alt="Prof. P K Upadhyay" class="avatar" />
+                        <h4>Hemanth Shenoy</h4>
+                        <span>Project Quality Manager</span>
+                    </article>
+                    <article class="member expert">
+                        <img src="../assets/team/kamlesh.jpg" alt="Prof. Rajesh Rathore" class="avatar" />
+                        <h4>Ar Kamlesh Ghanchi</h4>
+                        <span>Planning and Architecture</span>
+                    </article>
+                    <article class="member expert">
+                        <img src="../assets/team/deeksha.jpeg" alt="Dr. Manoj K Behera" class="avatar" />
+                        <h4>Deeksha Kapil</h4>
+                        <span>QCI Certified</span>
+                    </article>
+                    <article class="member expert">
+                        <img src="../assets/team/hemant-kashyap.jpg" alt="Dr. Bharat Chaudhari" class="avatar" />
+                        <h4>Dr. Hemant Kashyap</h4>
+                        <span>Clinical Psychology</span>
+                    </article>
                 </div>
             </div>
+           
+               
 
             <div class="columns">
                 <div class="group">

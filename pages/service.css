@@ -107,7 +107,7 @@ button {
 .primary-btn {
   background: #1558e8;
   color: white;
-  border-radius: 13px;
+  border-radius: 30px;
   padding: 14px 22px;
   font-weight: 800;
   box-shadow: 0 10px 24px #1558e83a;
@@ -122,13 +122,13 @@ button {
 }
 
 .hero {
-  max-width: 1220px;
+  max-width: 1300px;
   margin: auto;
   min-height: 520px;
   display: grid;
   grid-template-columns: 43% 57%;
   align-items: center;
-  padding: 15px 25px 0;
+  padding: 106px 25px 0;
 }
 
 .hero-copy {
@@ -344,7 +344,7 @@ button {
 .stats b {
   font-size: 28px;
 }
-  .line-height{
+.line-height {
   margin: 25px 0 20px;
   letter-spacing: -1.2px;
 }
@@ -353,7 +353,6 @@ button {
   font-style: normal;
   color: #1558e8;
 }
-
 
 .hero p {
   font-size: 16px;
@@ -546,7 +545,7 @@ button {
 }
 
 .process {
-  max-width: 1170px;
+  max-width: 1306px;
   margin: 0 auto;
   padding: 80px 30px;
   display: flex;
@@ -632,7 +631,11 @@ button {
   inset: -2px;
   border-radius: 50%;
   background: conic-gradient(#1558e8 var(--progress), transparent 0);
-  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 0);
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #000 0
+  );
   mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 0);
   z-index: 2;
 }
@@ -682,21 +685,21 @@ button {
     text-align: center;
     gap: 40px;
   }
-  
+
   .process-title {
     flex: none;
   }
-  
+
   .underline {
     margin: 15px auto 0;
   }
-  
+
   .steps {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
-  
+
   .arrow {
     transform: rotate(90deg);
     margin-top: 0;
@@ -704,7 +707,7 @@ button {
 }
 
 .bottom-cta {
-  max-width: 1170px;
+  max-width: 1249px;
   margin: 0 auto 45px;
   border-radius: 20px;
   padding: 35px 45px;
@@ -941,7 +944,7 @@ footer {
 } */
 
 .hero-in-service img {
-  height: 500px;
+  height: 400px;
   padding-left: 220px;
 }
 
@@ -1050,7 +1053,7 @@ footer {
   font-size: 32px;
   font-weight: 800;
   line-height: 1.1;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .stat-text small {
@@ -1103,7 +1106,7 @@ footer {
 }
 
 .process-title h2 {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 32px;
   font-weight: 800;
   margin: 20px 0 0;
@@ -1134,7 +1137,7 @@ footer {
   font-size: 14px;
   font-weight: 700;
   color: #111827;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .step b i {
@@ -1229,7 +1232,7 @@ footer {
     margin-top: 40px;
     height: auto;
   }
-  
+
   .hero-in-service img {
     padding-left: 0;
     margin: 0 auto;
@@ -1259,7 +1262,7 @@ footer {
     grid-template-columns: 1fr 1fr !important;
     gap: 20px;
   }
-  
+
   .bottom-cta {
     flex-direction: column;
     text-align: center;

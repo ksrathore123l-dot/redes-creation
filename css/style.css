@@ -116,15 +116,16 @@ button {
 }
 
 .hero {
-  /* padding: 64px 0 34px; */
-  min-height: 585px;
+  margin: auto;
+  min-height: 700px;
   background: linear-gradient(180deg, #fbfdff 0%, #fff 100%);
+  max-width: 1300px;
 }
 .hero-grid {
   display: grid;
   grid-template-columns: 44% 56%;
   align-items: center;
-  min-height: 520px;
+  min-height: 730px;
 }
 .eyebrow,
 .mini-label {
@@ -218,6 +219,7 @@ button {
   );
 }
 .hero-person img {
+  padding-top: 10px;
   width: 430px;
   height: 535px;
   object-fit: cover;
@@ -530,11 +532,15 @@ button {
 }
 
 .service-grid {
+  margin: auto;
+  max-width: 1170px;
+  padding: 115px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   align-items: stretch;
 }
+
 .service-card {
   min-height: 230px;
   background: transparent;
@@ -723,7 +729,8 @@ button {
   font-size: 18px;
 }
 .stats-bar {
-  padding-left: 100px;
+  margin: auto;
+  max-width: 1249px;
   margin-top: 18px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -733,9 +740,7 @@ button {
   box-shadow: 0 -4px 30px rgba(17, 95, 225, 0.25);
 }
 .stat {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -760,6 +765,11 @@ button {
 .stat small {
   font-size: 11px;
   color: #dce8ff;
+}
+.stat-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .section-light {

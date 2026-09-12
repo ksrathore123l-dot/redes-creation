@@ -309,7 +309,7 @@ a {
 }
 .floating-note {
   position: absolute;
-  right: 0;
+  right: 25px;
   top: 280px;
   background: #fff;
   border-radius: 10px;

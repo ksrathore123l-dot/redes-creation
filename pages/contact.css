@@ -28,102 +28,6 @@ a {
   margin: auto;
 }
 
-.site-header {
-  height: 82px;
-  background: #fff;
-  border-bottom: 1px solid #edf0f5;
-  position: relative;
-  z-index: 20;
-}
-.nav-wrap {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  min-width: 245px;
-}
-.brand-mark {
-  font-size: 49px;
-  line-height: 1;
-  font-weight: 800;
-  color: #125be0;
-  letter-spacing: -8px;
-  width: 42px;
-}
-.brand-text {
-  display: grid;
-  line-height: 1.05;
-}
-.brand-text strong {
-  font-size: 21px;
-  letter-spacing: -0.5px;
-}
-.brand-text b {
-  font-size: 16px;
-  color: #1260df;
-  letter-spacing: 0.1px;
-}
-.brand-text small {
-  font-size: 9px;
-  font-weight: 700;
-  display: inline;
-  margin-left: 79px;
-  margin-top: -11px;
-  white-space: nowrap;
-}
-.main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 34px;
-  flex: 1;
-  font-size: 14px;
-  font-weight: 600;
-}
-.main-nav a {
-  padding: 30px 0 25px;
-  position: relative;
-}
-.main-nav a.active {
-  color: var(--blue);
-}
-.main-nav a.active:after {
-  content: "";
-  position: absolute;
-  bottom: 17px;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: var(--blue);
-}
-.nav-cta,
-.primary-btn {
-  background: linear-gradient(135deg, #1260e8, #0b4ccf);
-  color: #fff;
-  border: 0;
-  border-radius: 12px;
-  padding: 15px 21px;
-  font-weight: 700;
-  box-shadow: 0 8px 20px #145be833;
-}
-.nav-cta span,
-.primary-btn span,
-.white-btn span {
-  margin-left: 16px;
-  font-size: 19px;
-}
-.menu-toggle {
-  display: none;
-  background: none;
-  border: 0;
-  font-size: 27px;
-  color: #1358d7;
-}
 
 .hero {
   position: relative;
@@ -586,15 +490,6 @@ form {
 }
 
 @media (max-width: 900px) {
-  .main-nav {
-    gap: 18px;
-  }
-  .brand {
-    min-width: 210px;
-  }
-  .nav-wrap {
-    gap: 15px;
-  }
   .hero-content {
     grid-template-columns: 1fr;
   }
@@ -644,51 +539,6 @@ form {
 @media (max-width: 680px) {
   .container {
     width: min(100% - 28px, 1180px);
-  }
-  .site-header {
-    height: 70px;
-  }
-  .main-nav {
-    display: none;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    background: #fff;
-    flex-direction: column;
-    padding: 15px 20px;
-    gap: 0;
-    box-shadow: 0 15px 25px #001b5820;
-  }
-  .main-nav.open {
-    display: flex;
-  }
-  .main-nav a {
-    padding: 14px 5px;
-    width: 100%;
-  }
-  .main-nav a.active:after {
-    bottom: 7px;
-  }
-  .menu-toggle {
-    display: block;
-    margin-left: auto;
-  }
-  .nav-cta {
-    display: none;
-  }
-  .brand-text strong {
-    font-size: 18px;
-  }
-  .brand-text b {
-    font-size: 14px;
-  }
-  .brand-text small {
-    font-size: 8px;
-    margin-left: 69px;
-  }
-  .brand-mark {
-    font-size: 43px;
   }
   .hero {
     min-height: 575px;

@@ -143,7 +143,7 @@ a {
 .industries-page-wheel-image {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 78%;
   object-fit: contain;
   object-position: center;
 }
@@ -245,13 +245,13 @@ a {
 .approach {
   display: grid;
   grid-template-columns: 31% 69%;
-  gap: 25px;
-  padding: 58px 5.5%;
+  /* gap: 25px; */
+  padding: 55px 135px;
   background: #062b63;
   color: #fff;
 }
 .intro {
-  padding: 10px;
+  padding: 0px;
 }
 .intro .eyebrow {
   color: #7dbaff;
@@ -298,7 +298,8 @@ a {
   line-height: 1.5;
 }
 .industries {
-  padding: 70px 5.5%;
+    padding: 70px 135px;
+
   background: #fff;
 }
 .heading h2,
@@ -465,8 +466,8 @@ a {
     background 0.2s ease;
 }
 .cta {
-  margin: 0 5.5% 60px;
-  padding: 45px 6%;
+  margin: 20px 135px;
+    padding: 44px 5%;
   border-radius: 28px;
   background: linear-gradient(110deg, #edf8ff, #d8ebff);
   display: flex;
@@ -527,9 +528,10 @@ a {
 }
 .trusted {
   text-align: center;
-  padding: 0 5.5% 65px;
+      padding: 20px 115px;
 }
 .logos {
+  margin: 8px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
