@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include '../header.php' ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?>
     <main>
         <section class="ac-hero ac-section-pad">
             <div class="ac-orb ac-orb-a"></div>
@@ -157,7 +157,7 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?>
     <script src="admission-campaign.js"></script>
     <script src="../js/script.js"></script>
 </body>

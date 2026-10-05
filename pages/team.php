@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main class="ot-page">
         <!-- HERO -->
         <section class="ot-team-hero ot-section">
@@ -614,7 +614,7 @@
             </p>
         </div>
     </div>
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="our team.js"></script>
     <script src="../js/script.js"></script>
 </body>

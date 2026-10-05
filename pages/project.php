@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <!-- Hero Section -->
     <section class="pm-hero pm-animate-on-scroll">
         <div class="pm-container pm-hero-container">
@@ -309,7 +309,7 @@
         </div>
     </section>
 
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="project.js"></script>
     <script src="../js/script.js"></script>
 </body>

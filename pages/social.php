@@ -21,8 +21,8 @@
 </head>
 
 <body class="smm-social-page">
-
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
+ 
 
     <!-- ======================== HERO SECTION ======================== -->
     <section class="hero-section" id="hero">
@@ -953,7 +953,7 @@
     </div>
 
     <!-- JavaScript -->
-    <?php include '../footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="social.js"></script>
     <script src="../js/script.js"></script>
 </body>

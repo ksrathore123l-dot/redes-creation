@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main class="hero-section">
         <div class="container">
             <div class="hero-content">
@@ -309,7 +309,7 @@
         </div>
     </section>
 
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="realestate.js"></script>
     <script src="../js/script.js"></script>
 </body>

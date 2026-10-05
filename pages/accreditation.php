@@ -15,7 +15,7 @@
 </head>
 
 <body class="rca-page">
-  <?php include '../header.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
   <main id="top">
     <section class="rca-hero-new">
       <!-- Background & Overlay -->
@@ -323,7 +323,7 @@
       </div>
     </section>
   </main>
-  <?php include '../footer.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
   <script src="accreditation.js"></script>
   <script src="../js/script.js"></script>
 </body>

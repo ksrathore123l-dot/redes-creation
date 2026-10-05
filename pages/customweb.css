@@ -132,7 +132,7 @@ button {
 }
 
 .cwa-hero-grid {
-        padding: 120px 0px;
+        /* padding: 120px 0px; */
     display: grid;
     grid-template-columns: 1fr 1.03fr;
     gap: 35px;
@@ -200,12 +200,14 @@ button {
 }
 
 .cwa-proof-row b {
-    font-size: 12px
+    font-size: 12px;
+    white-space: nowrap;
 }
 
 .cwa-proof-row small {
     font-size: 10px;
-    color: var(--muted)
+    color: #748198; /* Fallback for --muted if undefined */
+    white-space: nowrap;
 }
 
 .cwa-hero-visual {
@@ -1673,3 +1675,5 @@ button {
         grid-template-columns: 1fr
     }
 }
+@media (max-width: 768px) { .cwa-hero { padding-top: 100px !important; } }
+

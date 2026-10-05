@@ -294,12 +294,19 @@ a {
 }
 
 @media (max-width: 991px) {
+  .rca-hero-new {
+    padding-top: 150px;
+  }
   .rca-hero-grid {
     grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 20px 0;
   }
   .rca-hero-content {
     text-align: center;
     margin: 0 auto;
+    position: relative;
+    z-index: 10;
   }
   .rca-ugc-badge {
     justify-content: center;
@@ -319,6 +326,17 @@ a {
   }
   .rca-hero-new {
     padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .rca-hero-art-new {
+    height: auto;
+  }
+  .rca-hero-character {
+    position: relative;
+    bottom: -15px;
+    max-height: 450px;
+    margin: 0 auto;
+    right: auto;
   }
 }
 
@@ -1045,4 +1063,6 @@ a {
     margin-left: 146px;
     height: 319px;
   }
+  .rca-hero-grid {
+  margin: 30px 30px;}
 }

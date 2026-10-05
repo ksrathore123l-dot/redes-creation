@@ -1079,7 +1079,7 @@ a {
   }
 
   .su-section-pad {
-    padding: 62px 0;
+    padding: 100px 15px;
   }
 
   .su-section-head {
@@ -1206,5 +1206,11 @@ a {
 
   .su-story img {
     height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .su-hero {
+    padding-top: 100px !important;
   }
 }

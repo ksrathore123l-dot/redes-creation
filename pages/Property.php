@@ -15,14 +15,13 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
 
     <main>
         <section class="re-hero">
             <div class="re-hero-bg"></div>
             <div class="re-container re-hero-grid">
                 <div class="re-hero-copy">
-                    <a class="re-back-link" href="#">← BACK TO REAL ESTATE</a>
                     <div class="re-eyebrow">PROPERTY LISTING WEBSITE &amp; APP</div>
                     <h1>Modern Property<br>Listing Platform<br>for <span>Real Estate Business</span></h1>
                     <p>We build powerful property listing platforms and mobile apps that help real estate businesses
@@ -259,7 +258,7 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="Property.js"></script>
     <script src="../js/script.js"></script>
 </body>

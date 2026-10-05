@@ -766,7 +766,7 @@ a {
   .dm-hero {
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 45px 5% 25px;
+    padding: 100px 5% 25px;
   }
   .dm-hero h1 {
     font-size: 38px;

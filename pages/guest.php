@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="get-hero" id="home">
             <div class="get-copy get-fade">
@@ -154,7 +154,7 @@
 
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?>  
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <script src="guest.js"></script>

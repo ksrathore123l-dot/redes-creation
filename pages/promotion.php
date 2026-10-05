@@ -18,8 +18,7 @@
 </head>
 
 <body>
-
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
 
     <button class="mobile-menu-btn" aria-label="Toggle Menu"></button>
     </div>
@@ -362,7 +361,7 @@
             </form>
         </div>
     </div>
-    <?php include '../footer.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="promotion.js"></script>
     <script src="../js/script.js"></script>
 </body>

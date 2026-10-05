@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main class="industries-page">
         <section class="hero reveal industries-page-hero industries-page-reveal">
             <div class="copy industries-page-copy">
@@ -322,7 +322,7 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="Industries.js"></script>
     <script src="../js/script.js"></script>
 </body>

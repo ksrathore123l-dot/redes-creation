@@ -11,20 +11,20 @@
   --primary-light: #e6f0ff;
   --primary-subtle: #f0f6ff;
   --primary-dark: #003d99;
-  
+
   /* Deep Navy Brand Tones */
   --navy-dark: #071933;
   --navy-base: #0a2246;
   --navy-light: #133362;
   --navy-surface: #0f274e;
-  
+
   /* Text Colors */
   --text-main: #0f172a;
   --text-heading: #091a36;
   --text-muted: #64748b;
   --text-light: #94a3b8;
   --text-white: #ffffff;
-  
+
   /* Semantic / Accent Colors */
   --accent-green: #10b981;
   --accent-green-bg: #ecfdf5;
@@ -46,8 +46,8 @@
   --border-subtle: #edf2f7;
 
   /* Typography */
-  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  --font-script: 'Kalam', 'Caveat', cursive;
+  --font-main: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-script: "Kalam", "Caveat", cursive;
 
   /* Shadows */
   --shadow-sm: 0 2px 8px rgba(0, 51, 153, 0.04);
@@ -72,7 +72,9 @@
 }
 
 /* ---------------- Reset & Base Styles ---------------- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -250,14 +252,12 @@ ul {
   display: block;
 }
 
-
-
 /* ==========================================================================
    HERO SECTION
    ========================================================================== */
 .hero-section {
   position: relative;
-  padding: 40px 0 70px;
+  padding: 100px 0 70px;
   background: linear-gradient(180deg, #f3f7fd 0%, #ffffff 100%);
   overflow: hidden;
 }
@@ -439,7 +439,11 @@ ul {
 .chef-backdrop-gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(7, 25, 51, 0.15) 0%, rgba(7, 25, 51, 0.6) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 25, 51, 0.15) 0%,
+    rgba(7, 25, 51, 0.6) 100%
+  );
 }
 
 /* Floating KDS Screen Mockup (Top Right) */
@@ -630,7 +634,8 @@ ul {
   transition: all var(--transition-fast);
 }
 
-.pos-nav-item:hover, .pos-nav-item.active {
+.pos-nav-item:hover,
+.pos-nav-item.active {
   background: rgba(255, 255, 255, 0.12);
   color: #ffffff;
 }
@@ -732,12 +737,24 @@ ul {
   font-size: 1.15rem;
 }
 
-.food-thumb-pasta { background: #fffbeb; }
-.food-thumb-salad { background: #f0fdf4; }
-.food-thumb-drinks { background: #fdf2f8; }
-.food-thumb-dessert { background: #fef2f2; }
-.food-thumb-snacks { background: #fefce8; }
-.food-thumb-combos { background: #f8fafc; }
+.food-thumb-pasta {
+  background: #fffbeb;
+}
+.food-thumb-salad {
+  background: #f0fdf4;
+}
+.food-thumb-drinks {
+  background: #fdf2f8;
+}
+.food-thumb-dessert {
+  background: #fef2f2;
+}
+.food-thumb-snacks {
+  background: #fefce8;
+}
+.food-thumb-combos {
+  background: #f8fafc;
+}
 
 .food-card-title {
   font-size: 0.58rem;
@@ -768,13 +785,21 @@ ul {
 }
 
 @keyframes floatSubtle {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-8px); }
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
 }
 
 @keyframes floatSubtleReverse {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(8px); }
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(8px);
+  }
 }
 
 /* ==========================================================================
@@ -1003,10 +1028,18 @@ ul {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.circle-green { background: #10b981; }
-.circle-blue { background: #0284c7; }
-.circle-orange { background: #f97316; }
-.circle-purple { background: #8b5cf6; }
+.circle-green {
+  background: #10b981;
+}
+.circle-blue {
+  background: #0284c7;
+}
+.circle-orange {
+  background: #f97316;
+}
+.circle-purple {
+  background: #8b5cf6;
+}
 
 .kds-feat-info {
   display: flex;
@@ -1075,10 +1108,18 @@ ul {
   transform: translateY(-4px) scale(1.06);
 }
 
-.step-icon-blue { background: #0066ff; }
-.step-icon-teal { background: #0d9488; }
-.step-icon-purple { background: #7c3aed; }
-.step-icon-sky { background: #0284c7; }
+.step-icon-blue {
+  background: #0066ff;
+}
+.step-icon-teal {
+  background: #0d9488;
+}
+.step-icon-purple {
+  background: #7c3aed;
+}
+.step-icon-sky {
+  background: #0284c7;
+}
 
 .step-card-body {
   display: flex;
@@ -1203,7 +1244,8 @@ ul {
   outline: none;
 }
 
-.res-category-card:hover, .res-category-card:focus-visible {
+.res-category-card:hover,
+.res-category-card:focus-visible {
   background: #ffffff;
   border-color: var(--primary);
   transform: translateY(-4px);
@@ -1224,11 +1266,21 @@ ul {
   transform: scale(1.1);
 }
 
-.icon-cafe-blue { background: #e0f2fe; }
-.icon-qsr-pink { background: #fce7f3; }
-.icon-fine-green { background: #d1fae5; }
-.icon-truck-orange { background: #ffedd5; }
-.icon-cloud-blue { background: #e0f2fe; }
+.icon-cafe-blue {
+  background: #e0f2fe;
+}
+.icon-qsr-pink {
+  background: #fce7f3;
+}
+.icon-fine-green {
+  background: #d1fae5;
+}
+.icon-truck-orange {
+  background: #ffedd5;
+}
+.icon-cloud-blue {
+  background: #e0f2fe;
+}
 
 .res-card-name {
   font-size: 0.8rem;
@@ -1340,7 +1392,11 @@ ul {
   left: 20%;
   width: 600px;
   height: 400px;
-  background: radial-gradient(circle, rgba(0, 102, 255, 0.25) 0%, rgba(0, 0, 0, 0) 70%);
+  background: radial-gradient(
+    circle,
+    rgba(0, 102, 255, 0.25) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
   pointer-events: none;
 }
 
@@ -1400,8 +1456,6 @@ ul {
   color: #ffffff;
   line-height: 1.08;
 }
-
-
 
 /* ==========================================================================
    MODALS / DIALOGS
@@ -1501,7 +1555,9 @@ ul {
   color: #ef4444;
 }
 
-.form-group input, .form-group select, .form-group textarea {
+.form-group input,
+.form-group select,
+.form-group textarea {
   font-family: inherit;
   font-size: 0.9rem;
   padding: 10px 14px;
@@ -1512,7 +1568,9 @@ ul {
   transition: border-color var(--transition-fast);
 }
 
-.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
   border-color: var(--primary);
   background: #ffffff;
   box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.15);
@@ -1632,8 +1690,14 @@ ul {
 }
 
 @keyframes slideInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ==========================================================================

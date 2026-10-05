@@ -26,7 +26,7 @@
 
 <body class="redes-content-page">
 
-    <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <!-- ==================== HERO SECTION ==================== -->
     <section class="hero-section" id="hero">
         <div class="container hero-container">
@@ -917,7 +917,7 @@
     </div>
 
     <!-- Main JavaScript File -->
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="content.js"></script>
     <script src="../js/script.js"></script>
 </body>

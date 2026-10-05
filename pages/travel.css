@@ -83,7 +83,7 @@ nav {
 
 .hero {
     min-height: 700px;
-    padding: 115px 0 55px;
+    /* padding: 115px 0 55px; */
     background: linear-gradient(115deg, #f4fbff, #fff 48%, #e7f4ff);
     overflow: hidden
 }
@@ -750,3 +750,5 @@ nav {
         font-size: 30px
     }
 }
+@media (max-width: 768px) { .hero { padding-top: 100px !important; } }
+

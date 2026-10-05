@@ -14,7 +14,7 @@
 </head>
 
 <body class="digital-marketing-page">
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <!-- Hero Section -->
     <section class="hero dm-hero-section">
         <div class="hero-left dm-hero-content">
@@ -349,7 +349,7 @@
         </div>
     </section>
 
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="digital_real.js"></script>
     <script src="../js/script.js"></script>
 </body>

@@ -404,17 +404,35 @@ a {
   background: #fff;
   border: 1px solid #e5ebf5;
   border-radius: 15px;
-  min-width: 75px;
-  padding: 12px;
-  font-size: 22px;
-  font-weight: 800;
+  width: 105px;
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   box-shadow: 0 5px 16px #1d4d8a10;
+  transition: transform 0.3s ease;
+}
+.rc-tech-row span:hover {
+  transform: translateY(-5px);
+}
+.rc-tech-row span i {
+  font-size: 34px;
+  color: #102a57;
+}
+.rc-tech-row span svg {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
 }
 .rc-tech-row small {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   color: #63708a;
-  margin-top: 3px;
+  margin-top: 12px;
+  font-weight: 700;
+  text-align: center;
 }
 .rc-cta {
   margin: 42px 9% 0;
@@ -587,7 +605,7 @@ a {
 }
 @media (max-width: 500px) {
   .rc-hero {
-    padding: 35px 5% 25px;
+    padding: 100px 5% 25px;
   }
   .rc-hero h1 {
     font-size: 28px;

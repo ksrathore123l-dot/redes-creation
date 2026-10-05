@@ -38,7 +38,7 @@ a {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 72px 0 80px;
+  padding: 90px 0 80px;
   background: linear-gradient(135deg, #f9fcff, #eaf7ff 66%, #e9fbf6);
 }
 .orb {

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main id="top">
         <section class="rc-hero">
             <div class="rc-shell rc-hero-grid">
@@ -205,7 +205,7 @@
     </main>
 
 
-    <?php include '../footer.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="institutional_student_portal.js"></script>
     <script src="../js/script.js"></script>
 </body>

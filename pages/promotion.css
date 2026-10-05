@@ -980,7 +980,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 768px) {
     .promo-hero-title { font-size: 2.5rem; }
-    .promo-hero { padding: 120px 0 60px; }
+    .promo-hero { padding: 14px 0 60px; }
     
     .services-header { flex-direction: column; align-items: flex-start; gap: 16px; }
     .services-grid { grid-template-columns: 1fr; }

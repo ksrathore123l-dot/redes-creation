@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main class="lms-page">
 
         <section class="lms-hero">
@@ -222,7 +222,7 @@
         </section>
 
     </main>
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="LMS.js"></script>
     <script src="../js/script.js"></script>
 </body>

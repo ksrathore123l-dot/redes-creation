@@ -210,7 +210,7 @@ p {
    ========================================================================== */
 .new-hero {
   background: #f5f9ff; /* very light blue matching image */
-  padding: 100px 0 80px;
+  padding: 40px 0 80px;
   color: var(--clr-text-main);
   position: relative;
   overflow: hidden;

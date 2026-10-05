@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <section class="ppc-hero-section">
         <div class="ppc-container">
             <div class="ppc-hero-content">
@@ -378,7 +378,7 @@
         </div>
     </section>
 
-    <?php include '../footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="PPC.js"></script>
     <script src="../js/script.js"></script>
 </body>

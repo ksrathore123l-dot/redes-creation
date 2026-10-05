@@ -1,5 +1,10 @@
-<link rel="stylesheet" href="/redes creation/css/header-footer.css" />
+<link rel="stylesheet" href="/redes creation/css/header-footer.css?v=<?php echo time(); ?>" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<?php
+// Localhost absolute URL setup (Calculates folder automatically)
+$project_folder = basename(__DIR__);
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . "/" . $project_folder . "/";
+?>
 <header class="site-header" id="home">
   <div class="container nav-wrap">
     <a href="/redes creation/index.php" class="brand" aria-label="Redes Creation home">
@@ -103,7 +108,7 @@
       <a href="#blog">Blog</a>
       <a href="/redes creation/pages/contact.php">Contact</a>
     </nav>
-    <a class="btn btn-primary nav-cta" href="/redes creation/pages/contact.php">Let's Talk <span>→</span></a>
+    <a class="btn btn-primary nav-cta" href="/redes creation/pages/contact.php#contact">Let's Talk <span>→</span></a>
   </div>
 </header>
 
@@ -141,5 +146,6 @@
         }
       }
     });
+
   });
 </script>

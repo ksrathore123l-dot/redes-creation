@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?>
   <main>
     <section class="work-hero">
       <div class="hero-copy">
@@ -532,7 +532,7 @@
       <a class="primary-btn" href="/redes creation/pages/contact.php">Get in Touch <span>→</span></a>
     </section>
   </main>
-  <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
   <script src="work.js"></script>
   <script src="../js/script.js"></script>
 </body>

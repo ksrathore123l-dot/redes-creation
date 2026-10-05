@@ -327,7 +327,7 @@ ul {
    ========================================================================== */
 .hero-section {
   position: relative;
-  padding: clamp(2rem, 5vw, 3.8rem) clamp(1rem, 3vw, 1.5rem) clamp(2rem, 4vw, 3rem) clamp(1rem, 3vw, 1.5rem);
+  padding: clamp(6rem, 5vw, 3.8rem) clamp(1rem, 3vw, 1.5rem) clamp(2rem, 4vw, 3rem) clamp(1rem, 3vw, 1.5rem);
   background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
   overflow: hidden;
 }

@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-     <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <section class="hero">
       <div class="orb a"></div>
       <div class="orb b"></div>
@@ -216,7 +216,7 @@
       </div>
     </section>
 
-       <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="digital_marketing_hospital.js"></script>
     <script src="../js/script.js"></script>
   </body>

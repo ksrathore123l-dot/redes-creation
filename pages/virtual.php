@@ -16,7 +16,7 @@
 </head>
 
 <body>
- <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <!-- HERO SECTION -->
     <section class="hero-section new-hero">
         <div class="container hero-container">
@@ -327,7 +327,7 @@
         </div>
     </section>
 
-    <?php include '../footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="virtual.js"></script>
     <script src="../js/script.js"></script>
 </body>

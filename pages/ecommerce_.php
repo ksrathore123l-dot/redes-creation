@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
-        <section class="hero wrap">
+        <section class="hero wrap" id="ecommerce-hero">
             <div class="copy reveal">
                 <small>BUILD · SELL · GROW · TOGETHER</small>
                 <h1>Ecommerce<br /><em>Development</em></h1>
@@ -205,7 +205,7 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="ecommerce_.js"></script>
     <script src="../js/script.js"></script>
 </body>

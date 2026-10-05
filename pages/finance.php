@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="hero">
             <div class="copy"><span> DIGITAL SOLUTIONS FOR FINANCE & INSURANCE</span>
@@ -177,7 +177,7 @@
                 </div>
             </section>
     </main>
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="finance.js"></script>

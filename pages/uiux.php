@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="uiux-hero" id="home">
             <div class="copy">
@@ -212,7 +212,7 @@
         </section>
     </main>
 
-    <?php include '../footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="uiux.js"></script>
     <script src="../js/script.js"></script>
 </body>

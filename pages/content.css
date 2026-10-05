@@ -1735,7 +1735,7 @@ html {
   }
 
   .footer-bottom-bar {
-    border-top: 1px solid var(--color-border-light);
+    /* border-top: 1px solid var(--color-border-light); */
     padding-top: 20px;
   }
 
@@ -2040,7 +2040,7 @@ html {
   /* Mobile Phones (<= 640px) */
   @media screen and (max-width: 640px) {
     .container {
-      padding: 0 18px;
+      padding: 50px 18px;
     }
 
     .hero-title {

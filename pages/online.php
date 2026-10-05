@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <?php include '../header.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <section class="hero-section">
 
         <div class="oo-container">
@@ -262,7 +262,7 @@
             document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
         });
     </script>
-     <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="online.js"></script>
     <script src="../js/script.js"></script>
 </body>

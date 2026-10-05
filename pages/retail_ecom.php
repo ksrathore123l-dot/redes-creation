@@ -14,7 +14,7 @@
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-   <?php include '../header.php' ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
   <main>
     <section class="re-hero" id="home">
       <div class="re-shell re-hero-grid">
@@ -220,7 +220,7 @@
  
 
   <!-- <button class="re-top" aria-label="Back to top"><i class="ph ph-arrow-up"></i></button> -->
-  <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="retail_ecom.js"></script>
     <script src="../js/script.js"></script>
 </body>

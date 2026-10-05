@@ -1129,3 +1129,6 @@ a {
     left: 37%;
   }
 }
+
+@media (max-width: 768px) { .rc-hero { padding-top: 100px !important; } }
+

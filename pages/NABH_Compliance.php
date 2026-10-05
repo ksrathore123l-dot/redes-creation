@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
       <section class="hero">
         <div class="hero-shape shape-a"></div>
@@ -213,7 +213,7 @@
       </section>
     </main>
 
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="NABH_Compliance.js"></script>
     <script src="../js/script.js"></script>
   </body>

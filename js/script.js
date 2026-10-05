@@ -409,18 +409,21 @@ document.addEventListener("DOMContentLoaded", () => {
   dropdownToggles.forEach(toggle => {
     toggle.addEventListener("click", (e) => {
       if (window.innerWidth <= 820) {
-        e.preventDefault();
-        const parent = toggle.parentElement;
-        
-        // Close siblings
-        const siblings = parent.parentElement.children;
-        Array.from(siblings).forEach(sibling => {
-          if (sibling !== parent) {
-            sibling.classList.remove("active");
-          }
-        });
-
-        parent.classList.toggle("active");
+        // Only toggle dropdown if the chevron icon is clicked. Otherwise, let it navigate.
+        if (e.target.tagName.toLowerCase() === 'i') {
+          e.preventDefault();
+          const parent = toggle.parentElement;
+          
+          // Close siblings
+          const siblings = parent.parentElement.children;
+          Array.from(siblings).forEach(sibling => {
+            if (sibling !== parent) {
+              sibling.classList.remove("active");
+            }
+          });
+  
+          parent.classList.toggle("active");
+        }
       }
     });
   });

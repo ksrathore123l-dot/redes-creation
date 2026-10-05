@@ -884,6 +884,7 @@ a {
     }
 
     .re-hero-grid {
+        padding: 0px 0px;
         grid-template-columns: 1fr
     }
 
@@ -1084,4 +1085,7 @@ a {
         font-size: 14px
     }
 }
+
+
+@media (max-width: 768px) { .re-hero { padding-top: 100px !important; } }
 

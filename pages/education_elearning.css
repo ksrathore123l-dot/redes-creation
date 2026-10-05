@@ -617,7 +617,7 @@ body {
   }
 }
 @media (max-width: 620px) {
-  .edu-container {
+  .edu-container {padding: 50px 0;
     width: min(100% - 28px, 1160px);
   }
   .edu-hero {

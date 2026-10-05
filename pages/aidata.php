@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <!-- HERO -->
         <section class="aidata-hero aidata-section-shell">
@@ -259,7 +259,7 @@
             <div class="aidata-cta-bottom"><span>REDES CREATION</span><span>AI · DATA · DIGITAL EXPERIENCES</span></div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="aidata.js"></script>
     <script src="../js/script.js"></script>
 </body>

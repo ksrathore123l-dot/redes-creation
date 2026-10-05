@@ -16,7 +16,7 @@
 </head>
 
 <body>
- <?php include '../header.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="hero">
             <div class="wrap hero-grid">
@@ -152,7 +152,7 @@
         </section>
     </main>
 
-     <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="travel.js"></script>
     <script src="../js/script.js"></script>
 </body>

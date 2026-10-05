@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <!-- HERO SECTION -->
         <section class="hero" id="home">
@@ -274,7 +274,7 @@
 
 
 
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="management.js"></script>
     <script src="../js/script.js"></script>
 </body>

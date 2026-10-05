@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include '../header.php' ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <div class=" page-glow glow-one">
     </div>
     <div class="page-glow glow-two"></div>
@@ -208,7 +208,7 @@
     </main>
 
     <button class="top-btn" aria-label="Back to top">↑</button>
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
 
     <script src="hospital_management.js"></script>
     <script src="../js/script.js"></script>

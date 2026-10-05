@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
 
     <main>
       <section class="hero section">
@@ -150,7 +150,7 @@
       </div>
     </div>
 
-  <?php include '../footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
 
     <script src="../js/script.js"></script>
     <script src="../pages/about.js"></script>

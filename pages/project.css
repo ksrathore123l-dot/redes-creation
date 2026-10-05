@@ -604,6 +604,7 @@ a {
     }
     
     .pm-hero-container, .pm-projects-layout, .pm-test-layout {
+        padding: 100px 20px;
         grid-template-columns: 1fr;
         gap: 30px;
     }

@@ -17,7 +17,7 @@
 
 <body>
     <div class="ma-shell">
-        <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
 
         <main>
             <section class="ma-hero">
@@ -262,7 +262,7 @@
             </section>
         </main>
 
-        <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     </div>
     <script src="../pages/mobile-app.js"></script>
 </body>

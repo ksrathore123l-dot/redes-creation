@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="cd-hero cd-wrap">
             <div class="cd-copy"><span class="cd-eyebrow">BUILD. DEPLOY. SCALE. TOGETHER.</span>
@@ -212,7 +212,7 @@
             </ul>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="cloud.js"></script>
     <script src="../js/script.js"></script>
 </body>

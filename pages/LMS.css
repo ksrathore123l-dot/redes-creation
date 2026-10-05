@@ -658,7 +658,7 @@ img {
     width: min(100% - 28px, 1180px);
   }
   .lms-hero {
-    padding: 35px 0 45px;
+    padding: 100px 0 45px;
     min-height: auto;
   }
   .lms-hero-media img {
@@ -765,3 +765,6 @@ img {
     transition: none;
   }
 }
+
+@media (max-width: 768px) { .lms-hero { padding-top: 100px !important; } }
+

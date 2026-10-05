@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main class="edu-page">
         <!-- ==================== SECTION 01 : HERO ==================== -->
         <section class="edu-hero" id="home">
@@ -260,7 +260,7 @@
         </section>
     </main>
 
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src=" education_elearning.js"></script>
     <script src="../js/script.js"></script>
 </body>

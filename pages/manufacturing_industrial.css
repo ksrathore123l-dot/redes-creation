@@ -669,3 +669,10 @@ body {
     }
 }
 
+
+@media (max-width: 768px) { .mfg-hero { padding-top: 100px !important; } }
+@media (max-width: 1000px) {
+    .mfg-split, .mfg-cta {
+        margin: 40px 5% !important;
+    }
+}

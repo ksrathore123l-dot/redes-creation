@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include '../header.php' ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
 
         <section class="mfg-hero">
@@ -157,7 +157,7 @@
         </section>
 
     </main>
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="manufacturing_industrial.js"></script>
     <script src="../js/script.js"></script>
 </body>

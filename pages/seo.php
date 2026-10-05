@@ -21,7 +21,7 @@
 
 <body>
 
-    <?php include '../header.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <!-- ==================== 1. HERO SECTION ==================== -->
         <section class="hero-section" id="hero">
@@ -834,7 +834,7 @@
         <span>Audit Request Received! Our SEO team will analyze your website.</span>
     </div>
 
-    <?php include '../footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="seo.js"></script>
     <script src="../js/script.js"></script>
 </body>

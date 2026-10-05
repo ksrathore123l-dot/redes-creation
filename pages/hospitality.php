@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="hosp-hero">
             <div class="hosp-container hosp-hero-grid">
@@ -250,7 +250,7 @@
         </section>
     </main>
 
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="hospitality.js"></script>
     <script src="../js/script.js"></script>
 </body>

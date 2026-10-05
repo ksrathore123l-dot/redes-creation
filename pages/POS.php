@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <!-- ==================== HERO SECTION ==================== -->
         <section class="hero-section" id="home">
@@ -993,7 +993,7 @@
     <!-- Toast Notification Container -->
     <div class="toast-container" id="toastContainer"></div>
 
-    <?php include '../footer.php'; ?>
+ <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="POS.js"></script>
     <script src="../js/script.js"></script>
 </body>

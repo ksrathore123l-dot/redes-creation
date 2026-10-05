@@ -1,519 +1,606 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Redes Creation Pvt. Ltd. — websites, mobile apps, software, AI solutions, ERP, digital marketing and branding."
-    />
-    <title>
-      Redes Creation Pvt. Ltd. — Digital Solutions That Drive Growth
-    </title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="top-glow"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Redes Creation Pvt. Ltd. — websites, mobile apps, software, AI solutions, ERP, digital marketing and branding." />
+  <title>
+    Redes Creation Pvt. Ltd. — Digital Solutions That Drive Growth
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="top-glow"></div>
 
 
-<?php include 'header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?>
 
-    <main>
-      <!-- HERO -->
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy reveal">
-            <div class="eyebrow">
-              DIGITAL SOLUTIONS <span>THAT DRIVE GROWTH</span> ✦
-            </div>
-            <h1>Next-Generation IT Solutions for Every Business</h1>
-            <p class="hero-lead">
-              We specialize delivering innovative, tailored IT solutions that
-              empower businesses to thrive in today’s digital landscape.
-            </p>
-            <div class="hero-actions">
-              <a href="#work" class="hero-btn-outline"
-                >Our Success Stories &rarr;</a
-              >
-              <a href="#contact" class="hero-btn-cyan">Contact Us &rarr;</a>
-            </div>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            DIGITAL SOLUTIONS <span>THAT DRIVE GROWTH</span> ✦
           </div>
+          <h1>Next-Generation IT Solutions for Every Business</h1>
+          <p class="hero-lead">
+            We specialize delivering innovative, tailored IT solutions that
+            empower businesses to thrive in today’s digital landscape.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="hero-btn-outline">Our Success Stories &rarr;</a>
+            <a href="#contact" class="hero-btn-cyan">Contact Us &rarr;</a>
+          </div>
+        </div>
 
-          <div class="hero-visual reveal delay-1">
-            <div class="hero-orbit orbit-a"></div>
-            <div class="hero-orbit orbit-b"></div>
-            <!-- <div class="hero-person">
+        <div class="hero-visual reveal delay-1">
+          <div class="hero-orbit orbit-a"></div>
+          <div class="hero-orbit orbit-b"></div>
+          <!-- <div class="hero-person">
               <img
                 src="assets/hero charecter -2.png"
                 alt="Digital solutions specialist"
               />
             </div> -->
 
-            <div class="hero-person">
-              <img
-                src="assets/hero charecter -2.png"
-                alt="Digital solutions specialist"
-              />
-            </div>
+          <div class="hero-person">
+            <img src="assets/hero charecter -2.png" alt="Digital solutions specialist" />
+          </div>
 
-            <div class="floating-card website-card">
-              <div class="card-icon">◎</div>
-              <b>Website</b
-              ><span>Powerful websites that represent your brand</span><i></i>
+          <div class="floating-card website-card">
+            <div class="card-icon">◎</div>
+            <b>Website</b><span>Powerful websites that represent your brand</span><i></i>
+          </div>
+          <div class="floating-card app-card">
+            <div class="card-icon">▣</div>
+            <b>App</b><span>Custom mobile apps for Android & iOS</span><i></i>
+          </div>
+          <div class="floating-card ai-card">
+            <div class="card-icon">✦</div>
+            <b>AI Solution</b><span>Smart AI solutions for your business</span><i></i>
+          </div>
+          <div class="floating-card software-card">
+            <div class="card-icon">&lt;/&gt;</div>
+            <b>Software</b><span>Scalable software that grows your business</span><i></i>
+          </div>
+          <div class="floating-card brand-card">
+            <div class="card-icon">⌁</div>
+            <b>Branding</b><span>Unique branding that makes you stand out</span><i></i>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- TRUSTED BY SECTION -->
+    <section class="trusted-section">
+      <div class="container">
+        <div class="trusted-header">
+          <h2>Trusted by <span class="text-cyan">100+</span> companies</h2>
+          <div class="trusted-nav">
+            <button aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+            <button aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+        <div class="trusted-slider-wrapper">
+          <div class="trusted-slider">
+            <!-- Set 1 -->
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/somalal-logo.png" alt="Somalal" />
             </div>
-            <div class="floating-card app-card">
-              <div class="card-icon">▣</div>
-              <b>App</b><span>Custom mobile apps for Android & iOS</span><i></i>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/bhav-logo.png" alt="Bhav" /></div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/brahmos-logo.png" alt="Brahmos" />
             </div>
-            <div class="floating-card ai-card">
-              <div class="card-icon">✦</div>
-              <b>AI Solution</b><span>Smart AI solutions for your business</span
-              ><i></i>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/onelife-logo.png" alt="OneLife" />
             </div>
-            <div class="floating-card software-card">
-              <div class="card-icon">&lt;/&gt;</div>
-              <b>Software</b
-              ><span>Scalable software that grows your business</span><i></i>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/saini-logo.png" alt="Saini" />
             </div>
-            <div class="floating-card brand-card">
-              <div class="card-icon">⌁</div>
-              <b>Branding</b
-              ><span>Unique branding that makes you stand out</span><i></i>
+            <div class="trusted-slide-1"><img src="https://redescreation.in/assets/brands/secrox-logo.png" alt="Secrox" />
             </div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/st-pauls-logo.png"
+                alt="St Pauls" /></div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/mu-logo.png"
+                alt="Madhav University" /></div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/affirmations-logo.png"
+                alt="Affirmations" /></div>
+            <!-- Set 2 (Duplicate for seamless loop) -->
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/somalal-logo.png" alt="Somalal" />
+            </div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/bhav-logo.png" alt="Bhav" /></div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/brahmos-logo.png" alt="Brahmos" />
+            </div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/onelife-logo.png" alt="OneLife" />
+            </div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/saini-logo.png" alt="Saini" />
+            </div>
+            <div class="trusted-slide-1"><img src="https://redescreation.in/assets/brands/secrox-logo.png" alt="Secrox" />
+            </div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/st-pauls-logo.png"
+                alt="St Pauls" /></div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/mu-logo.png"
+                alt="Madhav University" /></div>
+            <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/affirmations-logo.png"
+                alt="Affirmations" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE SELECTOR -->
+    <section class="service-selector" id="services">
+      <div class="container">
+        <div class="section-heading centered">
+          <h2>How can we <span>help</span> you?</h2>
+          <div class="dots"><i></i><i class="active"></i><i></i></div>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card" data-service="website">
+            <div class="service-card-front">
+              <div class="service-icon">◎</div>
+              <h3>Website</h3>
+              <p>
+                Want to build a strong online presence?
+              </p>
+              <button class="expand-btn" aria-label="Open website services">
+                +
+              </button>
+            </div>
+            <div class="service-card-back">
+              <h3>Website Development</h3>
+              <ul>
+                <li>Corporate & business websites</li>
+                <li>Hospital & hotel websites</li>
+                <li>Custom CMS and e-commerce</li>
+                <li>Mobile responsive UI/UX</li>
+                <li>SEO-ready architecture</li>
+              </ul>
+              <a href="#contact" class="learn-more">Discuss Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card" data-service="app">
+            <div class="service-card-front">
+              <div class="service-icon">▣</div>
+              <h3>App</h3>
+              <p>Need a custom mobile app?</p>
+              <button class="expand-btn" aria-label="Open app services">
+                +
+              </button>
+            </div>
+            <div class="service-card-back">
+              <h3>App Development</h3>
+              <ul>
+                <li>Android App Development</li>
+                <li>iOS App Development</li>
+                <li>Cross Platform Apps</li>
+                <li>UI/UX Design</li>
+                <li>App Maintenance</li>
+              </ul>
+              <a href="#contact" class="learn-more">Discuss Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card" data-service="software">
+            <div class="service-card-front">
+              <div class="service-icon">⚙</div>
+              <h3>Software</h3>
+              <p>Looking to automate your business?</p>
+              <button class="expand-btn" aria-label="Open software services">
+                +
+              </button>
+            </div>
+            <div class="service-card-back">
+              <h3>Software & ERP</h3>
+              <ul>
+                <li>Education ERP & school mgmt</li>
+                <li>University admissions & exams</li>
+                <li>Hospital management systems</li>
+                <li>Hotel management systems</li>
+                <li>Business automation</li>
+              </ul>
+              <a href="#contact" class="learn-more">Discuss Project <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card" data-service="ai">
+            <div class="service-card-front">
+              <div class="service-icon">✦</div>
+              <h3>AI Solution</h3>
+              <p>Want to integrate AI in your business?</p>
+              <button class="expand-btn" aria-label="Open AI services">
+                +
+              </button>
+            </div>
+            <div class="service-card-back">
+              <h3>AI Solutions</h3>
+              <ul>
+                <li>AI chat and support</li>
+                <li>Workflow automation</li>
+                <li>Business intelligence</li>
+                <li>AI-assisted content</li>
+                <li>Custom AI integrations</li>
+              </ul>
+              <a href="#contact" class="learn-more">Discuss Project <span>→</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="stats-bar">
+          <div class="stat">
+            <!-- <span class="stat-icon">🚀</span> -->
+            <div class="stat-info">
+              <strong data-count="100">100+</strong>
+              <small>Projects Delivered</small>
+            </div>
+          </div>
+          <div class="stat">
+            <!-- <span class="stat-icon">♟</span> -->
+            <div class="stat-info">
+              <strong data-count="50">50+</strong>
+              <small>Happy Clients</small>
+            </div>
+          </div>
+          <div class="stat">
+            <!-- <span class="stat-icon">◉</span> -->
+            <div class="stat-info">
+              <strong data-count="1">1+</strong>
+              <small>Years of Experience</small>
+            </div>
+          </div>
+          <div class="stat">
+            <!-- <span class="stat-icon">∞</span> -->
+            <div class="stat-info">
+              <strong>∞</strong>
+              <small>Endless Possibilities</small>
             </div>
           </div>
         </div>
-      </section>
-      
-      
-      <!-- SERVICE SELECTOR -->
-      <section class="service-selector" id="services">
-        <div class="container">
-          <div class="section-heading centered">
-            <h2>How can we <span>help</span> you?</h2>
-            <div class="dots"><i></i><i class="active"></i><i></i></div>
-          </div>
+      </div>
+    </section>
 
-          <div class="service-grid">
-            <article class="service-card" data-service="website">
-              <div class="service-card-front">
-                <div class="service-icon">◎</div>
-                <h3>Website</h3>
-                <p>
-                  Want to build a strong online presence?
-                </p>
-                <button class="expand-btn" aria-label="Open website services">
-                  +
-                </button>
-              </div>
-              <div class="service-card-back">
-                <h3>Website Development</h3>
-                <ul>
-                  <li>Corporate & business websites</li>
-                  <li>Hospital & hotel websites</li>
-                  <li>Custom CMS and e-commerce</li>
-                  <li>Mobile responsive UI/UX</li>
-                  <li>SEO-ready architecture</li>
-                </ul>
-                <a href="#contact" class="learn-more"
-                  >Discuss Project <span>→</span></a
-                >
-              </div>
-            </article>
-
-            <article class="service-card" data-service="app">
-              <div class="service-card-front">
-                <div class="service-icon">▣</div>
-                <h3>App</h3>
-                <p>Need a custom mobile app?</p>
-                <button class="expand-btn" aria-label="Open app services">
-                  +
-                </button>
-              </div>
-              <div class="service-card-back">
-                <h3>App Development</h3>
-                <ul>
-                  <li>Android App Development</li>
-                  <li>iOS App Development</li>
-                  <li>Cross Platform Apps</li>
-                  <li>UI/UX Design</li>
-                  <li>App Maintenance</li>
-                </ul>
-                <a href="#contact" class="learn-more"
-                  >Discuss Project <span>→</span></a
-                >
-              </div>
-            </article>
-
-            <article class="service-card" data-service="software">
-              <div class="service-card-front">
-                <div class="service-icon">⚙</div>
-                <h3>Software</h3>
-                <p>Looking to automate your business?</p>
-                <button class="expand-btn" aria-label="Open software services">
-                  +
-                </button>
-              </div>
-              <div class="service-card-back">
-                <h3>Software & ERP</h3>
-                <ul>
-                  <li>Education ERP & school mgmt</li>
-                  <li>University admissions & exams</li>
-                  <li>Hospital management systems</li>
-                  <li>Hotel management systems</li>
-                  <li>Business automation</li>
-                </ul>
-                <a href="#contact" class="learn-more"
-                  >Discuss Project <span>→</span></a
-                >
-              </div>
-            </article>
-
-            <article class="service-card" data-service="ai">
-              <div class="service-card-front">
-                <div class="service-icon">✦</div>
-                <h3>AI Solution</h3>
-                <p>Want to integrate AI in your business?</p>
-                <button class="expand-btn" aria-label="Open AI services">
-                  +
-                </button>
-              </div>
-              <div class="service-card-back">
-                <h3>AI Solutions</h3>
-                <ul>
-                  <li>AI chat and support</li>
-                  <li>Workflow automation</li>
-                  <li>Business intelligence</li>
-                  <li>AI-assisted content</li>
-                  <li>Custom AI integrations</li>
-                </ul>
-                <a href="#contact" class="learn-more"
-                  >Discuss Project <span>→</span></a
-                >
-              </div>
-            </article>
-          </div>
-
-          <div class="stats-bar">
-            <div class="stat">
-              <!-- <span class="stat-icon">🚀</span> -->
-              <div class="stat-info">
-                <strong data-count="100">100+</strong>
-                <small>Projects Delivered</small>
-              </div>
-            </div>
-            <div class="stat">
-              <!-- <span class="stat-icon">♟</span> -->
-              <div class="stat-info">
-                <strong data-count="50">50+</strong>
-                <small>Happy Clients</small>
-              </div>
-            </div>
-            <div class="stat">
-              <!-- <span class="stat-icon">◉</span> -->
-              <div class="stat-info">
-                <strong data-count="1">1+</strong>
-                <small>Years of Experience</small>
-              </div>
-            </div>
-            <div class="stat">
-              <!-- <span class="stat-icon">∞</span> -->
-              <div class="stat-info">
-                <strong>∞</strong>
-                <small>Endless Possibilities</small>
-              </div>
-            </div>
-          </div>
+    <!-- CAPABILITIES -->
+    <section class="capabilities section-light" id="capabilities">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="mini-label">WHAT WE OFFER</span>
+          <h2>One team for your <span>digital growth.</span></h2>
+          <p class="mini-label-p2">
+            Redes Creation delivers scalable digital solutions across
+            websites, apps, software, ERP, AI, marketing and brand design.
+          </p>
         </div>
-      </section>
-      
-      <!-- CAPABILITIES -->
-      <section class="capabilities section-light" id="capabilities">
-        <div class="container">
-          <div class="section-heading centered">
-            <span class="mini-label">WHAT WE OFFER</span>
-            <h2>One team for your <span>digital growth.</span></h2>
-            <p class="mini-label-p2">
-              Redes Creation delivers scalable digital solutions across
-              websites, apps, software, ERP, AI, marketing and brand design.
-            </p>
-          </div>
-          <div class="cap-grid">
-            <div class="cap-card">
-              <span>01</span>
-              <h3>Education ERP</h3>
-              <p>
-                School and university management solutions for admissions,
-                students, academics, exams and fees.
-              </p>
-            </div>
-            <div class="cap-card">
-              <span>02</span>
-              <h3>Healthcare</h3>
-              <p>
-                Hospital and clinic software for OPD, IPD, appointments, billing
-                and operational reporting.
-              </p>
-            </div>
-            <div class="cap-card">
-              <span>03</span>
-              <h3>Hospitality</h3>
-              <p>
-                Hotel management solutions for bookings, guests, rooms, billing,
-                reports and analytics.
-              </p>
-            </div>
-            <div class="cap-card">
-              <span>04</span>
-              <h3>Digital Growth</h3>
-              <p>
-                SEO, social media, digital marketing, content strategy and
-                conversion-focused experiences.
-              </p>
-            </div>
-            <div class="cap-card">
-              <span>05</span>
-              <h3>Branding &amp; UI/UX</h3>
-              <p>
-                Creative identity, graphics and user experiences that make your
-                business memorable.
-              </p>
-            </div>
-            <div class="cap-card">
-              <span>06</span>
-              <h3>Custom Software</h3>
-              <p>
-                Custom CMS, business automation, e-commerce and cloud-ready
-                software built around your workflow.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- WHY -->
-      <section class="why-section-dark" id="why-us">
-        <div class="container why-container">
-          <div class="why-content">
-            <span class="pill-label">WHY REDES CREATION</span>
-            <h2>Why We're <span class="text-blue">Different</span></h2>
+        <div class="cap-grid">
+          <div class="cap-card">
+            <span>01</span>
+            <h3>Education ERP</h3>
             <p>
-              We don't just market your brand; we create lasting impressions
-              that drive results.
+              School and university management solutions for admissions,
+              students, academics, exams and fees.
             </p>
+          </div>
+          <div class="cap-card">
+            <span>02</span>
+            <h3>Healthcare</h3>
             <p>
-              Our team of seasoned experts blends creativity
-              with cutting-edge technology to design your unique goals.
+              Hospital and clinic software for OPD, IPD, appointments, billing
+              and operational reporting.
             </p>
           </div>
-          <div class="why-cards">
-            <!-- Card 1 -->
-            <div class="why-card">
-              <div class="card-inner">
-                <i class="fa-solid fa-signal why-icon"></i>
-                <h3>Data-Driven<br/>Approach</h3>
-                <p>We harness advanced analytics and insights to craft strategies.</p>
-              </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="why-card">
-              <div class="card-inner">
-                <i class="fa-solid fa-dollar-sign why-icon"></i>
-                <h3>Competitive<br/>Pricing</h3>
-                <p>Our services combine premium quality with affordability.</p>
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="why-card">
-              <div class="card-inner">
-                <i class="fa-solid fa-shield-halved why-icon"></i>
-                <h3>Ethical Business<br/>Practices</h3>
-                <p>We uphold the highest standards of integrity and ethics.</p>
-              </div>
-            </div>
+          <div class="cap-card">
+            <span>03</span>
+            <h3>Hospitality</h3>
+            <p>
+              Hotel management solutions for bookings, guests, rooms, billing,
+              reports and analytics.
+            </p>
+          </div>
+          <div class="cap-card">
+            <span>04</span>
+            <h3>Digital Growth</h3>
+            <p>
+              SEO, social media, digital marketing, content strategy and
+              conversion-focused experiences.
+            </p>
+          </div>
+          <div class="cap-card">
+            <span>05</span>
+            <h3>Branding &amp; UI/UX</h3>
+            <p>
+              Creative identity, graphics and user experiences that make your
+              business memorable.
+            </p>
+          </div>
+          <div class="cap-card">
+            <span>06</span>
+            <h3>Custom Software</h3>
+            <p>
+              Custom CMS, business automation, e-commerce and cloud-ready
+              software built around your workflow.
+            </p>
           </div>
         </div>
-      </section>
-      
-      
-      <!-- PROCESS SECTION -->
-      <section class="process-section-blue" id="process">
-        <div class="container">
-          <div class="process-header-blue">
-            <div class="process-eyebrow-blue">
-              <span class="dot"></span> FROM STRATEGY TO SUCCESS
-            </div>
-            <h2 class="process-title-blue">Simple Steps to Big Results</h2>
-          </div>
-          
-          <div class="process-steps-container">
-            <div class="process-connecting-line"></div>
-            
-            <!-- Step 1 -->
-            <div class="process-step-blue">
-              <div class="step-arc-container">
-                <div class="step-arc arc-1"></div>
-                <div class="step-semi-circle">01</div>
-              </div>
-              <h3>Discovery, Strategy And<br/>Planning</h3>
-              <p>We start with a deep dive into<br/>your brand, audience, and<br/>goals based</p>
-            </div>
-            
-            <!-- Step 2 -->
-            <div class="process-step-blue">
-              <div class="step-arc-container">
-                <div class="step-arc arc-2"></div>
-                <div class="step-semi-circle">02</div>
-              </div>
-              <h3>Paid Campaigns<br/>(Optional)</h3>
-              <p>Want to scale fast? We set up<br/>and manage target ad<br/>campaign grow</p>
-            </div>
-            
-            <!-- Step 3 -->
-            <div class="process-step-blue">
-              <div class="step-arc-container">
-                <div class="step-arc arc-3"></div>
-                <div class="step-semi-circle">03</div>
-              </div>
-              <h3>Monitor Analyze<br/>Improve</h3>
-              <p>With regular reporting, insights,<br/>and tweaks, we make sure<br/>your content levels up</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- TESTIMONIALS -->
+      </div>
+    </section>
 
-      <!-- CTA SERVICES SECTION -->
-      <section class="cta-services-section" id="cta-services">
-        <div class="container cta-services-container">
-          <div class="cta-images-col">
-            <div class="image-wrapper-back">
-              <img src="assets/phone_cta.jpg" alt="Business person on phone" />
-            </div>
-            <div class="image-wrapper-front">
-              <img src="assets/handshake_cta.jpg" alt="Handshake" />
+    <!-- WHY -->
+    <section class="why-section-dark" id="why-us">
+      <div class="container why-container">
+        <div class="why-content">
+          <span class="pill-label">WHY REDES CREATION</span>
+          <h2>Why We're <span class="text-blue">Different</span></h2>
+          <p>
+            We don't just market your brand; we create lasting impressions
+            that drive results.
+          </p>
+          <p>
+            Our team of seasoned experts blends creativity
+            with cutting-edge technology to design your unique goals.
+          </p>
+        </div>
+        <div class="why-cards">
+          <!-- Card 1 -->
+          <div class="why-card">
+            <div class="card-inner">
+              <i class="fa-solid fa-signal why-icon"></i>
+              <h3>Data-Driven<br />Approach</h3>
+              <p>We harness advanced analytics and insights to craft strategies.</p>
             </div>
           </div>
-          <div class="cta-content-col">
-            <span class="cta-eyebrow">NEED HELP WITH OUR SERVICES</span>
-            <h2 class="cta-title">Are You Looking For <span class="text-blue">Our Services?</span></h2>
-            <p class="cta-desc">
-              <strong>All your business solutions at one place.</strong> Elevate your business with our innovative solutions, crafted to seamlessly integrate cutting-edge technology, enhance operational efficiency, and drive sustainable growth. Experience a tailored approach to meet your unique needs.
-            </p>
-            <div class="cta-buttons">
-              <a href="#contact" class="btn btn-primary cta-btn">LET'S DISCUSS YOUR PROJECT IN DETAILS</a>
-              <a href="#services" class="btn btn-outline cta-btn">View Services</a>
+          <!-- Card 2 -->
+          <div class="why-card">
+            <div class="card-inner">
+              <i class="fa-solid fa-dollar-sign why-icon"></i>
+              <h3>Competitive<br />Pricing</h3>
+              <p>Our services combine premium quality with affordability.</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="why-card">
+            <div class="card-inner">
+              <i class="fa-solid fa-shield-halved why-icon"></i>
+              <h3>Ethical Business<br />Practices</h3>
+              <p>We uphold the highest standards of integrity and ethics.</p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- INDUSTRIES SECTION -->
-      <section class="industries-section-blue" id="industries">
-        <div class="container">
-          <div class="industries-header-blue">
-            <h2 class="industries-title-blue">Solving Complex Challenges<br/>Across Core Industries</h2>
-            <p class="industries-subtitle-blue">
-              From regulatory complexity to customer behavior, our deep domain knowledge ensures every solution is technically sound and business-ready.
-            </p>
+      </div>
+    </section>
+
+
+    <!-- PROCESS SECTION -->
+    <section class="process-section-blue" id="process">
+      <div class="container">
+        <div class="process-header-blue">
+          <div class="process-eyebrow-blue">
+            <span class="dot"></span> FROM STRATEGY TO SUCCESS
           </div>
-          
-          <div class="industries-network">
-            <!-- Row 1 -->
-            <div class="ind-row">
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-graduation-cap"></i></div>
-                  <div class="ind-line"></div>
-                </div>
-                <p>Education</p>
-              </div>
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-regular fa-heart"></i></div>
-                  <div class="ind-line"></div>
-                </div>
-                <p>Healthcare</p>
-              </div>
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-cart-shopping"></i></div>
-                  <div class="ind-line"></div>
-                </div>
-                <p>eCommerce</p>
-              </div>
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-car-battery"></i></div>
-                </div>
-                <p>Electric Vehicle (EV)</p>
-              </div>
+          <h2 class="process-title-blue">Simple Steps to Big Results</h2>
+        </div>
+
+        <div class="process-steps-container">
+          <div class="process-connecting-line"></div>
+
+          <!-- Step 1 -->
+          <div class="process-step-blue">
+            <div class="step-arc-container">
+              <div class="step-arc arc-1"></div>
+              <div class="step-semi-circle">01</div>
             </div>
-            
-            <!-- Row 2 -->
-            <div class="ind-row">
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-plane"></i></div>
-                  <div class="ind-line"></div>
-                </div>
-                <p>Travel</p>
-              </div>
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-share-nodes"></i></div>
-                  <div class="ind-line"></div>
-                </div>
-                <p>Social Media</p>
-              </div>
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-dollar-sign"></i></div>
-                  <div class="ind-line"></div>
-                </div>
-                <p>Finance</p>
-              </div>
-              <div class="ind-item">
-                <div class="ind-icon-box">
-                  <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
-                  </div>
-                  <div class="ind-circle"><i class="fa-solid fa-truck"></i></div>
-                </div>
-                <p>Logistics</p>
-              </div>
+            <h3>Discovery, Strategy And<br />Planning</h3>
+            <p>We start with a deep dive into<br />your brand, audience, and<br />goals based</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step-blue">
+            <div class="step-arc-container">
+              <div class="step-arc arc-2"></div>
+              <div class="step-semi-circle">02</div>
             </div>
-            
+            <h3>Paid Campaigns<br />(Optional)</h3>
+            <p>Want to scale fast? We set up<br />and manage target ad<br />campaign grow</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step-blue">
+            <div class="step-arc-container">
+              <div class="step-arc arc-3"></div>
+              <div class="step-semi-circle">03</div>
+            </div>
+            <h3>Monitor Analyze<br />Improve</h3>
+            <p>With regular reporting, insights,<br />and tweaks, we make sure<br />your content levels up</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS -->
+
+    <!-- CTA SERVICES SECTION -->
+    <section class="cta-services-section" id="cta-services">
+      <div class="container cta-services-container">
+        <div class="cta-images-col">
+          <div class="image-wrapper-back">
+            <img src="assets/phone_cta.jpg" alt="Business person on phone" />
+          </div>
+          <div class="image-wrapper-front">
+            <img src="assets/handshake_cta.jpg" alt="Handshake" />
+          </div>
+        </div>
+        <div class="cta-content-col">
+          <span class="cta-eyebrow">NEED HELP WITH OUR SERVICES</span>
+          <h2 class="cta-title">Are You Looking For <span class="text-blue">Our Services?</span></h2>
+          <p class="cta-desc">
+            <strong>All your business solutions at one place.</strong> Elevate your business with our innovative
+            solutions, crafted to seamlessly integrate cutting-edge technology, enhance operational efficiency, and
+            drive sustainable growth. Experience a tailored approach to meet your unique needs.
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary cta-btn">LET'S DISCUSS YOUR PROJECT IN DETAILS</a>
+            <a href="#services" class="btn btn-outline cta-btn">View Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INDUSTRIES SECTION -->
+    <section class="industries-section-blue" id="industries">
+      <div class="container">
+        <div class="industries-header-blue">
+          <h2 class="industries-title-blue">Solving Complex Challenges<br />Across Core Industries</h2>
+          <p class="industries-subtitle-blue">
+            From regulatory complexity to customer behavior, our deep domain knowledge ensures every solution is
+            technically sound and business-ready.
+          </p>
+        </div>
+
+        <div class="industries-network">
+          <!-- Row 1 -->
+          <div class="ind-row">
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="ind-line"></div>
+              </div>
+              <p>Education</p>
+            </div>
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-regular fa-heart"></i></div>
+                <div class="ind-line"></div>
+              </div>
+              <p>Healthcare</p>
+            </div>
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="ind-line"></div>
+              </div>
+              <p>eCommerce</p>
+            </div>
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-car-battery"></i></div>
+              </div>
+              <p>Electric Vehicle (EV)</p>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="ind-row">
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-plane"></i></div>
+                <div class="ind-line"></div>
+              </div>
+              <p>Travel</p>
+            </div>
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-share-nodes"></i></div>
+                <div class="ind-line"></div>
+              </div>
+              <p>Social Media</p>
+            </div>
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-dollar-sign"></i></div>
+                <div class="ind-line"></div>
+              </div>
+              <p>Finance</p>
+            </div>
+            <div class="ind-item">
+              <div class="ind-icon-box">
+                <div class="ind-ring">
+                  <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                    class="dot d-left"></i>
+                </div>
+                <div class="ind-circle"><i class="fa-solid fa-truck"></i></div>
+              </div>
+              <p>Logistics</p>
+            </div>
+          </div>
+
+          <style>
+            .industries-hidden-rows {
+              max-height: 0;
+              overflow: hidden;
+              opacity: 0;
+              transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+            }
+
+            .industries-hidden-rows.show {
+              max-height: 1500px;
+              /* Adjust if content gets larger */
+              opacity: 1;
+            }
+
+            .show-more-btn-container {
+              text-align: center;
+              /* margin-top: 40px;
+                  margin-bottom: 20px; */
+            }
+
+            .show-more-btn {
+              background-color: transparent;
+              border: 2px solid #ffffff;
+              color: #ffffff;
+              padding: 12px 35px;
+              border-radius: 30px;
+              cursor: pointer;
+              font-weight: 600;
+              font-size: 16px;
+              transition: all 0.3s ease;
+            }
+
+            .show-more-btn:hover {
+              background-color: #00d2ff;
+              color: #fff;
+            }
+
+            .show-more-btn i {
+              margin-left: 8px;
+            }
+          </style>
+
+          <div class="industries-hidden-rows" id="moreIndustries">
             <!-- Row 3 -->
             <div class="ind-row">
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-music"></i></div>
                   <div class="ind-line"></div>
@@ -523,7 +610,8 @@
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-house"></i></div>
                   <div class="ind-line"></div>
@@ -533,7 +621,8 @@
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-plane-departure"></i></div>
                   <div class="ind-line"></div>
@@ -543,20 +632,22 @@
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-droplet"></i></div>
                 </div>
                 <p>Oil & Gas</p>
               </div>
             </div>
-            
+
             <!-- Row 4 -->
             <div class="ind-row ind-row-center">
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-car"></i></div>
                   <div class="ind-line"></div>
@@ -566,7 +657,8 @@
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-shield-halved"></i></div>
                   <div class="ind-line"></div>
@@ -576,687 +668,730 @@
               <div class="ind-item">
                 <div class="ind-icon-box">
                   <div class="ind-ring">
-                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i class="dot d-left"></i>
+                    <i class="dot d-top"></i><i class="dot d-right"></i><i class="dot d-bottom"></i><i
+                      class="dot d-left"></i>
                   </div>
                   <div class="ind-circle"><i class="fa-solid fa-industry"></i></div>
                 </div>
                 <p>Manufacturing</p>
               </div>
             </div>
-            
+
+          </div> <!-- End hidden rows -->
+
+          <div class="show-more-btn-container">
+            <button class="show-more-btn" id="showMoreIndBtn" onclick="toggleIndustries()">Show More <i
+                class="fa-solid fa-chevron-down"></i></button>
           </div>
+
         </div>
-      </section>
-      <!-- RECENT PROJECTS -->
-      <section class="recent-projects" id="work">
-        <div class="container">
-          <div class="section-heading centered">
-            <h2>Recent Projects</h2>
-            <p class="section-subtitle-2">
-              Discover how Redes Creation delivers scalable, secure, and
-              creative digital solutions across diverse industries.
-            </p>
-          </div>
-
-          <div class="projects-grid">
-            <!-- Project 1 -->
-            <article class="recent-project-card">
-              <div class="card-cheracter-3">
-                <img src="assets/card cheracter.png" alt="card cheracter" />
-              </div>
-              <div class="project-img-wrapper">
-                <img
-                  src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
-                  alt="St. Paul's College"
-                />
-                <div class="project-overlay"></div>
-              </div>
-              <div class="project-content">
-                <h3>St. Paul's College – Educational Institution Website</h3>
-                <p>
-                  A modern and professional educational website developed for
-                  St. Paul's College...
-                </p>
-                <a href="#" class="btn btn-project"
-                  >View Live Project
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></a>
-              </div>
-            </article>
-            
-            <!-- Project 2 -->
-            <article class="recent-project-card">
-              <div class="card-cheracter-3">
-                <img src="assets/card cheracter.png" alt="card cheracter" />
-              </div>
-              <div class="project-img-wrapper">
-                <img
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop"
-                  alt="Shri Raghunath Temple"
-                />
-                <div class="project-overlay"></div>
-              </div>
-              <div class="project-content">
-                <h3>Shri Raghunath Temple – Spiritual & Tourism Website</h3>
-                <p>
-                  A visually engaging and informative website developed for Shri
-                  Raghunath Temple...
-                </p>
-                <a href="#" class="btn btn-project"
-                >View Live Project
-                <i class="fa-solid fa-arrow-up-right-from-square"></i
-                  ></a>
-                </div>
-              </article>
-              
-              <!-- Project 3 -->
-              <article class="recent-project-card">
-                <div class="card-cheracter-3">
-                  <img src="assets/card cheracter.png" alt="card cheracter" />
-                </div>
-                <div class="project-img-wrapper">
-                  <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
-                  alt="Granite Hub"
-                  />
-                  <div class="project-overlay"></div>
-                </div>
-                <div class="project-content">
-                  <h3>Granite Hub – Premium Marble & Granite Website</h3>
-                  <p>
-                    A premium and visually refined website developed for Granite
-                    Hub, a leading name...
-                  </p>
-                  <a href="#" class="btn btn-project"
-                  >View Live Project
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i
-                    ></a>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </section>
-          <!-- HOW WE WORK -->
-          <section class="how-we-work section-light" id="process">
-            <div class="container">
-              <div class="section-heading centered reveal">
-                <h2>How <span>We Work</span></h2>
-                <p class="section-subtitle">
-                  Our process is designed to simplify complexity and deliver
-                  excellence —<br />from idea to execution.
-                </p>
-              </div>
-    
-              <div class="timeline-container">
-                <div class="timeline-line"></div>
-    
-                <div class="timeline-step step-left reveal">
-                  <div class="timeline-content">
-                    <h3>1. Consultation &amp; Discovery</h3>
-                    <p>
-                      We begin by understanding your vision, goals, and challenges
-                      through a deep discovery session.
-                    </p>
-                  </div>
-                  <div class="timeline-icon">
-                    <i class="fa-solid fa-comments"></i>
-                  </div>
-                  <div class="timeline-empty"></div>
-                </div>
-    
-                <div class="timeline-step step-right reveal delay-1">
-                  <div class="timeline-empty"></div>
-                  <div class="timeline-icon">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>2. Planning &amp; Strategy</h3>
-                    <p>
-                      We create a data-driven strategy, wireframes, and workflow
-                      that align with your business objectives.
-                    </p>
-                  </div>
-                </div>
-    
-                <div class="timeline-step step-left reveal delay-2">
-                  <div class="timeline-content">
-                    <h3>3. Design &amp; Development</h3>
-                    <p>
-                      Our creative and technical teams collaborate to build
-                      user-centric designs with flawless functionality.
-                    </p>
-                  </div>
-                  <div class="timeline-icon">
-                    <i class="fa-solid fa-code"></i>
-                  </div>
-                  <div class="timeline-empty"></div>
-                </div>
-    
-                <div class="timeline-step step-right reveal delay-1">
-                  <div class="timeline-empty"></div>
-                  <div class="timeline-icon">
-                    <i class="fa-solid fa-vial"></i>
-                  </div>
-                  <div class="timeline-content">
-                    <h3>4. Testing &amp; Quality Assurance</h3>
-                    <p>
-                      Every project undergoes rigorous QA testing to ensure it's
-                      fast, secure, and bug-free before launch.
-                    </p>
-                  </div>
-                </div>
-    
-                <div class="timeline-step step-left reveal delay-2">
-                  <div class="timeline-content">
-                    <h3>5. Launch &amp; Ongoing Support</h3>
-                    <p>
-                      We ensure a smooth launch and provide continuous maintenance,
-                      upgrades, and performance monitoring.
-                    </p>
-                  </div>
-                  <div class="timeline-icon">
-                    <i class="fa-solid fa-rocket"></i>
-                  </div>
-                  <div class="timeline-empty"></div>
-                </div>
-              </div>
-              
-              <div class="centered mt-5 reveal delay-3">
-                <a href="#contact" class="btn btn-primary btn-lg"
-                >Let's Build Together</a
-                >
-              </div>
-            </div>
-          </section>
-          <!-- FAQ -->
-          <section class="faq-section" id="faq">
-            <div class="container faq-layout">
-              <div class="faq-intro">
-                <div class="faq-intro-text">
-                  <span class="mini-label yellow-dot">FAQs</span>
-                  <h2>Have questions?<br />Get them answered</h2>
-                </div>
-                <div class="faq-intro-img">
-                  <img src="assets/faq-2.png" alt="FAQ Illustration" />
-                </div>
-              </div>
-              <div class="faq-list">
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span>What type of industries do you serve?</span>
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      We serve a diverse range of industries including healthcare,
-                      education, hospitality, finance, and e-commerce, offering
-                      tailored digital solutions for each.
-                    </p>
-                  </div>
-                </div>
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span
-                      >Do you handle end-to-end design, or only the interface
-                      layer?</span
-                    >
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      We handle end-to-end design, from initial research and
-                      wireframing to full visual design and interactive prototyping.
-                    </p>
-                  </div>
-                </div>
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span>How secure is the data shared during projects?</span>
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      We follow strict data protection protocols, signing NDAs and
-                      using encrypted channels to ensure your data is always secure.
-                    </p>
-                  </div>
-                </div>
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span
-                      >What makes your digital transformation approach future-proof
-                      and scalable?</span
-                    >
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      We build with modern, scalable architectures and cloud
-                      infrastructure, ensuring your systems can grow alongside your
-                      business.
-                    </p>
-                  </div>
-                </div>
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span
-                      >Can you integrate digital solutions with our existing
-                      ERP/CRM?</span
-                    >
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      Yes, our team specializes in seamless API integrations with
-                      legacy systems, modern ERPs, and CRMs to ensure unified
-                      operations.
-                    </p>
-                  </div>
-                </div>
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span
-                      >What makes Redes Creation the best digital transformation and
-                      software development company?</span
-                    >
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      Our commitment to transparent delivery, tailored strategies,
-                      and a blend of creative design with robust engineering sets us
-                      apart.
-                    </p>
-                  </div>
-                </div>
-                <div class="faq-item">
-                  <button class="faq-question">
-                    <span
-                      >Can you help us integrate AI solutions into our existing
-                      legacy software?</span
-                    >
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    <p>
-                      Absolutely. We can modernize legacy software by integrating AI
-                      capabilities to automate processes and unlock advanced
-                      insights.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-      <section class="testimonials-section section-light" id="testimonials">
-        <div class="container">
-          <div class="section-heading centered reveal">
-            <h2>What Our <span>Clients Say</span></h2>
-            <p class="section-subtitle">
-              Don't just take our word for it. Here's what our clients have to
-              say about working with us.
-            </p>
-          </div>
-          
-          <div class="testi-grid">
-            <div class="testi-card reveal delay-1">
-              <div class="testi-stars">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testi-quote">
-                "Redes Creation transformed our outdated website into a modern,
-                user-friendly platform that perfectly represents our brand.
-                Their team was professional, responsive, and delivered beyond
-                our expectations."
-              </p>
-              <div class="testi-author">
-                <img src="assets/avatar_himali.jpg" alt="Himali Shukla" />
-                <div class="testi-author-info">
-                  <h4>Himali Shukla</h4>
-                  <span>Marketing Director, Elevate Fashion</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="testi-card reveal delay-2">
-              <div class="testi-stars">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i>
-                </div>
-                <p class="testi-quote">
-                  "The digital marketing campaign developed by Redes Creation
-                  helped us increase our online visibility significantly. Our
-                  organic traffic has grown by 200% and conversions are up by 85%.
-                Highly recommended!"
-              </p>
-              <div class="testi-author">
-                <img src="assets/avatar_rahul.jpg" alt="Rahul Vyas" />
-                <div class="testi-author-info">
-                  <h4>Rahul Vyas</h4>
-                  <span>CEO, InfoSphere Solutions</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="testi-card reveal delay-3">
-              <div class="testi-stars">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-                ><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testi-quote">
-                "Working with Redes Creation on our e-commerce platform was a
-                game-changer for our business. The site is not only beautiful
-                but also highly functional, resulting in a 40% increase in
-                online sales within the first month."
-              </p>
-              <div class="testi-author">
-                <img src="assets/avatar_priya.jpg" alt="Priya Gupta" />
-                <div class="testi-author-info">
-                  <h4>Priya Gupta</h4>
-                  <span>Owner, Artisan Crafts Co.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ABOUT US / CEO -->
-      <section class="ceo-section" id="about">
-        <div class="container ceo-layout">
-          <div class="ceo-content reveal">
-            <h2>Build. Innovate. Elevate.</h2>
-            <p class="ceo-desc">
-              We are a team of creators and strategists who combine cutting-edge
-              technology with design thinking to build powerful digital
-              experiences. From websites to AI-driven solutions — we craft what
-              connects, converts, and inspires.
-            </p>
-            <div class="ceo-info">
-              <h3>Bhavana M Rajpurohit</h3>
-              <span>CEO</span>
-            </div>
-            <div class="ceo-decoration">
-              <span class="x-mark"></span>
-              <span class="x-mark"></span>
-              <span class="deco-line"></span>
-              <span class="x-mark"></span>
-            </div>
-          </div>
-
-          <div class="ceo-visual reveal delay-1">
-            <img
-              src="https://redescreation.in/assets/teams/ceo.jpg"
-              alt="Bhavana M Rajpurohit, CEO"
-              class="ceo-img"
-            />
-          </div>
-        </div>
-      </section>
-      
-
-      <!-- BLOG -->
-      <section class="blog-section" id="blog">
-        <div class="container">
-          <div class="section-heading centered">
-            <span class="pill-label">FROM OUR BLOG</span>
-            <h2>
-              Ideas, insights &amp; <span class="text-blue">innovation.</span>
-            </h2>
-          </div>
-          <div class="premium-blog-grid">
-            <!-- Card 1 -->
-            <div class="premium-blog-card-wrapper">
-              <article class="premium-blog-card">
-                <div class="blog-img-wrapper">
-                  <img
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop"
-                  alt="ERP"
-                  />
-                  <span class="blog-tag">ERP</span>
-                </div>
-                <div class="blog-content">
-                  <h3>How ERP can simplify university operations</h3>
-                  <p>
-                    Explore a smarter approach to admissions, academics, exams and
-                    fees.
-                  </p>
-                  <a href="#contact" class="read-more">Read More &rarr;</a>
-                </div>
-              </article>
-            </div>
-            
-            <!-- Card 2 -->
-            <div class="premium-blog-card-wrapper">
-              <article class="premium-blog-card">
-                <div class="blog-img-wrapper">
-                  <img
-                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=600&auto=format&fit=crop"
-                    alt="AI"
-                  />
-                  <span class="blog-tag">AI</span>
-                </div>
-                <div class="blog-content">
-                  <h3>Where AI can create real business value</h3>
-                  <p>
-                    Practical ideas for automating repetitive work and improving
-                    customer experiences.
-                  </p>
-                  <a href="#contact" class="read-more">Read More &rarr;</a>
-                </div>
-              </article>
-            </div>
-            
-            <!-- Card 3 -->
-            <div class="premium-blog-card-wrapper">
-              <article class="premium-blog-card">
-                <div class="blog-img-wrapper">
-                  <img
-                    src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=600&auto=format&fit=crop"
-                    alt="SEO"
-                    />
-                    <span class="blog-tag">SEO</span>
-                  </div>
-                  <div class="blog-content">
-                    <h3>Building a digital presence that drives leads</h3>
-                    <p>
-                      Website, SEO and content working together for sustainable
-                      growth.
-                    </p>
-                    <a href="#contact" class="read-more">Read More &rarr;</a>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-
-      <!-- CONTACT -->
-      <section class="contact-section section-light" id="contact">
-        <div class="container contact-layout">
-          <!-- Contact Form -->
-          <div class="contact-form-wrap">
-            <h2>Get in Touch</h2>
-            <p>
-              Have a project in mind or want to learn more about our services?
-              Fill out the form below, and our team will get back to you as soon
-              as possible.
-            </p>
-            <form class="contact-form">
-              <div class="form-row">
-                <div class="form-group">
-                  <label>Full Name</label>
-                  <input type="text" placeholder="Chirag Malviya" required />
-                </div>
-                <div class="form-group">
-                  <label>Email Address</label>
-                  <input
-                    type="email"
-                    placeholder="redescreation@gmail.com"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-group">
-                <label>Phone Number</label>
-                <input type="tel" placeholder="+919676659153" />
-              </div>
-              <div class="form-group">
-                <label>Service Interested In</label>
-                <select required>
-                  <option value="">Select a service</option>
-                  <option value="web">Web Development</option>
-                  <option value="app">App Development</option>
-                  <option value="marketing">Digital Marketing</option>
-                  <option value="design">UI/UX Design</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Your Message</label>
-                <textarea
-                  rows="4"
-                  placeholder="Tell us about your project..."
-                  required
-                ></textarea>
-              </div>
-              <div class="form-group checkbox-group">
-                <input type="checkbox" id="terms" required />
-                <label for="terms"
-                  >I agree to the <a href="#">Privacy Policy</a> and
-                  <a href="#">Terms of Service</a>.</label
-                >
-              </div>
-              <button type="submit" class="btn btn-primary mt-3">
-                Send Message
-              </button>
-            </form>
-          </div>
-
-          <!-- Contact Info -->
-          <div class="contact-info-wrap">
-            <h3>Contact Information</h3>
-
-            <div class="info-item">
-              <div class="info-icon">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div class="info-text">
-                <strong>Office Address</strong>
-                <span
-                  >2nd Floor, Maruti Complex,<br />Abu Road, Rajasthan 307026,
-                  India</span
-                >
-              </div>
-            </div>
-
-            <div class="info-item">
-              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
-              <div class="info-text">
-                <strong>Phone Number</strong>
-                <span>+91 96766-59153<br />+91 90570-71463</span>
-              </div>
-            </div>
-
-            <div class="info-item">
-              <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
-              <div class="info-text">
-                <strong>Email Address</strong>
-                <span>info@redescreation.in<br />redescreation@gmail.com</span>
-              </div>
-            </div>
-
-            <div class="info-item">
-              <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
-              <div class="info-text">
-                <strong>Business Hours</strong>
-                <span
-                  >Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM -
-                  2:00 PM<br />Sunday: Closed</span
-                >
-              </div>
-            </div>
-
-            <div class="connect-with-us">
-              <h4>Connect With Us</h4>
-              <div class="social-links">
-                <a href="https://www.instagram.com/redescreation"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/company/redescreation/"><i class="fa-brands fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    
-          <!-- TRUSTED BY SECTION -->
-          <section class="trusted-section">
-            <div class="container">
-              <div class="trusted-header">
-                <h2>Trusted by <span class="text-cyan">100+</span> companies</h2>
-                <div class="trusted-nav">
-                  <button class="trusted-prev" id="trustedPrev" aria-label="Previous logos"><i class="fa-solid fa-chevron-left"></i></button>
-                  <button class="trusted-next" id="trustedNext" aria-label="Next logos"><i class="fa-solid fa-chevron-right"></i></button>
-                </div>
-              </div>
-              <div class="trusted-slider-wrapper">
-                <div class="trusted-slider" id="trustedSlider">
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/somalal-logo.png" alt="Somalal" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/bhav-logo.png" alt="Bhav" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/brahmos-logo.png" alt="Brahmos" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/onelife-logo.png" alt="OneLife" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/saini-logo.png" alt="Saini" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/secrox-logo.png" alt="Secrox" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/st-pauls-logo.png" alt="St Pauls" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/mu-logo.png" alt="Madhav University" /></div>
-                  <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/affirmations-logo.png" alt="Affirmations" /></div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-
-    <!-- EXPERTISE ANIMATION -->
-    <section class="our-expertise" id="expertise">
-      <div class="container">
-        <h2 class="expertise-title">Our Expertise</h2>
       </div>
-      <div class="expertise-track">
-        <div class="walking-character" id="walker">
-          <img src="assets/footer-4.gif" alt="Walking character" />
+    </section>
+
+    <script>
+      function toggleIndustries() {
+        var hiddenRows = document.getElementById('moreIndustries');
+        var btn = document.getElementById('showMoreIndBtn');
+        hiddenRows.classList.toggle('show');
+        if (hiddenRows.classList.contains('show')) {
+          btn.innerHTML = 'Show Less <i class="fa-solid fa-chevron-up"></i>';
+        } else {
+          btn.innerHTML = 'Show More <i class="fa-solid fa-chevron-down"></i>';
+        }
+      }
+    </script>
+    <!-- RECENT PROJECTS -->
+    <section class="recent-projects" id="work">
+      <div class="container">
+        <div class="section-heading centered">
+          <h2>Recent Projects</h2>
+          <p class="section-subtitle-2">
+            Discover how Redes Creation delivers scalable, secure, and
+            creative digital solutions across diverse industries.
+          </p>
         </div>
 
-        <div class="bubbles-container">
-          <div class="expertise-bubble" data-tech="PHP">
-            <div class="bubble-circle"></div>
-            <span class="bubble-text">PHP</span>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="recent-project-card">
+            <div class="card-cheracter-3">
+              <img src="assets/card cheracter.png" alt="card cheracter" />
+            </div>
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop"
+                alt="St. Paul's College" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <h3>St. Paul's College – Educational Institution Website</h3>
+              <p>
+                A modern and professional educational website developed for
+                St. Paul's College...
+              </p>
+              <a href="#" class="btn btn-project">View Live Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="recent-project-card">
+            <div class="card-cheracter-3">
+              <img src="assets/card cheracter.png" alt="card cheracter" />
+            </div>
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop"
+                alt="Shri Raghunath Temple" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <h3>Shri Raghunath Temple – Spiritual & Tourism Website</h3>
+              <p>
+                A visually engaging and informative website developed for Shri
+                Raghunath Temple...
+              </p>
+              <a href="#" class="btn btn-project">View Live Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="recent-project-card">
+            <div class="card-cheracter-3">
+              <img src="assets/card cheracter.png" alt="card cheracter" />
+            </div>
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+                alt="Granite Hub" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <h3>Granite Hub – Premium Marble & Granite Website</h3>
+              <p>
+                A premium and visually refined website developed for Granite
+                Hub, a leading name...
+              </p>
+              <a href="#" class="btn btn-project">View Live Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- HOW WE WORK -->
+    <section class="how-we-work section-light" id="process">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <h2>How <span>We Work</span></h2>
+          <p class="section-subtitle">
+            Our process is designed to simplify complexity and deliver
+            excellence —<br />from idea to execution.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <div class="timeline-step step-left reveal">
+            <div class="timeline-content">
+              <h3>1. Consultation &amp; Discovery</h3>
+              <p>
+                We begin by understanding your vision, goals, and challenges
+                through a deep discovery session.
+              </p>
+            </div>
+            <div class="timeline-icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <div class="timeline-empty"></div>
           </div>
-          <div class="expertise-bubble" data-tech="Laravel">
-            <div class="bubble-circle"></div>
-            <span class="bubble-text">Laravel</span>
+
+          <div class="timeline-step step-right reveal delay-1">
+            <div class="timeline-empty"></div>
+            <div class="timeline-icon">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <div class="timeline-content">
+              <h3>2. Planning &amp; Strategy</h3>
+              <p>
+                We create a data-driven strategy, wireframes, and workflow
+                that align with your business objectives.
+              </p>
+            </div>
           </div>
-          <div class="expertise-bubble" data-tech="WordPress">
-            <div class="bubble-circle"></div>
-            <span class="bubble-text">WordPress</span>
+
+          <div class="timeline-step step-left reveal delay-2">
+            <div class="timeline-content">
+              <h3>3. Design &amp; Development</h3>
+              <p>
+                Our creative and technical teams collaborate to build
+                user-centric designs with flawless functionality.
+              </p>
+            </div>
+            <div class="timeline-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="timeline-empty"></div>
           </div>
-          <div class="expertise-bubble" data-tech="Shopify">
-            <div class="bubble-circle"></div>
-            <span class="bubble-text">Shopify</span>
+
+          <div class="timeline-step step-right reveal delay-1">
+            <div class="timeline-empty"></div>
+            <div class="timeline-icon">
+              <i class="fa-solid fa-vial"></i>
+            </div>
+            <div class="timeline-content">
+              <h3>4. Testing &amp; Quality Assurance</h3>
+              <p>
+                Every project undergoes rigorous QA testing to ensure it's
+                fast, secure, and bug-free before launch.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-step step-left reveal delay-2">
+            <div class="timeline-content">
+              <h3>5. Launch &amp; Ongoing Support</h3>
+              <p>
+                We ensure a smooth launch and provide continuous maintenance,
+                upgrades, and performance monitoring.
+              </p>
+            </div>
+            <div class="timeline-icon">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="timeline-empty"></div>
+          </div>
+        </div>
+
+        <div class="centered mt-5 reveal delay-3">
+          <a href="#contact" class="btn btn-primary btn-lg">Let's Build Together</a>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <div class="faq-intro-text">
+            <span class="mini-label yellow-dot">FAQs</span>
+            <h2>Have questions?<br />Get them answered</h2>
+          </div>
+          <div class="faq-intro-img">
+            <img src="assets/faq-2.png" alt="FAQ Illustration" />
+          </div>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What type of industries do you serve?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We serve a diverse range of industries including healthcare,
+                education, hospitality, finance, and e-commerce, offering
+                tailored digital solutions for each.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you handle end-to-end design, or only the interface
+                layer?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We handle end-to-end design, from initial research and
+                wireframing to full visual design and interactive prototyping.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How secure is the data shared during projects?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We follow strict data protection protocols, signing NDAs and
+                using encrypted channels to ensure your data is always secure.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What makes your digital transformation approach future-proof
+                and scalable?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We build with modern, scalable architectures and cloud
+                infrastructure, ensuring your systems can grow alongside your
+                business.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can you integrate digital solutions with our existing
+                ERP/CRM?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes, our team specializes in seamless API integrations with
+                legacy systems, modern ERPs, and CRMs to ensure unified
+                operations.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What makes Redes Creation the best digital transformation and
+                software development company?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Our commitment to transparent delivery, tailored strategies,
+                and a blend of creative design with robust engineering sets us
+                apart.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can you help us integrate AI solutions into our existing
+                legacy software?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely. We can modernize legacy software by integrating AI
+                capabilities to automate processes and unlock advanced
+                insights.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- <div class=" footer-video">
+    <section class="testimonials-section section-light" id="testimonials">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <h2>What Our <span>Clients Say</span></h2>
+          <p class="section-subtitle">
+            Don't just take our word for it. Here's what our clients have to
+            say about working with us.
+          </p>
+        </div>
+
+        <div class="testi-grid">
+          <div class="testi-card reveal delay-1">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              "Redes Creation transformed our outdated website into a modern,
+              user-friendly platform that perfectly represents our brand.
+              Their team was professional, responsive, and delivered beyond
+              our expectations."
+            </p>
+            <div class="testi-author">
+              <img src="assets/avatar_himali.jpg" alt="Himali Shukla" />
+              <div class="testi-author-info">
+                <h4>Himali Shukla</h4>
+                <span>Marketing Director, Elevate Fashion</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card reveal delay-2">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              "The digital marketing campaign developed by Redes Creation
+              helped us increase our online visibility significantly. Our
+              organic traffic has grown by 200% and conversions are up by 85%.
+              Highly recommended!"
+            </p>
+            <div class="testi-author">
+              <img src="assets/avatar_rahul.jpg" alt="Rahul Vyas" />
+              <div class="testi-author-info">
+                <h4>Rahul Vyas</h4>
+                <span>CEO, InfoSphere Solutions</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card reveal delay-3">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testi-quote">
+              "Working with Redes Creation on our e-commerce platform was a
+              game-changer for our business. The site is not only beautiful
+              but also highly functional, resulting in a 40% increase in
+              online sales within the first month."
+            </p>
+            <div class="testi-author">
+              <img src="assets/avatar_priya.jpg" alt="Priya Gupta" />
+              <div class="testi-author-info">
+                <h4>Priya Gupta</h4>
+                <span>Owner, Artisan Crafts Co.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT US / CEO -->
+    <section class="ceo-section" id="about">
+      <div class="container ceo-layout">
+        <div class="ceo-content reveal">
+          <h2>Build. Innovate. Elevate.</h2>
+          <p class="ceo-desc">
+            We are a team of creators and strategists who combine cutting-edge
+            technology with design thinking to build powerful digital
+            experiences. From websites to AI-driven solutions — we craft what
+            connects, converts, and inspires.
+          </p>
+          <div class="ceo-info">
+            <h3>Bhavana M Rajpurohit</h3>
+            <span>CEO</span>
+          </div>
+          <div class="ceo-decoration">
+            <span class="x-mark"></span>
+            <span class="x-mark"></span>
+            <span class="deco-line"></span>
+            <span class="x-mark"></span>
+          </div>
+        </div>
+
+        <div class="ceo-visual reveal delay-1">
+          <img src="https://redescreation.in/assets/teams/ceo.jpg" alt="Bhavana M Rajpurohit, CEO" class="ceo-img" />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BLOG -->
+    <section class="blog-section" id="blog">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="pill-label">FROM OUR BLOG</span>
+          <h2>
+            Ideas, insights &amp; <span class="text-blue">innovation.</span>
+          </h2>
+        </div>
+        <div class="premium-blog-grid">
+          <!-- Card 1 -->
+          <div class="premium-blog-card-wrapper">
+            <article class="premium-blog-card">
+              <div class="blog-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop"
+                  alt="ERP" />
+                <span class="blog-tag">ERP</span>
+              </div>
+              <div class="blog-content">
+                <h3>How ERP can simplify university operations</h3>
+                <p>
+                  Explore a smarter approach to admissions, academics, exams and
+                  fees.
+                </p>
+                <a href="#contact" class="read-more">Read More &rarr;</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="premium-blog-card-wrapper">
+            <article class="premium-blog-card">
+              <div class="blog-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=600&auto=format&fit=crop"
+                  alt="AI" />
+                <span class="blog-tag">AI</span>
+              </div>
+              <div class="blog-content">
+                <h3>Where AI can create real business value</h3>
+                <p>
+                  Practical ideas for automating repetitive work and improving
+                  customer experiences.
+                </p>
+                <a href="#contact" class="read-more">Read More &rarr;</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="premium-blog-card-wrapper">
+            <article class="premium-blog-card">
+              <div class="blog-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=600&auto=format&fit=crop"
+                  alt="SEO" />
+                <span class="blog-tag">SEO</span>
+              </div>
+              <div class="blog-content">
+                <h3>Building a digital presence that drives leads</h3>
+                <p>
+                  Website, SEO and content working together for sustainable
+                  growth.
+                </p>
+                <a href="#contact" class="read-more">Read More &rarr;</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section-light" id="contact">
+      <div class="container contact-layout">
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <h2>Get in Touch</h2>
+          <p>
+            Have a project in mind or want to learn more about our services?
+            Fill out the form below, and our team will get back to you as soon
+            as possible.
+          </p>
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Chirag Malviya" required />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="redescreation@gmail.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+919676659153" />
+            </div>
+            <div class="form-group">
+              <label>Service Interested In</label>
+              <select required>
+                <option value="">Select a service</option>
+                <option value="web">Web Development</option>
+                <option value="app">App Development</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="design">UI/UX Design</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Your Message</label>
+              <textarea rows="4" placeholder="Tell us about your project..." required></textarea>
+            </div>
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="terms" required />
+              <label for="terms">I agree to the <a href="#">Privacy Policy</a> and
+                <a href="#">Terms of Service</a>.</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-wrap">
+          <h3>Contact Information</h3>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="info-text">
+              <strong>Office Address</strong>
+              <span>2nd Floor, Maruti Complex,<br />Abu Road, Rajasthan 307026,
+                India</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="info-text">
+              <strong>Phone Number</strong>
+              <span>+91 96766-59153<br />+91 90570-71463</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="info-text">
+              <strong>Email Address</strong>
+              <span>info@redescreation.in<br />redescreation@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="info-text">
+              <strong>Business Hours</strong>
+              <span>Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM -
+                2:00 PM<br />Sunday: Closed</span>
+            </div>
+          </div>
+
+          <div class="connect-with-us">
+            <h4>Connect With Us</h4>
+            <div class="social-links">
+              <a href="https://www.instagram.com/redescreation"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/redescreation/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- TRUSTED BY SECTION -->
+  <section class="trusted-section">
+    <div class="container">
+      <div class="trusted-header">
+        <h2>Trusted by <span class="text-cyan">100+</span> companies</h2>
+        <div class="trusted-nav">
+          <button class="trusted-prev" id="trustedPrev" aria-label="Previous logos"><i
+              class="fa-solid fa-chevron-left"></i></button>
+          <button class="trusted-next" id="trustedNext" aria-label="Next logos"><i
+              class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div class="trusted-slider-wrapper">
+        <div class="trusted-slider" id="trustedSlider">
+          <!-- Set 1 -->
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/somalal-logo.png" alt="Somalal" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/bhav-logo.png" alt="Bhav" /></div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/brahmos-logo.png" alt="Brahmos" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/onelife-logo.png" alt="OneLife" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/saini-logo.png" alt="Saini" />
+          </div>
+          <div class="trusted-slide-1"><img src="https://redescreation.in/assets/brands/secrox-logo.png" alt="Secrox" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/st-pauls-logo.png"
+              alt="St Pauls" /></div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/mu-logo.png"
+              alt="Madhav University" /></div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/affirmations-logo.png"
+              alt="Affirmations" /></div>
+          <!-- Set 2 (Duplicate for seamless loop) -->
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/somalal-logo.png" alt="Somalal" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/bhav-logo.png" alt="Bhav" /></div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/brahmos-logo.png" alt="Brahmos" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/onelife-logo.png" alt="OneLife" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/saini-logo.png" alt="Saini" />
+          </div>
+          <div class="trusted-slide-1"><img src="https://redescreation.in/assets/brands/secrox-logo.png" alt="Secrox" />
+          </div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/st-pauls-logo.png"
+              alt="St Pauls" /></div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/mu-logo.png"
+              alt="Madhav University" /></div>
+          <div class="trusted-slide"><img src="https://redescreation.in/assets/brands/affirmations-logo.png"
+              alt="Affirmations" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- EXPERTISE ANIMATION -->
+  <section class="our-expertise" id="expertise">
+    <div class="container">
+      <h2 class="expertise-title">Our Expertise</h2>
+    </div>
+    <div class="expertise-track">
+      <div class="walking-character" id="walker">
+        <img src="assets/footer-4.gif" alt="Walking character" />
+      </div>
+
+      <div class="bubbles-container">
+        <div class="expertise-bubble" data-tech="PHP">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text"><i class="fa-brands fa-php"></i><small>PHP</small></span>
+        </div>
+        <div class="expertise-bubble" data-tech="React">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text"><i class="fa-brands fa-react"></i><small>React</small></span>
+        </div>
+        <div class="expertise-bubble" data-tech="Next.js">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+              <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z" />
+            </svg>
+            <small>Next.js</small>
+          </span>
+        </div>
+        <div class="expertise-bubble" data-tech="Laravel">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text"><i class="fa-brands fa-laravel"></i><small>Laravel</small></span>
+        </div>
+        <div class="expertise-bubble" data-tech="Node.js">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text"><i class="fa-brands fa-node"></i><small>Node.js</small></span>
+        </div>
+        <div class="expertise-bubble" data-tech="Python">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text"><i class="fa-brands fa-python"></i><small>Python</small></span>
+        </div>
+        <div class="expertise-bubble" data-tech="Cloud">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text"><i class="fa-brands fa-aws"></i><small>Cloud</small></span>
+        </div>
+        <div class="expertise-bubble" data-tech="MySQL">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+              <path fill="#00618A" d="M116.948 97.807c-6.863-.187-12.104.452-16.585 2.341-1.273.537-3.305.552-3.513 2.147.7.733.809 1.829 1.365 2.731 1.07 1.73 2.876 4.052 4.488 5.268 1.762 1.33 3.577 2.751 5.465 3.902 3.358 2.047 7.107 3.217 10.34 5.268 1.906 1.21 3.799 2.733 5.658 4.097.92.675 1.537 1.724 2.732 2.147v-.194c-.628-.8-.79-1.898-1.366-2.733l-2.537-2.537c-2.48-3.292-5.629-6.184-8.976-8.585-2.669-1.916-8.642-4.504-9.755-7.609l-.195-.195c1.892-.214 4.107-.898 5.854-1.367 2.934-.786 5.556-.583 8.585-1.365l4.097-1.171v-.78c-1.531-1.571-2.623-3.651-4.292-5.073-4.37-3.72-9.138-7.437-14.048-10.537-2.724-1.718-6.089-2.835-8.976-4.292-.971-.491-2.677-.746-3.318-1.562-1.517-1.932-2.342-4.382-3.511-6.633-2.449-4.717-4.854-9.868-7.024-14.831-1.48-3.384-2.447-6.72-4.293-9.756-8.86-14.567-18.396-23.358-33.169-32-3.144-1.838-6.929-2.563-10.929-3.513-2.145-.129-4.292-.26-6.438-.391-1.311-.546-2.673-2.149-3.902-2.927C17.811 4.565 5.257-2.16 1.633 6.682c-2.289 5.581 3.421 11.025 5.462 13.854 1.434 1.982 3.269 4.207 4.293 6.438.674 1.467.79 2.938 1.367 4.489 1.417 3.822 2.652 7.98 4.487 11.511.927 1.788 1.949 3.67 3.122 5.268.718.981 1.951 1.413 2.145 2.927-1.204 1.686-1.273 4.304-1.95 6.44-3.05 9.615-1.899 21.567 2.537 28.683 1.36 2.186 4.567 6.871 8.975 5.073 3.856-1.57 2.995-6.438 4.098-10.732.249-.973.096-1.689.585-2.341v.195l3.513 7.024c2.6 4.187 7.212 8.562 11.122 11.514 2.027 1.531 3.623 4.177 6.244 5.073v-.196h-.195c-.508-.791-1.303-1.119-1.951-1.755-1.527-1.497-3.225-3.358-4.487-5.073-3.556-4.827-6.698-10.11-9.561-15.609-1.368-2.627-2.557-5.523-3.709-8.196-.444-1.03-.438-2.589-1.364-3.122-1.263 1.958-3.122 3.542-4.098 5.854-1.561 3.696-1.762 8.204-2.341 12.878-.342.122-.19.038-.391.194-2.718-.655-3.672-3.452-4.683-5.853-2.554-6.07-3.029-15.842-.781-22.829.582-1.809 3.21-7.501 2.146-9.172-.508-1.666-2.184-2.63-3.121-3.903-1.161-1.574-2.319-3.646-3.124-5.464-2.09-4.731-3.066-10.044-5.267-14.828-1.053-2.287-2.832-4.602-4.293-6.634-1.617-2.253-3.429-3.912-4.683-6.635-.446-.968-1.051-2.518-.391-3.513.21-.671.508-.951 1.171-1.17 1.132-.873 4.284.29 5.462.779 3.129 1.3 5.741 2.538 8.392 4.294 1.271.844 2.559 2.475 4.097 2.927h1.756c2.747.631 5.824.195 8.391.975 4.536 1.378 8.601 3.523 12.292 5.854 11.246 7.102 20.442 17.21 26.732 29.269 1.012 1.942 1.45 3.794 2.341 5.854 1.798 4.153 4.063 8.426 5.852 12.488 1.786 4.052 3.526 8.141 6.05 11.513 1.327 1.772 6.451 2.723 8.781 3.708 1.632.689 4.307 1.409 5.854 2.34 2.953 1.782 5.815 3.903 8.586 5.855 1.383.975 5.64 3.116 5.852 4.879zM29.729 23.466c-1.431-.027-2.443.156-3.513.389v.195h.195c.683 1.402 1.888 2.306 2.731 3.513.65 1.367 1.301 2.732 1.952 4.097l.194-.193c1.209-.853 1.762-2.214 1.755-4.294-.484-.509-.555-1.147-.975-1.755-.556-.811-1.635-1.272-2.339-1.952z" />
+            </svg>
+            <small>MySQL</small>
+          </span>
+        </div>
+        <div class="expertise-bubble" data-tech="MongoDB">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text">
+            <svg xmlns="http://w3.org" viewBox="0 0 24 24" fill="none">
+              <path fill="#47A248" d="M12 2C11.5 2 7 6.5 7 12c0 4.5 3.5 8 5 8s5-3.5 5-8c0-5.5-4.5-10-5-10zm.5 15.5c-.3 0-.5-.2-.5-.5V7c0-.3.2-.5.5-.5s.5.2.5.5v10c0 .3-.2.5-.5.5z" />
+            </svg>
+            <small>MongoDB</small>
+          </span>
+        </div>
+        <div class="expertise-bubble" data-tech="Tailwind CSS">
+          <div class="bubble-circle"></div>
+          <span class="bubble-text">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+              <path fill="#38bdf8" d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" />
+            </svg>
+            <small>Tailwind CSS</small>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div class=" footer-video">
        <video src="assets/foooter video.mp4.gif"></video>
       </div> -->
 
-      
-<?php include 'footer.php'; ?>
+
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?>
 
 </body>
-</html>
 
+</html>

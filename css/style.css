@@ -1972,9 +1972,38 @@ button {
   z-index: 2;
   font-weight: 700;
   color: #1e3a8a;
-  font-size: 16px;
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.bubble-text i {
+  font-size: 36px;
+  transition: all 0.3s ease;
+}
+.bubble-text svg {
+  width: 36px;
+  height: 36px;
+  transition: all 0.3s ease;
+}
+.bubble-text small {
+  font-size: 13px;
+  opacity: 0;
+  position: absolute;
+  bottom: -22px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+.expertise-bubble:hover .bubble-text small {
+  opacity: 1;
+  transform: translateY(0);
+}
+.expertise-bubble:hover .bubble-text i,
+.expertise-bubble:hover .bubble-text svg {
+  transform: scale(1.15);
 }
 .section-subtitle-2 {
   color: white;
@@ -2382,6 +2411,31 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.trusted-slide-1 {
+  flex: 0 0 auto;
+  width: 220px;
+  height: 100px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+.trusted-slide-1 img {
+  width: auto;
+  height: 55px;
+  object-fit: contain;
+  filter: brightness(0) opacity(0.6); /* Makes white logo gray */
+  transition: all 0.3s ease;
+}
+.trusted-slide-1:hover {
+  background: #1e293b; /* Dark background on hover to show white text */
+}
+.trusted-slide-1:hover img {
+  filter: none; /* Restore original colors */
+}
+
 .trusted-nav button:hover {
   background: #0ea5e9;
   color: white;
@@ -2391,42 +2445,40 @@ button {
   position: relative;
   width: 100%;
   overflow: hidden;
+  padding: 20px 0;
 }
 .trusted-slider {
   display: flex;
   gap: 30px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  padding-bottom: 15px;
+  width: max-content;
+  align-items: center;
+  animation: scrollMarquee 20s linear infinite;
 }
-.trusted-slider::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+.trusted-slider:hover {
+  animation-play-state: paused;
+}
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 15px));
+  }
 }
 .trusted-slide {
   flex: 0 0 auto;
-  scroll-snap-align: start;
   width: 220px;
-  height: 120px;
+  height: 100px;
   background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px 20px;
   transition: all 0.3s ease;
 }
-.trusted-slide:hover {
-  border-color: #cbd5e1;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-  transform: translateY(-2px);
-}
 .trusted-slide img {
-  max-width: 100%;
-  max-height: 100%;
+  width: auto;
+  height: 55px; /* ensure all png images have the same fixed height */
   object-fit: contain;
   filter: grayscale(100%) opacity(0.6);
   transition: all 0.3s ease;
@@ -2971,16 +3023,50 @@ video {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
+  .expertise-track {
+    height: auto;
+    min-height: 250px;
+    padding-bottom: 30px;
+  }
   .bubbles-container {
-    padding: 0 5px;
+    position: relative;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 10px;
+    justify-content: center;
   }
   .expertise-bubble {
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
+  }
+  .bubble-text i {
+    font-size: 32px;
+  }
+  .bubble-text svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 576px) {
+  .bubbles-container {
+    padding: 10px 5px;
+    gap: 10px;
+  }
+  .expertise-bubble {
+    width: 70px;
+    height: 70px;
+  }
+  .bubble-text i {
+    font-size: 26px;
+  }
+  .bubble-text svg {
+    width: 26px;
+    height: 26px;
   }
   .bubble-text {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
@@ -3345,7 +3431,19 @@ video {
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.6;
 }
-
+.footer-contact {
+  background: #2d7af5;
+  color: #fff;
+  padding: 7px 16px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+  min-width: 149px;
+}
 .industries-network {
   display: flex;
   flex-direction: column;
@@ -3358,6 +3456,7 @@ video {
   justify-content: space-between;
 }
 .ind-row-center {
+  padding-top: 30px;
   justify-content: center;
   gap: 120px;
 }

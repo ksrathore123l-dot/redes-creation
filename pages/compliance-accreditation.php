@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include '../header.php' ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="accred-hero">
             <div class="accred-hero-shape accred-shape-one"></div>
@@ -227,7 +227,7 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
     <script src="compliance-accreditation.js"></script>
     <script src="../js/script.js"></script>

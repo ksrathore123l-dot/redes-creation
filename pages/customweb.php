@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include '../header.php' ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/header.php'; ?> 
     <main>
         <section class="cwa-hero">
             <div class="cwa-hero-glow cwa-glow-one"></div>
@@ -272,7 +272,7 @@
             </div>
         </section>
     </main>
-    <?php include '../footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/redes creation/footer.php'; ?> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
     <script src="customweb.js"></script>
     <script src="../js/script.js"></script>
